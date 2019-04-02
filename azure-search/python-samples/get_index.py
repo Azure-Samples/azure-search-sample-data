@@ -34,8 +34,6 @@ def get (host, path, content):
 	conn = http.client.HTTPSConnection(host)
 	conn.request ("GET", path, content, headers)
 	response = conn.getresponse ()
-# /knowledgebases/create returns an HTTP header named Location that contains a URL
-# to check the status of the operation to create the knowledgebase.
 	return response.status, response.read ()
 
 status, result = get (host, path, '')
