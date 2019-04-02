@@ -14,13 +14,16 @@ let subscriptionKey = 'ENTER KEY HERE';
 
 let index_name = 'test-index';
 
-let document_key = '1';
-
 let host = service_name + '.search.windows.net';
-let operation = '/indexes/' + index_name + '/docs/' + document_key;
+let operation = '/indexes/' + index_name + '/analyze'
 let api_version = '2017-11-11';
 let params = {
     'api-version': api_version
+};
+
+let request = {
+    "text": "Text to analyze",
+    "analyzer": "standard"
 };
 
 /*
@@ -63,20 +66,23 @@ let get_response_handler = function (callback) {
     }
 };
 
-// callback is the function to call once we have the entire response from the GET request.
-let get = function (host, path, callback) {
+// callback is the function to call once we have the entire response from the POST request.
+let post = function (host, path, content, callback) {
     let request_params = {
-        method: 'GET',
+        method: 'POST',
         hostname: host,
         path: path,
         headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': content.length,
             'api-key': subscriptionKey,
         }
     };
 
-    console.log('Calling GET ' + host + path + '.');
+    console.log('Calling POST ' + host + path + '.');
     // Pass the callback function to the response handler.
     let req = https.request(request_params, get_response_handler(callback));
+    req.write(content);
     req.end();
 };
 
@@ -84,6 +90,8 @@ let get = function (host, path, callback) {
  * Send the request and provide a callback function that prints the response.
  */
 
-get(host, get_path(operation, params), function (result) {
+post(host, get_path(operation, params), JSON.stringify(request), function (result) {
+    console.log('Status code: ' + result.response.statusCode);
+    console.log('Body:');
     console.log(pretty_print(result.body));
 });
