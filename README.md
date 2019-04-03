@@ -1,5 +1,7 @@
 ---
 topic: sample
+services: azure-search
+platforms: dotnet
 languages:
   - powershell
   - rest
@@ -17,7 +19,7 @@ products:
 
 This repository stores all of the demo data files and documents used in Azure Search quickstarts, tutorials, and examples. Some of this data is included in other solutions for convenience, but you can always find a master copy here in this repo.
 
-We are currently in the process of migrating data and files to this repository. Target completion date for this work is mid-April.
+We are currently in the process of migrating data and files to this repository. Target completion date for this work is late April.
 
 <!-- 
 ## Hotels data
