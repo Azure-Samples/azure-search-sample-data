@@ -1,3 +1,18 @@
+---
+topic: sample
+languages:
+  - powershell
+  - rest
+  - java
+  - javascript
+  - python
+  - csharp
+name: Azure Search Sample Data
+description: |
+  Find all of your Azure Search sample data here in this repo.
+products:
+  - azure-search
+---
 # Azure Search Sample Data repository
 
 This repository stores all of the demo data files and documents used in Azure Search quickstarts, tutorials, and examples. Some of this data is included in other solutions for convenience, but you can always find a master copy here in this repo.
