@@ -1,57 +1,19 @@
-# Project Name
+---
+topic: sample
+services: azure-search
+name: Azure Search Sample Data
+description: |
+  Data and index definition metadata for use in the Azure Search samples.
+products:
+  - azure-search
+---
 
-(short, 1-3 sentenced, description of the project)
+# Azure Search Sample Data
 
-## Features
+Data and index definition metadata for use in the Azure Search samples.  Use this as a starting point for exploring Azure Search functionality.
 
-This project framework provides the following features:
+Each folder represents a different sample data set:
 
-* Feature 1
-* Feature 2
-* ...
+## Hotels
 
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+Data for samples that reference the Hotels schema and data set.  This is the default set for most Azure Search samples. 
