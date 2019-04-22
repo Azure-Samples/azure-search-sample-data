@@ -32,7 +32,7 @@ query api-key: `EA4510A6219E14888741FCFC19BFBB82`
 
 The hotels demo data is also in Azure Cosmos DB. Using the **Import data** wizard, you can create a new Cosmos DB data source based on this connection information. The wizard will ask you for the following three inputs.
 
-Cosmos DB connection string: `AccountEndpoint=https://hotels-docbb.documents.azure.com:443/;AccountKey=4UPsNZyFAjgZ1tzHPGZaxS09XcwLrIawbXBWk6IixcxJoSePTcjBn0mi53XiKWu8MaUgowUhIovOv7kjksqAug==;Database=SampleData"`
+Cosmos DB connection string: `AccountEndpoint=https://hotels-docbb.documents.azure.com:443/;AccountKey=4UPsNZyFAjgZ1tzHPGZaxS09XcwLrIawbXBWk6IixcxJoSePTcjBn0mi53XiKWu8MaUgowUhIovOv7kjksqAug==;Database=SampleData`
 
 Database Name: `SampleData`
 
