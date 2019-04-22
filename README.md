@@ -1,52 +1,40 @@
 ---
 topic: sample
 services: azure-search
-platforms: dotnet
-languages:
-  - powershell
-  - rest
-  - java
-  - javascript
-  - python
-  - csharp
 name: Azure Search Sample Data
 description: |
-  Find all of your Azure Search sample data here in this repo.
+  Data and index definition metadata for use in the Azure Search samples.
 products:
   - azure-search
 ---
-# Azure Search Sample Data repository
 
-This repository stores all of the demo data files and documents used in Azure Search quickstarts, tutorials, and examples. Some of this data is included in other solutions for convenience, but you can always find a master copy here in this repo.
+# Azure Search Sample Data
 
-We are currently in the process of migrating data and files to this repository. Target completion date for this work is late April.
+Data and index definition metadata for use in the Azure Search samples.  Use this as a starting point for exploring Azure Search functionality.
 
-<!-- 
-## Hotels data
+Each folder represents a different sample data set.
 
-The Hotels data set consists of 50 fictitious hotels, each associated with a small collection of rooms. The document count for indexing purposes is 50. Data size is approximately 20 MB.
+## Hotels
 
-Hotels data is used in the following articles:
+The Hotels sample data is used in quickstarts, tutorials, and examples. The data is available as JSON files, but there are several versions depending on whether the resides in Azure Cosmost DB or is pushed to an index in Azure Search. 
 
-+ LINK-TBD
-+ LINK-TBD
-+ LINK-TBD
-+ LINK-TBD
+The files in this repo are available so that you can upload data the data to your own Azure services. But you can also access this data from a read-only public sandbox. The sandbox data is hosted in Azure Cosmos DB. 
 
-Available in these formats: SQL Server backup (.bak) file, JSON files for upload, text-delimited in a CSV file. You can also access the Hotels sample in the Import data wizard in Azure portal.
+### Hosted read-only version
 
-## Cognitive search (small file set)
+Using the **Import data** wizard, you can create a new Cosmos DB data source based on this connection information.
 
-## Cognitive search (full file set)
+Cosmos DB connection string: `AccountEndpoint=https://hotels-docbb.documents.azure.com:443/;AccountKey=4UPsNZyFAjgZ1tzHPGZaxS09XcwLrIawbXBWk6IixcxJoSePTcjBn0mi53XiKWu8MaUgowUhIovOv7kjksqAug==;`
 
-## Real Estate sample data
+Database Name: `SampleData`
 
-## New York City Jobs sample data
+Collection: `hotels`
 
+## Caselaw 
 
+The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Two jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction) to use in several examples. In this repo, you will find the following JSON files:
 
--->
++ `data-small.json1` - The first 10 cases. Use this data set if you are using a free shared service.
 
-
-
++ `data-full.json1` - The full data set, 858 documents.
 
