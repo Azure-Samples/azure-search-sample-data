@@ -3,22 +3,22 @@ topic: sample
 services: azure-search
 name: Azure Search Sample Data
 description: |
-  Data and index definition metadata for use in the Azure Search samples.
+  Data files used in Azure Search quickstarts, tutorials, and examples.
 products:
   - azure-search
 ---
 
 # Azure Search Sample Data
 
-Data and index definition metadata for use in the Azure Search samples.  Use this as a starting point for exploring Azure Search functionality.
+Data files used in Azure Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality.
 
 Each folder represents a different sample data set.
 
 ## Hotels
 
-The Hotels sample data is used in quickstarts, tutorials, and examples. The data is available as JSON files, but there are several versions depending on whether the resides in Azure Cosmost DB or is pushed to an index in Azure Search. 
+The Hotels sample data is used in quickstarts, tutorials, and examples. It consists of 50 hotels located in cities across the United States. The data includes images, hotel information, and room information. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure Search. 
 
-The files in this repo are available so that you can upload data the data to your own Azure services. But you can also access this data from a read-only public sandbox. The sandbox data is hosted in Azure Cosmos DB. 
+Alternatively, you can access this data from a read-only sandbox in the following ways. 
 
 ### Hosted read-only index
 
@@ -30,7 +30,7 @@ query api-key: `EA4510A6219E14888741FCFC19BFBB82`
 
 ### Hosted read-only version database
 
-Using the **Import data** wizard, you can create a new Cosmos DB data source based on this connection information.
+The hotels demo data is also in Azure Cosmos DB. Using the **Import data** wizard, you can create a new Cosmos DB data source based on this connection information.
 
 Cosmos DB connection string: `AccountEndpoint=https://hotels-docbb.documents.azure.com:443/;AccountKey=4UPsNZyFAjgZ1tzHPGZaxS09XcwLrIawbXBWk6IixcxJoSePTcjBn0mi53XiKWu8MaUgowUhIovOv7kjksqAug==;`
 
