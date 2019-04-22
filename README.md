@@ -44,8 +44,8 @@ This sample data is intended for upload to an Azure Blob storage container for A
 
 ## Caselaw 
 
-The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Two jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction) to use in several examples, and then grabbed the first 10 cases.
+The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction), and then grabbed the first 10 cases.
 
-The file name for this data set is `caselaw-small.json`.
+The file name for this data set is `caselaw-sample.json`.
 
-You can upload this file to Azure Blob storage and use the **Import data** wizard to index them. Choose the **JSON Lines** parsing mode.
+You can upload this file to Azure Blob storage and use the **Import data** wizard to index the documents. Choose the **JSON Lines** parsing mode.
