@@ -1,11 +1,11 @@
 ---
-topic: sample
-services: azure-search
-name: Azure Search Sample Data
-description: |
-  Data files used in Azure Search quickstarts, tutorials, and examples.
+page_type: sample
+languages:
+- html
 products:
-  - azure-search
+- azure
+description: "Data files used in Azure Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality."
+urlFragment: azure-search-sample-data
 ---
 
 # Azure Search Sample Data
