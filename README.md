@@ -4,13 +4,13 @@ languages:
 - html
 products:
 - azure
-description: "Data files used in Azure Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality."
+description: "Data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality."
 urlFragment: azure-search-sample-data
 ---
 
-# Azure Search Sample Data
+# Azure Cognitive Search Sample Data
 
-Data files used in Azure Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality.
+Data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring search and AI functionality.
 
 Each folder represents a different sample data set.
 
@@ -22,7 +22,7 @@ Alternatively, you can access this data from a read-only sandbox in the followin
 
 ### Hosted read-only index
 
-There is a staged index populated with the hotels demo data, hosted on an Azure Search service, accessed with a query api-key for read-only access to hotel documents.
+There is a staged index populated with the hotels demo data, hosted on a search service, accessed with a query api-key for read-only access to hotel documents.
 
 Endpoint to the index: `https://azs-playground.search.windows.net/indexes/hotels/docs?api-version=2017-11-11&search=*`
 
@@ -40,11 +40,11 @@ Collection: `hotels`
 
 ## mixedContent 
 
-This sample data is intended for upload to an Azure Blob storage container for AI-indexing (cognitive search) examples. The data is a collection of mixed content types including images, Office documents, and text documents in common file formats.
+This sample data is intended for upload to an Azure Blob storage container for AI enrichment examples. The data is a collection of mixed content types including images, Office documents, and text documents in common file formats.
 
 ## Caselaw 
 
-The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction), and then grabbed the first 10 cases.
+The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction), and then took the first 10 cases.
 
 The file name for this data set is `caselaw-sample.json`.
 
