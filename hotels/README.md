@@ -1,8 +1,8 @@
 # Hotels Sample Data
 
-Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Search samples. It consists of 50 hotels across the US and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
+Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Cognitive Search samples. It consists of 50 hotels across the US and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
 
-Hotels demo data is provided in multiple formats to support different consumption models in Azure Search. The data is identical regardless of how you load it.
+Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it.
 
 ## Hotels.postman_collection.json
 
