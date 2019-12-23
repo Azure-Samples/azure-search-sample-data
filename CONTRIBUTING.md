@@ -1,4 +1,4 @@
-# Contributing to Azure samples
+# Contributing to Azure Cognitive Search samples
 
 Thank you for your interest in contributing to the Azure Cognitive Search sample data.
 
