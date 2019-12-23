@@ -1,13 +1,3 @@
----
-page_type: sample
-languages:
-- html
-products:
-- azure
-description: "Data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring Azure Search functionality."
-urlFragment: azure-search-sample-data
----
-
 # Azure Cognitive Search Sample Data
 
 Data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Use this data as a starting point for exploring search and AI functionality.
@@ -16,9 +6,21 @@ Each folder represents a different sample data set.
 
 ## Hotels
 
-The Hotels sample data is used in quickstarts, tutorials, and examples. It consists of 50 hotels located in cities across the United States. The data includes images, hotel information, and room information. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure Search. 
+Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Cognitive Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
 
-Alternatively, you can access this data from a read-only sandbox in the following ways. 
+Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure Cognitive Search. 
+
+Use the following files to create the hotels sample on your search service:
+
++ **Hotels.postman_collection.json** - Using Postman, import this collection to execute requests that create and populate the Hotels index using JSON documents.
+
++ **Hotels_IndexDefinition.JSON** - A standalone JSON file containing just the index. 
+
++ **HotelsData_toAzureSearch.JSON** - A standalone JSON file containing documents for 50 hotels and related room information.
+
++ **HotelsData_toCosmosDB.JSON** - JSON used to populate an Azure Cosmos DB with the Hotels sample data.  This can be used as a data source for an indexer to pull data into the Hotels index.
+
+Alternatively, you can access hosted versions of this data set. 
 
 ### Hosted read-only index
 
@@ -38,7 +40,7 @@ Database Name: `SampleData`
 
 Collection: `hotels`
 
-## mixedContent 
+## mixedContent files for skillsets and AI enrichment
 
 This sample data is intended for upload to an Azure Blob storage container for AI enrichment examples. The data is a collection of mixed content types including images, Office documents, and text documents in common file formats.
 
