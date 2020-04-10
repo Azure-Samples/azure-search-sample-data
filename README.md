@@ -4,7 +4,23 @@ Data files used in Azure Cognitive Search quickstarts, tutorials, and examples. 
 
 Each folder represents a different sample data set.
 
-## Hotels
+## AI-enrichment-mixed-media (files for skillsets and AI enrichment)
+
+This sample data is intended for upload to an Azure Blob storage container for AI enrichment examples. The data is a collection of mixed content types including images, Office documents, and text documents in common file formats.
+
+## Caselaw 
+
+The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction), and then took the first 10 cases.
+
+The file name for this data set is `caselaw-sample.json`.
+
+You can upload this file to Azure Blob storage and use the **Import data** wizard to index the documents. Choose the **JSON Lines** parsing mode.
+
+## Clinical trials JSON
+
+Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. This data is used in the [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data).
+
+## Hotels data
 
 Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Cognitive Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
 
@@ -40,14 +56,6 @@ Database Name: `SampleData`
 
 Collection: `hotels`
 
-## mixedContent files for skillsets and AI enrichment
+## HotelReviews.CSV
 
-This sample data is intended for upload to an Azure Blob storage container for AI enrichment examples. The data is a collection of mixed content types including images, Office documents, and text documents in common file formats.
-
-## Caselaw 
-
-The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction), and then took the first 10 cases.
-
-The file name for this data set is `caselaw-sample.json`.
-
-You can upload this file to Azure Blob storage and use the **Import data** wizard to index the documents. Choose the **JSON Lines** parsing mode.
+This CSV file consists of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal).
