@@ -56,6 +56,8 @@ Database Name: `SampleData`
 
 Collection: `hotels`
 
-## HotelReviews.CSV
+## HotelReviews
 
-This CSV file consists of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal).
+A CSV file provides data consisting of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal).
+
+A JSON file provides a skillset that provides AI enrichment instructions to the indexer.

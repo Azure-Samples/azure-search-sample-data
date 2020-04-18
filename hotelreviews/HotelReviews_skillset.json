@@ -1,0 +1,325 @@
+{
+    "@odata.context": "https://customerdemos.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8D731705CDB9AD5\"",
+    "name": "hotel-reviews-small",
+    "description": "basic skillset",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+            "name": "#1",
+            "description": null,
+            "context": "/document/reviews_text",
+            "defaultLanguageCode": "en",
+            "textSplitMode": "pages",
+            "maximumPageLength": 5000,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/reviews_text",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/Language",
+                    "sourceContext": null,
+                    "inputs": []
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "textItems",
+                    "targetName": "pages"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.SentimentSkill",
+            "name": "#2",
+            "description": null,
+            "context": "/document/reviews_text/pages/*",
+            "defaultLanguageCode": "en",
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/reviews_text/pages/*",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/Language",
+                    "sourceContext": null,
+                    "inputs": []
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "score",
+                    "targetName": "Sentiment"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.LanguageDetectionSkill",
+            "name": "#3",
+            "description": null,
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/reviews_text",
+                    "sourceContext": null,
+                    "inputs": []
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "languageCode",
+                    "targetName": "Language"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "name": "#4",
+            "description": null,
+            "context": "/document/reviews_text/pages/*",
+            "defaultLanguageCode": "en",
+            "maxKeyPhraseCount": null,
+            "inputs": [
+                {
+                    "name": "text",
+                    "source": "/document/reviews_text/pages/*",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "languageCode",
+                    "source": "/document/Language",
+                    "sourceContext": null,
+                    "inputs": []
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "keyPhrases",
+                    "targetName": "Keyphrases"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
+            "name": "#5",
+            "description": null,
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "name",
+                    "source": "/document/name",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "reviews_date",
+                    "source": "/document/reviews_date",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "reviews_rating",
+                    "source": "/document/reviews_rating",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "reviews_text",
+                    "source": "/document/reviews_text",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "reviews_title",
+                    "source": "/document/reviews_title",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "AzureSearch_DocumentKey",
+                    "source": "/document/AzureSearch_DocumentKey",
+                    "sourceContext": null,
+                    "inputs": []
+                },
+                {
+                    "name": "pages",
+                    "source": null,
+                    "sourceContext": "/document/reviews_text/pages/*",
+                    "inputs": [
+                        {
+                            "name": "SentimentScore",
+                            "source": "/document/reviews_text/pages/*/Sentiment",
+                            "sourceContext": null,
+                            "inputs": []
+                        },
+                        {
+                            "name": "LanguageCode",
+                            "source": "/document/Language",
+                            "sourceContext": null,
+                            "inputs": []
+                        },
+                        {
+                            "name": "Page",
+                            "source": "/document/reviews_text/pages/*",
+                            "sourceContext": null,
+                            "inputs": []
+                        },
+                        {
+                            "name": "keyphrase",
+                            "source": null,
+                            "sourceContext": "/document/reviews_text/pages/*/Keyphrases/*",
+                            "inputs": [
+                                {
+                                    "name": "Keyphrases",
+                                    "source": "/document/reviews_text/pages/*/Keyphrases/*",
+                                    "sourceContext": null,
+                                    "inputs": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "output",
+                    "targetName": "tableprojection"
+                }
+            ]
+        }
+    ],
+    "cognitiveServices": {
+        "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+        "description": "/subscriptions",
+        "key": "{cognitive services key}"
+    },
+    "knowledgeStore": {
+        "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName={account name};AccountKey={account key};",
+        "projections": [
+            {
+                "tables": [
+                    {
+                        "tableName": "hotelReviewsDocument",
+                        "generatedKeyName": "Documentid",
+                        "source": "/document/tableprojection",
+                        "sourceContext": null,
+                        "inputs": []
+                    },
+                    {
+                        "tableName": "hotelReviewsPages",
+                        "generatedKeyName": "Pagesid",
+                        "source": "/document/tableprojection/pages/*",
+                        "sourceContext": null,
+                        "inputs": []
+                    },
+                    {
+                        "tableName": "hotelReviewsKeyPhrases",
+                        "generatedKeyName": "KeyPhrasesid",
+                        "source": "/document/tableprojection/pages/*/keyphrase/*",
+                        "sourceContext": null,
+                        "inputs": []
+                    }
+                ],
+                "objects": []
+            },
+            {
+                "tables": [
+                    {
+                        "tableName": "hotelReviewsInlineDocument",
+                        "generatedKeyName": "Documentid",
+                        "source": null,
+                        "sourceContext": "/document",
+                        "inputs": [
+                            {
+                                "name": "name",
+                                "source": "/document/name",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "reviews_date",
+                                "source": "/document/reviews_date",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "reviews_rating",
+                                "source": "/document/reviews_rating",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "reviews_text",
+                                "source": "/document/reviews_text",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "reviews_title",
+                                "source": "/document/reviews_title",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "AzureSearch_DocumentKey",
+                                "source": "/document/AzureSearch_DocumentKey",
+                                "sourceContext": null,
+                                "inputs": []
+                            }
+                        ]
+                    },
+                    {
+                        "tableName": "hotelReviewsInlinePages",
+                        "generatedKeyName": "Pagesid",
+                        "source": null,
+                        "sourceContext": "/document/reviews_text/pages/*",
+                        "inputs": [
+                            {
+                                "name": "SentimentScore",
+                                "source": "/document/reviews_text/pages/*/Sentiment",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "LanguageCode",
+                                "source": "/document/Language",
+                                "sourceContext": null,
+                                "inputs": []
+                            },
+                            {
+                                "name": "Page",
+                                "source": "/document/reviews_text/pages/*",
+                                "sourceContext": null,
+                                "inputs": []
+                            }
+                        ]
+                    },
+                    {
+                        "tableName": "hotelReviewsInlineKeyPhrases",
+                        "generatedKeyName": "kpidv2",
+                        "source": null,
+                        "sourceContext": "/document/reviews_text/pages/*/Keyphrases/*",
+                        "inputs": [
+                            {
+                                "name": "Keyphrases",
+                                "source": "/document/reviews_text/pages/*/Keyphrases/*",
+                                "sourceContext": null,
+                                "inputs": []
+                            }
+                        ]
+                    }
+                ],
+                "objects": []
+            }
+        ]
+    }
+}
