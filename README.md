@@ -20,6 +20,14 @@ You can upload this file to Azure Blob storage and use the **Import data** wizar
 
 Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. This data is used in the [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data).
 
+## Clinical trials PDF 19
+
+Consists of 19 PDF files used in AI enrichment lessons. This data set can be used in AI enrichment pipelines on the free tier, using the free allocation of daily transactions per indexer.
+
+## Clinical trials PDF 107
+
+Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached Cognitive Services all-in-one resource.
+
 ## Hotels data
 
 Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Cognitive Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
