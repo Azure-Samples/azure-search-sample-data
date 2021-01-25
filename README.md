@@ -38,7 +38,7 @@ Use the following files to create the hotels sample on your search service:
 
 + **Hotels.postman_collection.json** - Using Postman, import this collection to execute requests that create and populate the Hotels index using JSON documents.
 
-+ **Hotels_IndexDefinition.JSON** - A standalone JSON file containing just the index. 
++ **Hotels_IndexDefinition.JSON** - A standalone JSON file containing just the index. This index definition is equivalent to the hosted index on azs-playground search service.
 
 + **HotelsData_toAzureSearch.JSON** - A standalone JSON file containing documents for 50 hotels and related room information.
 
