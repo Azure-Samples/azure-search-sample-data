@@ -28,6 +28,10 @@ Consists of 19 PDF files used in AI enrichment lessons. This data set can be use
 
 Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached Cognitive Services all-in-one resource.
 
+## Hotels-json-documents
+
+This sample data set consists of 5 JSON documents containing structured JSON, used for evaluating or testing JSON blob indexing. Each file consists of hotel information, an address complex field, and a rooms complex collection. The blob indexer can detect and map JSON fields to equivalent fields in a search index.
+
 ## Hotels data
 
 Fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for most Azure Cognitive Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
