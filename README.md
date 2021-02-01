@@ -30,7 +30,7 @@ Consists of 107 PDF files used in knowledge mining labs and tutorials. Processin
 
 ## Hotels-json-documents
 
-This sample data set consists of 5 JSON documents containing structured JSON, used for evaluating or testing JSON blob indexing. Each file consists of hotel information, an address complex field, and a rooms complex collection. The blob indexer can detect and map JSON fields to equivalent fields in a search index.
+This sample data set consists of 5 JSON documents containing structured JSON, used for evaluating or testing JSON blob indexing. Each file consists of hotel information, an address complex field, and a rooms complex collection. The blob indexer can detect and match this JSON structure through equivalent fields in a search index.
 
 ## Hotels data
 
