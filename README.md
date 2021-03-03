@@ -48,26 +48,6 @@ Use the following files to create the hotels sample on your search service:
 
 + **HotelsData_toCosmosDB.JSON** - JSON used to populate an Azure Cosmos DB with the Hotels sample data.  This can be used as a data source for an indexer to pull data into the Hotels index.
 
-Alternatively, you can access hosted versions of this data set. 
-
-### Hosted read-only index
-
-There is a staged index populated with the hotels demo data, hosted on a search service, accessed with a query api-key for read-only access to hotel documents.
-
-Endpoint to the index: `https://azs-playground.search.windows.net/indexes/hotels/docs?api-version=2017-11-11&search=*`
-
-query api-key: `EA4510A6219E14888741FCFC19BFBB82`
-
-### Hosted read-only version database
-
-The hotels demo data is also in Azure Cosmos DB. Using the **Import data** wizard, you can create a new Cosmos DB data source based on this connection information. The wizard will ask you for the following three inputs.
-
-Cosmos DB connection string: `AccountEndpoint=https://hotels-docbb.documents.azure.com:443/;AccountKey=4UPsNZyFAjgZ1tzHPGZaxS09XcwLrIawbXBWk6IixcxJoSePTcjBn0mi53XiKWu8MaUgowUhIovOv7kjksqAug==;Database=SampleData`
-
-Database Name: `SampleData`
-
-Collection: `hotels`
-
 ## HotelReviews
 
 A CSV file provides data consisting of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal).
