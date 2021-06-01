@@ -53,3 +53,7 @@ Use the following files to create the hotels sample on your search service:
 A CSV file provides data consisting of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal).
 
 A JSON file provides a skillset that articulate the AI enrichment steps used by the indexer.
+
+## NASA e-books
+
+NASA earth book is used in conceptual examples that explain semantic search and answers. This folder contains a collection of PDFs from NASA's downloadable books site. The folder includes intact versions of entire books as single PDF files. It also includes per-page extractions as separate PDF files for both images and text, as well as text-only pages.
