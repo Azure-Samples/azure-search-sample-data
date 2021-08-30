@@ -1,0 +1,104 @@
+{
+  "HotelId": "2",
+  "HotelName": "Twin Dome Motel",
+  "Description": "The hotel is situated in a nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts. The hotel also regularly hosts events like wine tastings, beer dinners, and live music.",
+  "Description_fr": "L'hôtel est situé sur une place du XIXe siècle, qui a été agrandie et rénovée selon les normes architecturales les plus élevées pour créer un hôtel moderne, fonctionnel et de première classe dans lequel l'art et des éléments historiques uniques coexistent avec le confort le plus moderne. L'hôtel accueille également régulièrement des événements tels que des dégustations de vins, des dîners de bière et de la musique live.",
+  "Category": "Boutique",
+  "Tags": [ "pool", "free wifi", "concierge" ],
+  "ParkingIncluded": false,
+  "LastRenovationDate": "2019-02-18T00:00:00Z",
+  "Rating": 3.60,
+  "Address": {
+    "StreetAddress": "140 University Town Center Dr",
+    "City": "Sarasota",
+    "StateProvince": "FL",
+    "PostalCode": "34243",
+    "Country": "USA"
+  },
+  "Location": {
+    "type": "Point",
+    "coordinates": [ -82.452843, 27.384417 ]
+  },
+  "Rooms": [
+    {
+      "Description": "Suite, 2 Double Beds (Mountain View)",
+      "Description_fr": "Suite, 2 lits doubles (vue sur la montagne)",
+      "Type": "Suite",
+      "BaseRate": 250.99,
+      "BedOptions": "2 Double Beds",
+      "SleepsCount": 2,
+      "SmokingAllowed": false,
+      "Tags": [ "Room Tags" ]
+    },
+    {
+      "Description": "Standard Room, 1 Queen Bed (City View)",
+      "Description_fr": "Chambre Standard, 1 grand lit (vue ville)",
+      "Type": "Standard Room",
+      "BaseRate": 121.99,
+      "BedOptions": "1 Queen Bed",
+      "SleepsCount": 2,
+      "SmokingAllowed": false,
+      "Tags": [ "jacuzzi tub" ]
+    },
+    {
+      "Description": "Budget Room, 1 King Bed (Waterfront View)",
+      "Description_fr": "Chambre Économique, 1 très grand lit (vue sur le front de mer)",
+      "Type": "Budget Room",
+      "BaseRate": 88.99,
+      "BedOptions": "1 King Bed",
+      "SleepsCount": 2,
+      "SmokingAllowed": false,
+      "Tags": [ "suite", "tv", "jacuzzi tub" ]
+    },
+    {
+      "Description": "Standard Room, 2 Double Beds (Cityside)",
+      "Description_fr": "Chambre Standard, 2 lits doubles (côté ville)",
+      "Type": "Standard Room",
+      "BaseRate": 127.99,
+      "BedOptions": "2 Double Beds",
+      "SleepsCount": 2,
+      "SmokingAllowed": true,
+      "Tags": [ "coffee maker", "coffee maker" ]
+    },
+    {
+      "Description": "Budget Room, 2 Double Beds (Cityside)",
+      "Description_fr": "Chambre Économique, 2 lits doubles (Cityside)",
+      "Type": "Budget Room",
+      "BaseRate": 96.99,
+      "BedOptions": "2 Double Beds",
+      "SleepsCount": 2,
+      "SmokingAllowed": true,
+      "Tags": [ "coffee maker", "jacuzzi tub", "vcr/dvd" ]
+    },
+    {
+      "Description": "Budget Room, 1 Queen Bed (Mountain View)",
+      "Description_fr": "Chambre Économique, 1 grand lit (Mountain View)",
+      "Type": "Budget Room",
+      "BaseRate": 63.99,
+      "BedOptions": "1 Queen Bed",
+      "SleepsCount": 2,
+      "SmokingAllowed": false,
+      "Tags": [ "suite" ]
+    },
+    {
+      "Description": "Standard Room, 1 Queen Bed (Mountain View)",
+      "Description_fr": "Chambre Standard, 1 grand lit (vue montagne)",
+      "Type": "Standard Room",
+      "BaseRate": 124.99,
+      "BedOptions": "1 Queen Bed",
+      "SleepsCount": 2,
+      "SmokingAllowed": false,
+      "Tags": [ "tv" ]
+    },
+    {
+      "Description": "Standard Room, 1 Queen Bed (Cityside)",
+      "Description_fr": "Chambre Standard, 1 grand lit (côté ville)",
+      "Type": "Standard Room",
+      "BaseRate": 117.99,
+      "BedOptions": "1 Queen Bed",
+      "SleepsCount": 2,
+      "SmokingAllowed": true,
+      "Tags": [ "tv", "vcr/dvd" ]
+    }
+  ]
+}
