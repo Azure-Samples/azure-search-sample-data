@@ -14,7 +14,9 @@ This repository contains an **ARCHIVE** folder for previously published data fil
 
 ## AI-enrichment-mixed-media (files for skillsets and AI enrichment)
 
-This folder contains 14 files of mixed content types, including HTML, JPG, PDF, PowerPoint, Word, PNG, and TXT files. These files are used to demonstrate the breadth of skillset processing of multiple content types using a combination of built-in skills. This sample data is intended for upload to an Azure Blob storage container for AI enrichment examples.
+This folder contains 14 files of mixed content types, including HTML, JPG, PDF, PowerPoint, Word, PNG, and TXT files. These files are used to demonstrate the breadth of skillset processing of multiple content types using a combination of built-in skills. This sample data is intended for upload to an Azure Blob storage container, and then referenced from an indexer's data source object.
+
+**Used in:** [Quickstart: Create a skillset](https://docs.microsoft.com/azure/search/cognitive-search-quickstart-blob)
 
 ## Clinical trials
 
@@ -22,9 +24,11 @@ This folder contains three subfolders of clinical trials data from [https://clin
 
 | Folder | Description |
 |--------|-------------|
-| Clinical trials JSON | Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. This data is used in the [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data). |
+| Clinical trials JSON | Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. |
 | Clinical trials PDF 19 | Consists of 19 PDF files used in AI enrichment lessons. This data set can be used in AI enrichment pipelines on the free tier, using the free allocation of daily transactions per indexer. |
 | Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached Cognitive Services all-in-one resource. |
+
+**Used in:** [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data)
 
 ## Hotels data
 
@@ -50,15 +54,19 @@ This sample data set consists of 5 JSON documents containing structured JSON, us
 
 This folder contains two files:
 
-+ A CSV file provides data consisting of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. This data set is used in the [Create a knowledge store quickstart](https://docs.microsoft.com/azure/search/knowledge-store-create-portal). When indexing content from a CSV file, be sure to select a parsing mode so that individual documents can be created for each line in the file.
++ A CSV file provides data consisting of customer reviews of various fictional hotels in Europe. You can use this data in AI enrichment tutorials, applying sentiment analysis, language detection, and text translation. When indexing content from a CSV file, be sure to select a parsing mode so that individual documents can be created for each line in the file.
 
 + A JSON file provides a skillset definition.
+
+**Used in:** [Create a knowledge store](https://docs.microsoft.com/azure/search/knowledge-store-create-portal)
 
 ## NASA e-books
 
 Content from [NASA's earth book (February 2019)](https://earthobservatory.nasa.gov/features/earth-book-2019) is used in conceptual examples that explain semantic search and answers. This folder contains a collection of PDFs from NASA's downloadable books site. The folder includes intact versions of the entire book as single PDF file. A subfolder contains per-page extractions as separate PDF files for both images and text, as well as text-only pages.
 
 The first 10 PDFs in \azure-search-sample-data\nasa-e-book\text-only are used in entity recognition and entity linking skills processing demos.
+
+**Used in:** [Demo skills (Postman collections for Entity Recognition and Entity Linking)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
 
 ## Unsplash images
 
@@ -68,9 +76,13 @@ Images from [https://unsplash.com/s/photos/landmark](https://unsplash.com/s/phot
 
 + The "jpg-signs" folder contains photos that include signs and is used to demonstrate OCR skillset processing.
 
+**Used in:** [Demo skills (Postman collections for OCR and Image Analysis)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
+
 ## Spanish museums
 
 This folder includes 10 Word document files in Spanish and French, five in each language. Content consists of museum descriptions from the "Essential Museums" brochure on the [Official tourism portal of Spain](https://www.spain.info/en/brochures/leisure-culture/). These files are used in Language Detection and Text Translation skills processing demos. Content from the brochure was copied into individual Word document files, one for each museum and language combination.
+
+**Used in:** [Demo skills (Postman collections for Text Translation and Language Detection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
 
 ## STOPWORDS.MD
 
