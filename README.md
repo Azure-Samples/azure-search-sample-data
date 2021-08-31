@@ -66,7 +66,7 @@ Content from [NASA's earth book (February 2019)](https://earthobservatory.nasa.g
 
 The first 10 PDFs in \azure-search-sample-data\nasa-e-book\text-only are used in entity recognition and entity linking skills processing demos.
 
-**Used in:** [Demo skills (Postman collections)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
+**Used in:** [Demo skills (Postman collections for Entity Recognition and Entity Linking)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
 
 ## Unsplash images
 
@@ -76,13 +76,13 @@ Images from [https://unsplash.com/s/photos/landmark](https://unsplash.com/s/phot
 
 + The "jpg-signs" folder contains photos that include signs and is used to demonstrate OCR skillset processing.
 
-**Used in:** [Demo skills (Postman collections)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
+**Used in:** [Demo skills (Postman collections for OCR and Image Analysis)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
 
 ## Spanish museums
 
 This folder includes 10 Word document files in Spanish and French, five in each language. Content consists of museum descriptions from the "Essential Museums" brochure on the [Official tourism portal of Spain](https://www.spain.info/en/brochures/leisure-culture/). These files are used in Language Detection and Text Translation skills processing demos. Content from the brochure was copied into individual Word document files, one for each museum and language combination.
 
-**Used in:** [Demo skills (Postman collections)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
+**Used in:** [Demo skills (Postman collections for Text Translation and Language Detection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
 
 ## STOPWORDS.MD
 
