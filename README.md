@@ -50,6 +50,10 @@ Use the following files to create the hotels sample on your search service:
 
 This sample data set consists of 5 JSON documents containing structured JSON, used for evaluating or testing JSON blob indexing. Each file consists of hotel information, an address complex field, and a rooms complex collection. The blob indexer can detect and match this JSON structure through equivalent fields in a search index.
 
+### Hotels-sql
+
+This is a SQL script that creates a database, a table, and inserts 12 rows of partial hotel information. 
+
 ## HotelReviews
 
 This folder contains two files:
