@@ -1,16 +1,19 @@
 # Azure Cognitive Search Sample Data
 
-This repository contains data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Each folder represents a different sample data set.
+This repository contains data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
 
-+ ai-enrichment-mixed-media folder
-+ clinical-trials folder
-+ hotelreviews folder
-+ hotels folder
-+ nasa-e-book folder
-+ spanish-museums folder
-+ unsplash-images folder
++ [ai-enrichment-mixed-media folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/ai-enrichment-mixed-media)
++ [clinical-trials folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/clinical-trials)
++ [famous-speeches-pdf folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/famous-speeches-pdf)
++ [hotelreviews folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/hotelreviews)
++ [hotels folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/hotels)
++ [nasa-e-book folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/nasa-e-book)
++ [spanish-museums folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/spanish-museums)
++ [unsplash-images folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/unsplash-images)
 
-This repository contains an **ARCHIVE** folder for previously published data files that are no longer used in samples or docs. It also includes a **STOPWORDS** file that lists the stopwords for each language analyzer used in text analysis.
+This repository also contains an **ARCHIVE** folder for previously published data files that are no longer used in samples or docs. 
+
+It previously included a STOPWORDS.MD file. This file has been moved to the Reference section of the Azure Cognitive Search documentation. See [Stopwords reference (Microsoft analyzers)](https://docs.microsoft.comazure/search/reference-stopwords) for the new location.
 
 ## AI-enrichment-mixed-media (files for skillsets and AI enrichment)
 
@@ -29,6 +32,12 @@ This folder contains three subfolders of clinical trials data from [https://clin
 | Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached Cognitive Services all-in-one resource. |
 
 **Used in:** [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data)
+
+## Famous-speeches
+
+This folder includes 4 PDF files of famous American speeches by Abraham Lincoln, John F. Kennedy, and Martin Luther King. These files are used to demonstrate entity recognition and custom entity lookup.
+
+**Used in:** [Custom Entity Lookup skill (Postman collection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples/custom-entity-lookup-skill)
 
 ## Hotels data
 
@@ -87,10 +96,6 @@ Images from [https://unsplash.com/s/photos/landmark](https://unsplash.com/s/phot
 This folder includes 10 Word document files in Spanish and French, five in each language. Content consists of museum descriptions from the "Essential Museums" brochure on the [Official tourism portal of Spain](https://www.spain.info/en/brochures/leisure-culture/). These files are used in Language Detection and Text Translation skills processing demos. Content from the brochure was copied into individual Word document files, one for each museum and language combination.
 
 **Used in:** [Demo skills (Postman collections for Text Translation and Language Detection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
-
-## STOPWORDS.MD
-
-The stopwords.md file is a list of the stopwords used by the Microsoft analyzer for each language.
 
 ## ARCHIVE
 
