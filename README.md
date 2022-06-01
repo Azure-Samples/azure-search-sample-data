@@ -2,20 +2,20 @@
 
 This repository contains data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
 
-+ [ai-enrichment-mixed-media folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/ai-enrichment-mixed-media)
-+ [clinical-trials folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/clinical-trials)
-+ [famous-speeches-pdf folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/famous-speeches-pdf)
-+ [hotelreviews folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/hotelreviews)
-+ [hotels folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/hotels)
-+ [nasa-e-book folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/nasa-e-book)
-+ [spanish-museums folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/spanish-museums)
-+ [unsplash-images folder](https://github.com/Azure-Samples/azure-search-sample-data/tree/master/unsplash-images)
++ [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
++ [clinical-trials folder](#clinical-trials)
++ [famous-speeches-pdf folder](#famous-speeches)
++ [hotelreviews folder](#hotelreviews)
++ [hotels folder](#hotels-data)
++ [nasa-e-book folder](#nasa-e-books)
++ [spanish-museums folder](#spanish-museums)
++ [unsplash-images folder](#unsplash-images)
 
-This repository also contains an **ARCHIVE** folder for previously published data files that are no longer used in samples or docs. 
+This repository also contains an [**ARCHIVE** folder](#archive) for previously published data files that are no longer used in samples or docs. 
 
-It previously included a STOPWORDS.MD file. This file has been moved to the Reference section of the Azure Cognitive Search documentation. See [Stopwords reference (Microsoft analyzers)](https://docs.microsoft.comazure/search/reference-stopwords) for the new location.
+It previously included a STOPWORDS.MD file. This file is now in the Reference section of the Azure Cognitive Search documentation. [Stopwords reference (Microsoft analyzers)](https://docs.microsoft.comazure/search/reference-stopwords) is the new location.
 
-## AI-enrichment-mixed-media (files for skillsets and AI enrichment)
+## AI-enrichment-mixed-media
 
 This folder contains 14 files of mixed content types, including HTML, JPG, PDF, PowerPoint, Word, PNG, and TXT files. These files are used to demonstrate the breadth of skillset processing of multiple content types using a combination of built-in skills. This sample data is intended for upload to an Azure Blob storage container, and then referenced from an indexer's data source object.
 
@@ -35,7 +35,7 @@ This folder contains three subfolders of clinical trials data from [https://clin
 
 ## Famous-speeches
 
-This folder includes 4 PDF files of famous American speeches by Abraham Lincoln, John F. Kennedy, and Martin Luther King. These files are used to demonstrate entity recognition and custom entity lookup.
+This folder includes 4 PDF files of famous American speeches by Abraham Lincoln, John F. Kennedy, and Martin Luther King. These files are used to demonstrate entity recognition and custom entity lookup. The custom entity definition file that provides the lookup entities is located with the Postman collection.
 
 **Used in:** [Custom Entity Lookup skill (Postman collection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples/custom-entity-lookup-skill)
 
