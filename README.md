@@ -5,6 +5,8 @@ This repository contains data files used in Azure Cognitive Search quickstarts, 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
 + [clinical-trials folder](#clinical-trials)
 + [famous-speeches-pdf folder](#famous-speeches)
++ [good-books folder](#good-books)
++ [health-plan folder](#health-plan)
 + [hotelreviews folder](#hotelreviews)
 + [hotels folder](#hotels-data)
 + [nasa-e-book folder](#nasa-e-books)
@@ -38,6 +40,14 @@ This folder contains three subfolders of clinical trials data from [https://clin
 This folder includes 4 PDF files of famous American speeches by Abraham Lincoln, John F. Kennedy, and Martin Luther King. These files are used to demonstrate entity recognition and custom entity lookup. The custom entity definition file that provides the lookup entities is located with the Postman collection.
 
 **Used in:** [Custom Entity Lookup skill (Postman collection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples/custom-entity-lookup-skill)
+
+## Good-books
+
+This folder includes a CSV file containing 10,000 book titles.
+
+## Health-plan
+
+PDFs containing fictitious health plan data for Northwind and Contoso.
 
 ## Hotels data
 
