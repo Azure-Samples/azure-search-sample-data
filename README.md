@@ -1,6 +1,6 @@
-# Azure Cognitive Search Sample Data
+# Azure AI Search Sample Data
 
-This repository contains data files used in Azure Cognitive Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
+This repository contains data files used in Azure AI Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
 + [clinical-trials folder](#clinical-trials)
@@ -15,7 +15,7 @@ This repository contains data files used in Azure Cognitive Search quickstarts, 
 
 This repository also contains an [**ARCHIVE** folder](#archive) for previously published data files that are no longer used in samples or docs. 
 
-It previously included a STOPWORDS.MD file. This file is now in the Reference section of the Azure Cognitive Search documentation. [Stopwords reference (Microsoft analyzers)](https://docs.microsoft.comazure/search/reference-stopwords) is the new location.
+It previously included a STOPWORDS.MD file. This file is now in the Reference section of the Azure AI Search documentation. [Stopwords reference (Microsoft analyzers)](https://docs.microsoft.comazure/search/reference-stopwords) is the new location.
 
 ## AI-enrichment-mixed-media
 
@@ -31,7 +31,7 @@ This folder contains three subfolders of clinical trials data from [https://clin
 |--------|-------------|
 | Clinical trials JSON | Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. |
 | Clinical trials PDF 19 | Consists of 19 PDF files used in AI enrichment lessons. This data set can be used in AI enrichment pipelines on the free tier, using the free allocation of daily transactions per indexer. |
-| Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached Cognitive Services all-in-one resource. |
+| Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached AI Services all-in-one resource. |
 
 **Used in:** [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data)
 
@@ -51,9 +51,9 @@ PDFs containing fictitious health plan data for Northwind and Contoso.
 
 ## Hotels data
 
-The Hotels folder contains fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for many Azure Cognitive Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
+The Hotels folder contains fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for many Azure AI Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
 
-Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure Cognitive Search. 
+Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure AI Search. 
 
 Use the following files to create the hotels sample on your search service:
 
