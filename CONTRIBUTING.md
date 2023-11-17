@@ -1,6 +1,6 @@
-# Contributing to Azure Cognitive Search samples
+# Contributing to Azure AI Search samples
 
-Thank you for your interest in contributing to the Azure Cognitive Search sample data.
+Thank you for your interest in contributing to the Azure AI Search sample data.
 
 ## Ways to contribute
 

@@ -1,6 +1,6 @@
 # Stopwords
 
-When text is indexed into Azure Cognitive Search, it is processed by analyzers so it can be efficiently stored in a search index. During this [lexical analysis](https://docs.microsoft.com/azure/search/tutorial-create-custom-analyzer#how-analyzers-work) process, [language analyzers](https://docs.microsoft.com/azure/search/index-add-language-analyzers) will remove stopwords specific to that language. This is true of both the Lucene and Microsoft analyzers available. You can see the full list of available analyzers [here](https://docs.microsoft.com/azure/search/index-add-language-analyzers#language-analyzer-list).
+When text is indexed into Azure AI Search, it is processed by analyzers so it can be efficiently stored in a search index. During this [lexical analysis](https://docs.microsoft.com/azure/search/tutorial-create-custom-analyzer#how-analyzers-work) process, [language analyzers](https://docs.microsoft.com/azure/search/index-add-language-analyzers) will remove stopwords specific to that language. This is true of both the Lucene and Microsoft analyzers available. You can see the full list of available analyzers [here](https://docs.microsoft.com/azure/search/index-add-language-analyzers#language-analyzer-list).
 
 This document outlines the stopwords used by the Microsoft analyzer for each language. For more information on stopwords used by Lucene analyzers please see this [repo](https://github.com/apache/lucene-solr/tree/master/lucene/analysis/common/src/java/org/apache/lucene/analysis).
 
