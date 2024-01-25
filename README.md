@@ -4,6 +4,7 @@ This repository contains data files used in Azure AI Search quickstarts, tutoria
 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
 + [clinical-trials folder](#clinical-trials)
++ [desert-pdfs](#desert-pdfs)
 + [famous-speeches-pdf folder](#famous-speeches)
 + [good-books folder](#good-books)
 + [health-plan folder](#health-plan)
@@ -34,6 +35,10 @@ This folder contains three subfolders of clinical trials data from [https://clin
 | Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached AI Services all-in-one resource. |
 
 **Used in:** [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data)
+
+## Desert PDFs
+
+This folder includes PDF downloads of Wikipedia pages about well-known deserts across the world. These PDFs have text, images, tables, and other graphical elements.
 
 ## Famous-speeches
 
