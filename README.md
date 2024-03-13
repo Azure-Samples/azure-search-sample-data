@@ -3,7 +3,6 @@
 This repository contains data files used in Azure AI Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
-+ [clinical-trials folder](#clinical-trials)
 + [desert-pdfs](#desert-pdfs)
 + [famous-speeches-pdf folder](#famous-speeches)
 + [good-books folder](#good-books)
@@ -11,6 +10,7 @@ This repository contains data files used in Azure AI Search quickstarts, tutoria
 + [hotelreviews folder](#hotelreviews)
 + [hotels folder](#hotels-data)
 + [nasa-e-book folder](#nasa-e-books)
++ [ny-philharmonic folder](#ny-philharmonic)
 + [spanish-museums folder](#spanish-museums)
 + [unsplash-images folder](#unsplash-images)
 
@@ -24,15 +24,9 @@ This folder contains 14 files of mixed content types, including HTML, JPG, PDF, 
 
 **Used in:** [Quickstart: Create a skillset](https://docs.microsoft.com/azure/search/cognitive-search-quickstart-blob)
 
-## Clinical trials
+## NY Philharmonic
 
-This folder contains three subfolders of clinical trials data from [https://clinicaltrials.gov](https://clinicaltrials.gov/ct2/resources/download). Subfolders contain large and small numbers of files, plus a JSON version.
-
-| Folder | Description |
-|--------|-------------|
-| Clinical trials JSON | Consists of 8 semi-structured JSON files that you can upload to Azure Blob storage, and then import using the Azure Blob indexer. |
-| Clinical trials PDF 19 | Consists of 19 PDF files used in AI enrichment lessons. This data set can be used in AI enrichment pipelines on the free tier, using the free allocation of daily transactions per indexer. |
-| Clinical trials PDF 107 | Consists of 107 PDF files used in knowledge mining labs and tutorials. Processing this quantity of documents requires an attached AI Services all-in-one resource. |
+This folder contains JSON files of nested JSON arrays. There is one folder with one JSON file that you can run on the free tier. A second folder provides more files if you want to work with larger data.
 
 **Used in:** [Index Azure JSON blobs tutorial](https://docs.microsoft.com/azure/search/search-semi-structured-data)
 
