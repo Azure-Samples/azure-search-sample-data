@@ -4,7 +4,6 @@ This repository contains data files used in Azure AI Search quickstarts, tutoria
 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
 + [desert-pdfs](#desert-pdfs)
-+ [famous-speeches-pdf folder](#famous-speeches)
 + [good-books folder](#good-books)
 + [health-plan folder](#health-plan)
 + [hotelreviews folder](#hotelreviews)
