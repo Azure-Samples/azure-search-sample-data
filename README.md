@@ -33,12 +33,6 @@ This folder contains JSON files of nested JSON arrays. There is one folder with 
 
 This folder includes PDF downloads of Wikipedia pages about well-known deserts across the world. These PDFs have text, images, tables, and other graphical elements.
 
-## Famous-speeches
-
-This folder includes 4 PDF files of famous American speeches by Abraham Lincoln, John F. Kennedy, and Martin Luther King. These files are used to demonstrate entity recognition and custom entity lookup. The custom entity definition file that provides the lookup entities is located with the Postman collection.
-
-**Used in:** [Custom Entity Lookup skill (Postman collection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples/custom-entity-lookup-skill)
-
 ## Good-books
 
 This folder includes a CSV file containing 10,000 book titles.
@@ -52,16 +46,6 @@ PDFs containing fictitious health plan data for Northwind and Contoso.
 The Hotels folder contains fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for many Azure AI Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
 
 Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure AI Search. 
-
-Use the following files to create the hotels sample on your search service:
-
-+ **Hotels.postman_collection.json** - Using Postman, import this collection to execute requests that create and populate the Hotels index using JSON documents.
-
-+ **Hotels_IndexDefinition.JSON** - A standalone JSON file containing just the index. This index definition is equivalent to the hosted index on azs-playground search service.
-
-+ **HotelsData_toAzureSearch.JSON** - A standalone JSON file containing documents for 50 hotels and related room information.
-
-+ **HotelsData_toCosmosDB.JSON** - JSON used to populate an Azure Cosmos DB with the Hotels sample data.  This can be used as a data source for an indexer to pull data into the Hotels index.
 
 ### Hotels-json-documents
 
@@ -87,8 +71,6 @@ Content from [NASA's earth book (February 2019)](https://earthobservatory.nasa.g
 
 The first 10 PDFs in \azure-search-sample-data\nasa-e-book\text-only are used in entity recognition and entity linking skills processing demos.
 
-**Used in:** [Demo skills (Postman collections for Entity Recognition and Entity Linking)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
-
 ## Unsplash images
 
 Images from [https://unsplash.com/s/photos/landmark](https://unsplash.com/s/photos/landmark) and [https://unsplash.com/s/photos/](https://unsplash.com/s/photos/) are used in OCR and image analysis skills processing demos. There are ten images in each folder. 
@@ -97,20 +79,6 @@ Images from [https://unsplash.com/s/photos/landmark](https://unsplash.com/s/phot
 
 + The "jpg-signs" folder contains photos that include signs and is used to demonstrate OCR skillset processing.
 
-**Used in:** [Demo skills (Postman collections for OCR and Image Analysis)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
-
 ## Spanish museums
 
 This folder includes 10 Word document files in Spanish and French, five in each language. Content consists of museum descriptions from the "Essential Museums" brochure on the [Official tourism portal of Spain](https://www.spain.info/en/brochures/leisure-culture/). These files are used in Language Detection and Text Translation skills processing demos. Content from the brochure was copied into individual Word document files, one for each museum and language combination.
-
-**Used in:** [Demo skills (Postman collections for Text Translation and Language Detection)](https://github.com/Azure-Samples/azure-search-postman-samples/tree/master/skill-examples)
-
-## ARCHIVE
-
-### hotels-2019
-
-The original version of the built-in sample containing fictitious hotel information.
-
-### Caselaw 
-
-An example that used data from the Caselaw has been updated to use different data and steps. The data file used for that exercise is now archived. The [Caselaw Access Project](https://case.law/bulk/download/) provides public bulk downloads of case data by jurisdiction. Several jurisdictions are freely available without having to request access first. We chose the first one (Arkansas jurisdiction) and took the first 10 cases. The file name for this data set is `caselaw-sample.json`. If you upload this file to Azure Blob storage and use the **Import data** wizard to index the documents, choose the **JSON Lines** parsing mode.
