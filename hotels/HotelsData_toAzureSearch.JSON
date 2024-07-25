@@ -2,7 +2,7 @@
   "value": [
     {
       "HotelId": "1",
-      "HotelName": "Secret Point Hotel",
+      "HotelName": "Secret City Hotel",
       "Description": "This classic hotel is ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Time's Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
       "Description_fr": "Cet hôtel classique est idéalement situé sur la principale artère commerciale de la ville en plein cœur de New York. A quelques minutes se trouve la place du temps et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attractives et cosmopolites de l'Amérique.",
       "Category": "Boutique",
@@ -156,7 +156,7 @@
     },
     {
       "HotelId": "10",
-      "HotelName": "Country Home",
+      "HotelName": "Countryside Hotel",
       "Description": "Save up to 50% off traditional hotels. Free WiFi, great location near downtown, full kitchen, washer & dryer, 24\/7 support, bowling alley, fitness center and more.",
       "Description_fr": "Économisez jusqu'à 50% sur les hôtels traditionnels. WiFi gratuit, très bien situé près du centre-ville, cuisine complète, laveuse & sécheuse, support 24\/7, bowling, centre de fitness et plus encore.",
       "Category": "Extended-Stay",
@@ -300,7 +300,7 @@
     },
     {
       "HotelId": "11",
-      "HotelName": "Regal Orb Residence Inn",
+      "HotelName": "Royal Spa Resort & Residences",
       "Description": "Your home away from home. Brand new fully equipped premium rooms, fast WiFi, full kitchen, washer & dryer, fitness center. Inner courtyard includes water features and outdoor seating. All units include fireplaces and small outdoor balconies. Pets accepted.",
       "Description_fr": "Votre maison loin de chez vous. Flambant neuf chambres Premium entièrement équipées, WiFi rapide, cuisine complète, laveuse & sécheuse, centre de fitness. La cour intérieure comprend des points d'eau et des sièges à l'extérieur. Toutes les unités comprennent des cheminées et de petits balcons extérieurs. Animaux acceptés.",
       "Category": "Extended-Stay",
@@ -688,7 +688,7 @@
     },
     {
       "HotelId": "13",
-      "HotelName": "Historic Lion Resort",
+      "HotelName": "Luxury Lion Resort",
       "Description": "Unmatched Luxury. Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
       "Description_fr": "Un luxe inégalé. Visitez notre hôtel du centre-ville pour vous adonner à des hébergements luxueux. Moments du stade, nous vous présentons le meilleur dans le confort",
       "Category": "Luxury",
@@ -882,9 +882,9 @@
     },
     {
       "HotelId": "14",
-      "HotelName": "Twin Vertex Hotel",
-      "Description": "New experience in the Making. Be the first to experience the luxury of the Twin Vertex. Reserve one of our newly-renovated guest rooms today.",
-      "Description_fr": "Nouvelle expérience dans la fabrication. Soyez les premiers à découvrir le luxe du Twin vertex. Réservez une de nos chambres récemment rénovées aujourd'hui.",
+      "HotelName": "Twin Vortex Hotel",
+      "Description": "New experience in the Making. Be the first to experience the luxury of the Twin Vortex. Reserve one of our newly-renovated guest rooms today.",
+      "Description_fr": "Nouvelle expérience dans la fabrication. Soyez les premiers à découvrir le luxe du Twin vortex. Réservez une de nos chambres récemment rénovées aujourd'hui.",
       "Category": "Luxury",
       "Tags": [ "bar", "restaurant", "concierge" ],
       "ParkingIncluded": false,
@@ -1086,7 +1086,7 @@
     },
     {
       "HotelId": "15",
-      "HotelName": "Peaceful Market Hotel",
+      "HotelName": "Near the Market Hotel",
       "Description": "Book now and Save up to 30%. Central location. Steps from Empire State Building & Times Square, in Chelsea neighborhood. Brand new rooms. Impeccable service.",
       "Description_fr": "Réservez dès maintenant et économisez jusqu'à 30%. Emplacement central. A quelques pas de l'Empire State Building & Times Square, dans le quartier de Chelsea. Chambres flambant neuves. Service impeccable.",
       "Category": "Budget",
@@ -1474,7 +1474,7 @@
     },
     {
       "HotelId": "17",
-      "HotelName": "Antiquity Hotel",
+      "HotelName": "City Skyline Antiquity Hotel",
       "Description": "In vogue since 1888, the Antiquity Hotel takes you back to bygone era. From the crystal chandeliers that adorn the Green Room, to the arched ceilings of the Grand Hall, the elegance of old New York beckons. Elevate Your Experience. Upgrade to a premiere city skyline view for less, where old world charm combines with dramatic views of the city, local cathedral and midtown.",
       "Description_fr": "En vogue depuis 1888, l'Antiquity Hotel vous ramène à une époque révolue. Des lustres en cristal qui ornent la Green Room aux plafonds voûtés du Grand Hall, l'élégance du vieux New York embrasse tous les sens. Élevez votre expérience. Passez à une vue exceptionnelle sur les toits de la ville à moindre coût, où le charme du vieux monde se combine avec des vues spectaculaires sur la ville, la cathédrale locale et le centre.",
       "Category": "Boutique",
@@ -1698,7 +1698,7 @@
     },
     {
       "HotelId": "18",
-      "HotelName": "Oceanside Resort",
+      "HotelName": "Ocean Water Resort & Spa",
       "Description": "New Luxury Hotel. Be the first to stay. Bay views from every room, location near the pier, rooftop pool, waterfront dining & more.",
       "Description_fr": "Nouvel hôtel de luxe. Soyez le premier à rester. Vue sur la baie de chaque pièce, emplacement près de la jetée, piscine sur le toit, restaurant au bord de l'eau et plus.",
       "Category": "Luxury",
@@ -1862,7 +1862,7 @@
     },
     {
       "HotelId": "19",
-      "HotelName": "Universe Motel",
+      "HotelName": "Economy Universe Motel",
       "Description": "Local, family-run hotel in bustling downtown Redmond. We are a pet-friendly establishment, near expansive Marymoor park, haven to pet owners, joggers, and sports enthusiasts. Close to the highway and just a short drive away from major cities.",
       "Description_fr": "Hôtel local à la gestion familiale dans le centre-ville animé de Redmond. Nous sommes un établissement acceptant les animaux de compagnie, à proximité du vaste parc Marymoor, paradis des propriétaires d'animaux, des joggeurs et des amateurs de sport. Près de l'autoroute et à quelques minutes en voiture des grandes villes.",
       "Category": "Budget",
@@ -2056,7 +2056,7 @@
     },
     {
       "HotelId": "2",
-      "HotelName": "Twin Dome Motel",
+      "HotelName": "Nineteenth Century Plaza Motel",
       "Description": "The hotel is situated in a nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts. The hotel also regularly hosts events like wine tastings, beer dinners, and live music.",
       "Description_fr": "L'hôtel est situé sur une place du XIXe siècle, qui a été agrandie et rénovée selon les normes architecturales les plus élevées pour créer un hôtel moderne, fonctionnel et de première classe dans lequel l'art et des éléments historiques uniques coexistent avec le confort le plus moderne. L'hôtel accueille également régulièrement des événements tels que des dégustations de vins, des dîners de bière et de la musique live.",
       "Category": "Boutique",
@@ -2160,7 +2160,7 @@
     },
     {
       "HotelId": "20",
-      "HotelName": "Esport Resort",
+      "HotelName": "Grand Gaming Resort",
       "Description": "The Best Gaming Resort in the area. With elegant rooms & suites, pool, cabanas, spa, brewery & world-class gaming. This is the best place to play, stay & dine.",
       "Description_fr": "La meilleure station de jeux dans la région. Avec des chambres et suites élégantes, piscine, Cabanas, Spa, brasserie & Gaming de classe mondiale. C'est le meilleur endroit pour jouer, rester et dîner.",
       "Category": "Resort and Spa",
@@ -2364,7 +2364,7 @@
     },
     {
       "HotelId": "21",
-      "HotelName": "Nova Hotel",
+      "HotelName": "Good Business Hotel",
       "Description": "1 Mile from the airport. Free WiFi, Outdoor Pool, Complimentary Airport Shuttle, 6 miles from Lake Lanier & 10 miles from downtown. Our business center includes printers, a copy machine, fax, and a work area.",
       "Description_fr": "1 mile de l'aéroport. WiFi gratuit, piscine extérieure, navette aéroport gratuite, à 10 km du lac Lanier et à 16 km du centre-ville. Notre centre d'affaires comprend des imprimantes, un photocopieur, un fax et un espace de travail.",
       "Category": "Suite",
@@ -2578,7 +2578,7 @@
     },
     {
       "HotelId": "22",
-      "HotelName": "Stone Lion Inn",
+      "HotelName": "Lion's Den Inn",
       "Description": "Full breakfast buffet for 2 for only $1. Excited to show off our room upgrades, faster high speed WiFi, updated corridors & meeting space. Come relax and enjoy your stay.",
       "Description_fr": "Petit déjeuner buffet complet pour 2 pour seulement $1. Excité de montrer nos mises à niveau de la chambre, plus rapide WiFi à haute vitesse, les couloirs et l'espace de réunion. Venez vous détendre et profiter de votre séjour.",
       "Category": "Budget",
@@ -2782,7 +2782,7 @@
     },
     {
       "HotelId": "23",
-      "HotelName": "Days Hotel",
+      "HotelName": "Downtown Mix Hotel",
       "Description": "Mix and mingle in the heart of the city. Shop and dine, mix and mingle in the heart of downtown, where fab lake views unite with a cheeky design.",
       "Description_fr": "Mélangez et mêlez-vous au cœur de la ville. Magasinez et dînez, mélangez et mêlez-vous au cœur du centre-ville, où les vues du lac FAB s'unissent avec un design effronté.",
       "Category": "Budget",
@@ -3006,7 +3006,7 @@
     },
     {
       "HotelId": "24",
-      "HotelName": "La Vista Hotel",
+      "HotelName": "Uptown Chic Hotel",
       "Description": "Chic hotel near the city. High-rise hotel in downtown, within walking distance to theaters, art galleries, restaurants and shops. Visit Seattle Art Museum by day, and then head over to Benaroya Hall to catch the evening's concert performance.",
       "Description_fr": "Hôtel chic près de la ville. Hôtel de grande hauteur au centre-ville, à distance de marche des théâtres, galeries d'art, restaurants et boutiques. Visitez le musée d'art de Seattle le jour, puis dirigez-vous vers le Benaroya Hall pour assister au concert de la soirée.",
       "Category": "Suite",
@@ -3130,7 +3130,7 @@
     },
     {
       "HotelId": "25",
-      "HotelName": "Scottish Inn",
+      "HotelName": "Waterfront Scottish Inn",
       "Description": "Newly Redesigned Rooms & airport shuttle. Minutes from the airport, enjoy lakeside amenities, a resort-style pool & stylish new guestrooms with Internet TVs.",
       "Description_fr": "Chambres nouvellement redessinées & navette d'aéroport. Minutes de l'aéroport, profitez des équipements Lakeside, une piscine de style complexe et de nouvelles chambres élégantes avec des téléViseurs Internet.",
       "Category": "Suite",
@@ -3344,7 +3344,7 @@
     },
     {
       "HotelId": "26",
-      "HotelName": "Marquis Plaza & Suites",
+      "HotelName": "Planetary Plaza & Suites",
       "Description": "Extend Your Stay. Affordable home away from home, with amenities like free Wi-Fi, full kitchen, and convenient laundry service.",
       "Description_fr": "Prolongez votre séjour. Une maison abordable loin de chez vous, avec des équipements comme une connexion Wi-Fi gratuite, une cuisine complète et un service de blanchisserie pratique.",
       "Category": "Extended-Stay",
@@ -3478,9 +3478,9 @@
     },
     {
       "HotelId": "27",
-      "HotelName": "Super Deluxe Inn & Suites",
-      "Description": "Complimentary Airport Shuttle & WiFi. Book Now and save - Spacious All Suite Hotel, Indoor\/Outdoor Pool, Fitness Center, Florida Green certified, Starbucks Coffee, HDTV",
-      "Description_fr": "Navette aéroport gratuite et WiFi. Réservez maintenant et économisez-spacieux All Suite Hotel, piscine couverte\/extérieure, centre de fitness, Florida Green Certified, Starbucks Coffee, HDTV",
+      "HotelName": "Starlight Suites",
+      "Description": "Complimentary Airport Shuttle & WiFi. Book Now and save - Spacious All Suite Hotel, Indoor Outdoor Pool, Fitness Center, Florida Green certified, Starbucks Coffee, HDTV",
+      "Description_fr": "Navette aéroport gratuite et WiFi. Réservez maintenant et économisez-spacieux All Suite Hotel, piscine couverte extérieure, centre de fitness, Florida Green Certified, Starbucks Coffee, HDTV",
       "Category": "Suite",
       "Tags": [ "pool", "coffee in lobby", "free wifi" ],
       "ParkingIncluded": true,
@@ -3572,7 +3572,7 @@
     },
     {
       "HotelId": "28",
-      "HotelName": "Inoku",
+      "HotelName": "City Center Summer Wind Resort",
       "Description": "Eco-friendly from our gardens to table, with a rooftop serenity pool and outdoor seating to take in the sunset. Just steps away from the Convention Center. Located in the heart of downtown with modern rooms with stunning city views, 24-7 dining options, free WiFi and easy valet parking.",
       "Description_fr": "Respectueux de l'environnement des jardins à la table, avec piscine de sérénité sur le toit et terrasse pour admirer le coucher du soleil. Pas du Centre des Congrès. Situé au cœur du centre-ville avec des chambres modernes avec vue imprenable sur la ville, 24-7 restaurants, WiFi gratuit et parking avec voiturier facile.",
       "Category": "Luxury",
@@ -3766,7 +3766,7 @@
     },
     {
       "HotelId": "29",
-      "HotelName": "Thompson House",
+      "HotelName": "Treehouse Hotel",
       "Description": "Stay in the heart of downtown near the business district. Experience the warmth of our hotel. Enjoy free WiFi, local transportation and Milk & Cookies.",
       "Description_fr": "Séjournez au cœur du centre-ville près du quartier des affaires. Vivez la chaleur de notre hôtel. Profitez du WiFi gratuit, du transport local et du lait et des biscuits.",
       "Category": "Budget",
@@ -3870,9 +3870,9 @@
     },
     {
       "HotelId": "3",
-      "HotelName": "Triple Landscape Hotel",
-      "Description": "The Triple L Hotel stands out for its gastronomic excellence under the management of William Dough, who advises on and oversees all of the Hotel’s restaurant services.",
-      "Description_fr": "L'hôtel Triple L se distingue par son excellence gastronomique sous la direction de William Dough, qui conseille et supervise tous les services de restauration de l'hôtel.",
+      "HotelName": "Gastronomic Landscape Hotel",
+      "Description": "The Gastronomic Hotel stands out for its culinary excellence under the management of William Dough, who advises on and oversees all of the Hotel’s restaurant services.",
+      "Description_fr": "L'hôtel Gastronomic  se distingue par son excellence gastronomique sous la direction de William Dough, qui conseille et supervise tous les services de restauration de l'hôtel.",
       "Category": "Suite",
       "Tags": [ "restuarant", "bar", "continental breakfast" ],
       "ParkingIncluded": true,
@@ -4084,7 +4084,7 @@
     },
     {
       "HotelId": "30",
-      "HotelName": "Catfish Creek Fishing Cabins",
+      "HotelName": "Fishing Creek Lodge",
       "Description": "Best bites along the Colorado river, but only if you know where to go! Fishing expeditions offered daily. Package deals include professional guides, gear, lunch, and fishing licenses. ",
       "Description_fr": "Meilleures bouchées le long du fleuve Colorado, mais seulement si vous savez où aller! Expéditions de pêche offertes tous les jours. Les forfaits incluent des guides professionnels, du matériel, le déjeuner et des permis de pêche.",
       "Category": "Budget",
@@ -4188,7 +4188,7 @@
     },
     {
       "HotelId": "31",
-      "HotelName": "Athens Residence Hotel",
+      "HotelName": "Country Residence Hotel",
       "Description": "All of the suites feature full-sized kitchens stocked with cookware, separate living and sleeping areas and sofa beds. Some of the larger rooms have fireplaces. Experience real country hospitality in the heart of bustling Nashville. The most vibrant music scene in the world is just outside your front door.",
       "Description_fr": "Toutes les suites disposent d'une cuisine pleine grandeur équipée d'ustensiles de cuisine, de coins salon et chambre séparés et de canapés-lits. Certaines des plus grandes chambres ont des cheminées. Découvrez la véritable hospitalité campagnarde au cœur de la ville animée de Nashville. La scène musicale la plus vibrante du monde est juste devant votre porte.",
       "Category": "Extended-Stay",
@@ -4402,7 +4402,7 @@
     },
     {
       "HotelId": "32",
-      "HotelName": "Goldmoor Inn",
+      "HotelName": "Gold View Inn",
       "Description": "AAA Four Diamond Resort. Nestled on six beautifully landscaped acres, located 2 blocks from the park. Unwind at the spa and indulge in art tours on site.",
       "Description_fr": "AAA Four Diamond Resort. Niché sur six hectares magnifiquement aménagés, situé à 2 pâtés de là du parc. DéTendez-vous au spa et profitez de visites d'art sur place.",
       "Category": "Suite",
@@ -4486,7 +4486,7 @@
     },
     {
       "HotelId": "33",
-      "HotelName": "Mottelers Thunderbird Motel",
+      "HotelName": "Thunderbird Motel",
       "Description": "Book Now & Save. Clean, Comfortable rooms at the lowest price. Enjoy complimentary coffee and tea in common areas.",
       "Description_fr": "Réservez maintenant et économisez. Chambres propres et confortables au plus bas prix. Profitez du café et du thé gratuits dans les parties communes.",
       "Category": "Budget",
@@ -4690,7 +4690,7 @@
     },
     {
       "HotelId": "34",
-      "HotelName": "Cap'n Jack's Waterfront Inn",
+      "HotelName": "Lakefront Captain Inn",
       "Description": "Every stay starts with a warm cookie. Amenities like the Counting Sheep sleep experience, our Wake-up glorious breakfast buffet and spacious workout facilities await.",
       "Description_fr": "Chaque séjour commence par un biscuit chaud. Commodités comme le comptage des moutons expérience de sommeil, notre réveil-up glorieux petit déjeuner buffet et des installations d'entraînement spacieuses vous attendent.",
       "Category": "Budget",
@@ -4874,7 +4874,7 @@
     },
     {
       "HotelId": "35",
-      "HotelName": "Suites At Bellevue Square",
+      "HotelName": "Bellevue Suites",
       "Description": "Comfortable city living in the very center of downtown Bellevue. Newly reimagined, this hotel features apartment-style suites with sleeping, living and work spaces. Located across the street from the Light Rail to downtown. Free shuttle to the airport.",
       "Description_fr": "Centre-ville confortable vivant en plein centre du centre-ville de Bellevue. Récemment repensé, cet hôtel propose des suites de style appartement avec des espaces de couchage, de vie et de travail. Situé en face du tramway au centre-ville. Situé en face du tramway au centre-ville. Navette gratuite pour l'aéroport.",
       "Category": "Extended-Stay",
@@ -5058,7 +5058,7 @@
     },
     {
       "HotelId": "36",
-      "HotelName": "Pelham Hotel",
+      "HotelName": "Hotel on the Harbor",
       "Description": "Stunning Downtown Hotel with indoor Pool. Ideally located close to theatres, museums and the convention center. Indoor Pool and Sauna and fitness centre. Popular Bar & Restaurant",
       "Description_fr": "Superbe hôtel du centre-ville avec piscine couverte. Idéalement situé à proximité des théâtres, des musées et du Centre des Congrès. Piscine couverte et sauna et centre de fitness. Populaire bar & restaurant",
       "Category": "Luxury",
@@ -5202,7 +5202,7 @@
     },
     {
       "HotelId": "37",
-      "HotelName": "Commander Hotel",
+      "HotelName": "Campus Commander Hotel",
       "Description": "Right in the heart of campus. From meetings in town or gameday, enjoy our prime location between the union and steps away from the stadium.",
       "Description_fr": "En plein cœur du campus. Des réunions en ville ou Gameday, profitez de notre emplacement privilégié entre l'Union et à quelques pas du stade.",
       "Category": "Budget",
@@ -5416,7 +5416,7 @@
     },
     {
       "HotelId": "38",
-      "HotelName": "Lady Of The Lake B & B",
+      "HotelName": "Lakeside B & B",
       "Description": "Nature is Home on the beach. Explore the shore by day, and then come home to our shared living space to relax around a stone fireplace, sip something warm, and explore the library by night. Save up to 30 percent. Valid Now through the end of the year. Restrictions and blackout may apply.",
       "Description_fr": "La nature est à la maison sur la plage. Explorez le rivage le jour, puis rentrez chez vous dans notre espace de vie commun pour vous détendre autour d'une cheminée en pierre, siroter quelque chose de chaud et explorer la bibliothèque la nuit. Économisez jusqu'à 30%. Valide maintenant jusqu'à la fin de l'année. Des restrictions et une panne peuvent s'appliquer.",
       "Category": "Boutique",
@@ -5570,7 +5570,7 @@
     },
     {
       "HotelId": "39",
-      "HotelName": "Whitefish Lodge & Suites",
+      "HotelName": "White Mountain Lodge & Suites",
       "Description": "Located on in the heart of the forest. Enjoy Warm Weather, Beach Club Services, Natural Hot Springs, and our signature hot stone massage in the Cathedral of Firs. Relax in the meditation gardens, or join new friends around the communal firepit. Weekend evening entertainment on the patio features special guest musicians or poetry readings.",
       "Description_fr": "Situé au coeur de la forêt. Profitez du temps chaud, des services du club de plage, des sources chaudes naturelles et de notre massage aux pierres chaudes dans la cathédrale des sapins. Détendez-vous dans les jardins de méditation ou rejoignez de nouveaux amis autour du foyer commun. Le week-end, les animations en soirée sur la terrasse comprennent des musiciens invités spéciaux ou des lectures de poésie.",
       "Category": "Resort and Spa",
@@ -5764,9 +5764,9 @@
     },
     {
       "HotelId": "4",
-      "HotelName": "Sublime Cliff Hotel",
-      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Cliff is part of a lovingly restored 1800 palace.",
-      "Description_fr": "Le sublime Cliff Hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Cliff fait partie d'un Palace 1800 restauré avec amour.",
+      "HotelName": "Sublime Palace Hotel",
+      "Description": "Sublime Palace Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Palace is part of a lovingly restored 1800 palace.",
+      "Description_fr": "Le sublime Palace Hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Palace fait partie d'un Palace 1800 restauré avec amour.",
       "Category": "Boutique",
       "Tags": [ "concierge", "view", "air conditioning" ],
       "ParkingIncluded": true,
@@ -6082,7 +6082,7 @@
     },
     {
       "HotelId": "41",
-      "HotelName": "Ocean Air Motel",
+      "HotelName": "Windy Ocean Motel",
       "Description": "Oceanfront hotel overlooking the beach features rooms with a private balcony and 2 indoor and outdoor pools. Inspired by the natural beauty of the island, each room includes an original painting of local scenes by the owner. Rooms include a mini fridge, Keurig coffee maker, and flatscreen TV. Various shops and art entertainment are on the boardwalk, just steps away.",
       "Description_fr": "Cet hôtel en bord de mer donnant sur la plage propose des chambres dotées d'un balcon privé et de 2 piscines intérieure et extérieure. Inspiré par la beauté naturelle de l'île, chaque chambre comprend une peinture originale de scènes locales par le propriétaire. Les chambres comprennent un mini-réfrigérateur, une cafetière Keurig et une télévision à écran plat. Divers magasins et divertissements artistiques se trouvent sur la promenade, à quelques pas.",
       "Category": "Suite",
@@ -6276,9 +6276,9 @@
     },
     {
       "HotelId": "42",
-      "HotelName": "Bar C Resort & Campground",
-      "Description": "Bar C is nestled on 20 unspoiled acres on a private cove of Rock Bottom Lake. We feature both lodging and campground accommodations to suit just about every taste. Even though we are out of the traffic of the city, getting there is only a short drive away.",
-      "Description_fr": "Bar C est niché sur 20 hectares intacts sur une crique privée de Rock Bottom Lake. Nous disposons à la fois d'hébergement et de logements de camping pour convenir à peu près tous les goûts. Même si nous sommes hors du trafic de la ville, y arriver est à seulement une courte distance en voiture.",
+      "HotelName": "Rock Bottom Resort & Campground",
+      "Description": "Rock Bottom is nestled on 20 unspoiled acres on a private cove of Rock Bottom Lake. We feature both lodging and campground accommodations to suit just about every taste. Even though we are out of the traffic of the city, getting there is only a short drive away.",
+      "Description_fr": "Rock Bottom est niché sur 20 hectares intacts sur une crique privée de Rock Bottom Lake. Nous disposons à la fois d'hébergement et de logements de camping pour convenir à peu près tous les goûts. Même si nous sommes hors du trafic de la ville, y arriver est à seulement une courte distance en voiture.",
       "Category": "Resort and Spa",
       "Tags": [ "view", "coffee in lobby", "24-hour front desk service" ],
       "ParkingIncluded": true,
@@ -6440,7 +6440,7 @@
     },
     {
       "HotelId": "43",
-      "HotelName": "Johnson's Resort",
+      "HotelName": "Johnson's Family Resort",
       "Description": "Family oriented resort located in the heart of the northland. Operated since 1962 by the Smith family, we have grown into one of the largest family resorts in the state. The home of excellent Smallmouth Bass fishing with 10 small cabins, we're a home not only to fishermen but their families as well. Rebuilt in the early 2000's, all of our cabins have all the comforts of home. Sporting a huge beach with multiple water toys for those sunny summer days and a Lodge full of games for when you just can't swim anymore, there's always something for the family to do. A full marina offers watercraft rentals, boat launch, powered dock slips, canoes (free to use), & fish cleaning facility. Rent pontoons, 14' fishing boats, 16' fishing rigs or jet ski's for a fun day or week on the water.",
       "Description_fr": "Resort familial situé au cœur de la Northland. Opéré depuis 1962 par la famille Smith, nous sommes devenus l'une des plus grandes stations familiales de l'État. La maison de la pêche à l'achigan à petite bouche excellente avec 10 petites cabanes, nous sommes une maison non seulement pour les pêcheurs, mais aussi leurs familles. Reconstruites au début des années 2000, toutes nos cabines ont été construites avec tout le confort de la maison. Arborant une immense plage avec des jouets d'eau multiples pour ces jours ensoleillés d'été et un Lodge plein de jeux pour quand vous ne pouvez pas nager plus, il ya toujours quelque chose pour la famille à faire. UNE marina complète offre la location de motomarines, le lancement de bateaux, des bordereaux d'amarrage, des canoës (libres d'utilisation), et des installations de nettoyage de poissons. Louez des pontons, 14 'bateaux de pêche, 16 'plates-formes de pêche ou jet ski pour une journée ou une semaine de plaisir sur l'eau.",
       "Category": "Resort and Spa",
@@ -6654,7 +6654,7 @@
     },
     {
       "HotelId": "44",
-      "HotelName": "Monrovia Motor Inn",
+      "HotelName": "Friendly Motor Inn",
       "Description": "Close to historic sites, local attractions, and urban parks. Free Shuttle to the airport and casinos. Free breakfast and WiFi.",
       "Description_fr": "À proximité des sites historiques, des attractions locales et des parcs urbains. Navette gratuite pour l'aéroport et les casinos. Petit déjeuner gratuit et WiFi.",
       "Category": "Budget",
@@ -6818,7 +6818,7 @@
     },
     {
       "HotelId": "45",
-      "HotelName": "Arcadia Resort & Restaurant",
+      "HotelName": "Happy Lake Resort & Restaurant",
       "Description": "The largest year-round resort in the area offering more of everything for your vacation – at the best value! What can you enjoy while at the resort, aside from the mile-long sandy beaches of the lake? Check out our activities sure to excite both young and young-at-heart guests. We have it all, including being named “Property of the Year” and a “Top Ten Resort” by top publications.",
       "Description_fr": "La plus grande station de toute l'année dans la région offrant plus de tout pour vos vacances-au meilleur rapport qualité-prix! Que pouvez-vous profiter de la station, en dehors des kilomètres de longues plages de sable du lac? Découvrez nos activités pour vous exciter à la fois les jeunes et les jeunes-à-coeur invités. Nous avons tout, y compris d'être nommé \"propriété de l'année\" et un \"Top Ten Resort\" par Top publications.",
       "Category": "Resort and Spa",
@@ -6942,7 +6942,7 @@
     },
     {
       "HotelId": "46",
-      "HotelName": "Swan Point Inn",
+      "HotelName": "Swan Bird Lake Inn",
       "Description": "We serve a continental-style breakfast each morning, featuring a variety of food and drinks. Our locally made, oh-so-soft, caramel cinnamon rolls are a favorite with our guests. Other breakfast items include coffee, orange juice, milk, cereal, instant oatmeal, bagels, and muffins.",
       "Description_fr": "Nous servons un petit déjeuner continental de style chaque matin, avec une variété de nourriture et de boissons. Notre fait localement, oh-so-Soft, caramel rouleaux de cannelle sont un favori avec nos clients. Autres petits-déjeuners: café, jus d'orange, lait, céréales, Gruau instantané, bagels et muffins.",
       "Category": "Budget",
@@ -7156,7 +7156,7 @@
     },
     {
       "HotelId": "47",
-      "HotelName": "South Court Inn",
+      "HotelName": "Country Comfort Inn",
       "Description": "Situated conveniently at the north end of the village, the inn is just a short walk from the lake, offering reasonable rates and all the comforts home inlcuding living room suites and functional kitchens. Pets are welcome.",
       "Description_fr": "Idéalement située à l'extrémité nord du village, l'auberge se trouve à quelques pas du lac, offrant des tarifs raisonnables et tout le confort de la maison, y compris des salles de séjour et des cuisines fonctionnelles. Les animaux sont les bienvenus.",
       "Category": "Extended-Stay",
@@ -7290,7 +7290,7 @@
     },
     {
       "HotelId": "48",
-      "HotelName": "Nordick's B & B",
+      "HotelName": "Nordick's Valley Motel",
       "Description": "Only 90 miles (about 2 hours) from the nation's capital and nearby most everything the historic valley has to offer. Hiking? Wine Tasting? Exploring the caverns? It's all nearby and we have specially priced packages to help make our B&B your home base for fun while visiting the valley.",
       "Description_fr": "Seulement 90 milles (environ 2 heures) de la capitale de la nation et à proximité la plupart tout que la vallée historique a à offrir. Randonnée? Dégustation? Vous explorez les cavernes? C'est tout près et nous avons des forfaits à prix spécial pour aider à rendre notre B&B votre base pour le plaisir en visitant la vallée.",
       "Category": "Boutique",
@@ -7403,7 +7403,7 @@
     },
     {
       "HotelId": "49",
-      "HotelName": "Old Carrabelle Hotel",
+      "HotelName": "Historic Cowboy Hotel",
       "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping, dining, entertainment and the city center. Each room comes equipped with a microwave, a coffee maker and a minifridge. In-room entertainment includes complimentary W-Fi and flat-screen TVs. ",
       "Description_fr": "Chambres spacieuses, suites et résidences glamour, piscine sur le toit, accès à pied aux commerces, restaurants, divertissements et centre-ville. Chaque chambre est équipée d'un four micro-ondes, d'une cafetière et d'un mini-réfrigérateur. Les divertissements en chambre comprennent une connexion Wi-Fi gratuite et une télévision à écran plat.",
       "Category": "Suite",
@@ -7627,7 +7627,7 @@
     },
     {
       "HotelId": "5",
-      "HotelName": "Scarlet Harbor Hotel",
+      "HotelName": "Red Tide Hotel",
       "Description": "On entering this charming hotel in Scarlet Harbor, you will immediately sense its special intimate atmosphere that makes you feel like being in your own home. Each detail has been passionately chosen and each room deserves a visit. The style mixes valuable antiques and original artworks with an unexpected eclectic contemporary twist. The entire hotel recalls times past where young aristocrats lived while discovering the beauty and the artistic mysteries of the area.",
       "Description_fr": "En entrant dans cet hôtel de charme à Scarlet Harbor, vous sentirez immédiatement son atmosphère intime particulière qui vous donne l'impression d'être dans votre propre maison. Chaque détail a été choisi avec passion et chaque chambre mérite une visite. Le style mêle antiquités précieuses et des œuvres originales avec une inattendue contemporaine éclectique Twist. Tout l'hôtel rappelle les temps passés où les jeunes aristocrates vivaient tout en découvrant la beauté et les mystères artistiques de la région.",
       "Category": "Boutique",
@@ -7781,7 +7781,7 @@
     },
     {
       "HotelId": "50",
-      "HotelName": "Summer Wind Resort",
+      "HotelName": "Head Wind Resort",
       "Description": "The hotel rooms and suites offer the perfect blend of beauty and elegance. Our rooms will elevate your stay, whether you're traveling for business, celebrating a honeymoon, or just looking for a remarkable getaway. With views of the valley or the iconic fountains right from your suite, your stay will be nothing short of unforgettable.",
       "Description_fr": "Les chambres et suites de l'hôtel offrent un mélange parfait de beauté et d'élégance. Nos chambres élèveront votre séjour, que vous voyagiez pour affaires, pour célébrer une lune de miel, ou tout simplement à la recherche d'une escapade remarquable. Avec une vue sur la vallée ou les fontaines emblématiques de votre suite, votre séjour sera tout à fait inoubliable.",
       "Category": "Suite",
@@ -7995,7 +7995,7 @@
     },
     {
       "HotelId": "6",
-      "HotelName": "King's Palace Hotel",
+      "HotelName": "King's Cellar Hotel",
       "Description": "Newest kid on the downtown block. Steps away from the most popular destinations in downtown, enjoy free WiFi, an indoor rooftop pool & fitness center, 24 Grab'n'Go & drinks at the bar",
       "Description_fr": "Le plus récent de l'immeuble du centre-ville. À quelques pas des destinations les plus populaires du centre-ville, profitez du WiFi gratuit, d'une piscine couverte sur le toit et d'un centre de remise en forme, de 24 Grab'n'Go et de boissons au bar.",
       "Category": "Suite",
@@ -8149,7 +8149,7 @@
     },
     {
       "HotelId": "7",
-      "HotelName": "Rose Motel",
+      "HotelName": "Roach Motel",
       "Description": "Perfect Location on Main Street. Earn points while enjoying close proximity to the city's best shopping, restaurants, and attractions.",
       "Description_fr": "Emplacement parfait sur la rue principale. Gagnez des points tout en appréciant la proximité des meilleurs magasins, restaurants et attractions de la ville.",
       "Category": "Budget",
@@ -8373,7 +8373,7 @@
     },
     {
       "HotelId": "8",
-      "HotelName": "Sapphire Suites",
+      "HotelName": "Foot Happy Suites",
       "Description": "Downtown in the heart of the business district. Close to everything. Leave your car behind and walk to the park, shopping, and restaurants.",
       "Description_fr": "Centre-ville au coeur du quartier des affaires. Proche de tout. Laissez votre voiture derrière vous et marchez vers le parc, les magasins et les restaurants.",
       "Category": "Suite",
@@ -8547,7 +8547,7 @@
     },
     {
       "HotelId": "9",
-      "HotelName": "Smile Hotel",
+      "HotelName": "Smile Up Hotel",
       "Description": "Experience the fresh, modern downtown. Enjoy updated rooms, bold style & prime location. Don't miss our weekend live music series featuring who's new\/next on the scene.",
       "Description_fr": "Découvrez le centre-ville frais et moderne. Profitez de chambres rénovées, d'un style audacieux et d'un emplacement privilégié. Ne manquez pas notre série de musique en direct du week-end mettant en vedette who's New\/Next sur la scène.",
       "Category": "Suite",
