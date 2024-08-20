@@ -689,7 +689,7 @@
     {
       "HotelId": "13",
       "HotelName": "Luxury Lion Resort",
-      "Description": "Unmatched Luxury. Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
+      "Description": "Unmatched Luxury. Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort.",
       "Description_fr": "Un luxe inégalé. Visitez notre hôtel du centre-ville pour vous adonner à des hébergements luxueux. Moments du stade, nous vous présentons le meilleur dans le confort",
       "Category": "Luxury",
       "Tags": [ "bar", "concierge", "restaurant" ],
@@ -883,7 +883,7 @@
     {
       "HotelId": "14",
       "HotelName": "Twin Vortex Hotel",
-      "Description": "New experience in the Making. Be the first to experience the luxury of the Twin Vortex. Reserve one of our newly-renovated guest rooms today.",
+      "Description": "New experience in the making. Be the first to experience the luxury of the Twin Vortex. Reserve one of our newly-renovated guest rooms today.",
       "Description_fr": "Nouvelle expérience dans la fabrication. Soyez les premiers à découvrir le luxe du Twin vortex. Réservez une de nos chambres récemment rénovées aujourd'hui.",
       "Category": "Luxury",
       "Tags": [ "bar", "restaurant", "concierge" ],
@@ -1281,8 +1281,8 @@
     {
       "HotelId": "16",
       "HotelName": "Double Sanctuary Resort",
-      "Description": "5* Luxury Hotel - Biggest Rooms in the city.  #1 Hotel in the area listed by Conde Nast Traveler. Free WiFi, Flexible check in\/out, Fitness Center & Nespresso in room.",
-      "Description_fr": "5 * hôtel de luxe-plus grandes chambres de la ville.  #1 hôtel dans les environs énumérés par Conde Nast Traveler. WiFi gratuit, Check-in\/out flexible, centre de fitness et Nespresso dans la chambre.",
+      "Description": "5* Luxury Hotel - Biggest Rooms in the city. #1 Hotel in the area listed by Traveler magazine. Free WiFi, Flexible check in\/out, Fitness Center & espresso in room.",
+      "Description_fr": "5 * hôtel de luxe-plus grandes chambres de la ville.  #1 hôtel dans les environs énumérés par Traveler magazine. WiFi gratuit, Check-in\/out flexible, centre de fitness et espresso dans la chambre.",
       "Category": "Resort and Spa",
       "Tags": [ "view", "pool", "restaurant", "bar", "continental breakfast" ],
       "ParkingIncluded": true,
@@ -3479,8 +3479,8 @@
     {
       "HotelId": "27",
       "HotelName": "Starlight Suites",
-      "Description": "Complimentary Airport Shuttle & WiFi. Book Now and save - Spacious All Suite Hotel, Indoor Outdoor Pool, Fitness Center, Florida Green certified, Starbucks Coffee, HDTV",
-      "Description_fr": "Navette aéroport gratuite et WiFi. Réservez maintenant et économisez-spacieux All Suite Hotel, piscine couverte extérieure, centre de fitness, Florida Green Certified, Starbucks Coffee, HDTV",
+      "Description": "Complimentary Airport Shuttle & WiFi. Book Now and save - Spacious All Suite Hotel, Indoor Outdoor Pool, Fitness Center, Florida Green certified, Complimentary Coffee, HDTV",
+      "Description_fr": "Navette aéroport gratuite et WiFi. Réservez maintenant et économisez-spacieux All Suite Hotel, piscine couverte extérieure, centre de fitness, Florida Green Certified, Complimentary Coffee, HDTV",
       "Category": "Suite",
       "Tags": [ "pool", "coffee in lobby", "free wifi" ],
       "ParkingIncluded": true,
@@ -5765,9 +5765,8 @@
     {
       "HotelId": "4",
       "HotelName": "Sublime Palace Hotel",
-      "Description": "Sublime Palace Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Palace is part of a lovingly restored 1800 palace.",
-      "Description_fr": "Le sublime Palace Hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Palace fait partie d'un Palace 1800 restauré avec amour.",
-      "Category": "Boutique",
+      "Description": "Sublime Cliff Hotel is located in the heart of the historic center of Sublime in an extremely vibrant and lively area within short walking distance to the sites and landmarks of the city and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. Sublime Cliff is part of a lovingly restored 19th century resort, updated for every modern convenience.",
+      "Description_fr": "Le sublime Cliff Hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Cliff fait partie d'un complexe du 19ème siècle restauré avec amour, mis à jour pour tout le confort moderne.",      "Category": "Boutique",
       "Tags": [ "concierge", "view", "air conditioning" ],
       "ParkingIncluded": true,
       "LastRenovationDate": "2016-02-06T00:00:00Z",
@@ -7628,8 +7627,8 @@
     {
       "HotelId": "5",
       "HotelName": "Red Tide Hotel",
-      "Description": "On entering this charming hotel in Scarlet Harbor, you will immediately sense its special intimate atmosphere that makes you feel like being in your own home. Each detail has been passionately chosen and each room deserves a visit. The style mixes valuable antiques and original artworks with an unexpected eclectic contemporary twist. The entire hotel recalls times past where young aristocrats lived while discovering the beauty and the artistic mysteries of the area.",
-      "Description_fr": "En entrant dans cet hôtel de charme à Scarlet Harbor, vous sentirez immédiatement son atmosphère intime particulière qui vous donne l'impression d'être dans votre propre maison. Chaque détail a été choisi avec passion et chaque chambre mérite une visite. Le style mêle antiquités précieuses et des œuvres originales avec une inattendue contemporaine éclectique Twist. Tout l'hôtel rappelle les temps passés où les jeunes aristocrates vivaient tout en découvrant la beauté et les mystères artistiques de la région.",
+      "Description": "On entering this charming hotel in Scarlet Harbor, you'll notice an uncommon blend of antiques, original artwork, and contemporary comforts that give this hotel its signature look. Each suite is furnished to accentuate the views and unique characteristics of the building's classic architecture. No two suites are alike. However, all guests are welcome in the mezzanine plaza, the surrounding gardens, and the northside terrace for evening refreshments.",
+      "Description_fr": "En entrant dans ce charmant hôtel de Scarlet Harbor, vous remarquerez un mélange rare d'antiquités, d'œuvres d'art originales et de confort contemporain qui donnent à cet hôtel son look signature. Chaque suite est meublée pour accentuer les vues et les caractéristiques uniques de l'architecture classique du bâtiment. Il n'y a pas deux suites identiques. Cependant, tous les invités sont les bienvenus sur la place mezzanine, dans les jardins environnants et sur la terrasse côté nord pour des rafraîchissements en soirée.",
       "Category": "Boutique",
       "Tags": [ "24-hour front desk service", "bar", "free parking" ],
       "ParkingIncluded": true,
@@ -7782,8 +7781,8 @@
     {
       "HotelId": "50",
       "HotelName": "Head Wind Resort",
-      "Description": "The hotel rooms and suites offer the perfect blend of beauty and elegance. Our rooms will elevate your stay, whether you're traveling for business, celebrating a honeymoon, or just looking for a remarkable getaway. With views of the valley or the iconic fountains right from your suite, your stay will be nothing short of unforgettable.",
-      "Description_fr": "Les chambres et suites de l'hôtel offrent un mélange parfait de beauté et d'élégance. Nos chambres élèveront votre séjour, que vous voyagiez pour affaires, pour célébrer une lune de miel, ou tout simplement à la recherche d'une escapade remarquable. Avec une vue sur la vallée ou les fontaines emblématiques de votre suite, votre séjour sera tout à fait inoubliable.",
+      "Description": "The best of old town hospitality, with views of the river and winds from the prairie. Our penthouse suites offer views for miles and the rooftop plaza is open to all guests from sunset to 10 p.m. Enjoy a complimentary continental breakfast in the lobby, and free Wi-Fi throughout the hotel.",
+      "Description_fr": "Le meilleur de l'hospitalité de la vieille ville, avec vue sur la rivière et les vents de la prairie. Nos suites de haut niveau offrent des vues à des milliers de personnes et la place sur le toit est ouverte à tous les clients du coucher du soleil à 22 heures. Profitez d'un petit-déjeuner continental gratuit dans le hall et d'une connexion Wi-Fi gratuite dans tout l'hôtel.",
       "Category": "Suite",
       "Tags": [ "coffee in lobby", "free wifi", "view" ],
       "ParkingIncluded": true,
