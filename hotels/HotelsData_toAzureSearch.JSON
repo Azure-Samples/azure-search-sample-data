@@ -3,8 +3,8 @@
     {
       "HotelId": "1",
       "HotelName": "Stay For Days Hotel",
-      "Description": "This classic hotel is ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Time's Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
-      "Description_fr": "Cet hôtel classique est idéalement situé sur la principale artère commerciale de la ville en plein cœur de New York. A quelques minutes se trouve la place du temps et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attractives et cosmopolites de l'Amérique.",
+      "Description": "This classic hotel is ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Times Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
+      "Description_fr": "Cet hôtel classique est idéalement situé sur la principale artère commerciale de la ville, au cœur de New York. A quelques minutes se trouvent Times Square et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attractives et cosmopolites d'Amérique.",
       "Category": "Boutique",
       "Tags": [ "view", "air conditioning", "concierge" ],
       "ParkingIncluded": false,
@@ -6440,7 +6440,7 @@
     {
       "HotelId": "43",
       "HotelName": "Johnson's Family Resort",
-      "Description": "Family oriented resort located in the heart of the northland. Operated since 1962 by the Smith family, we have grown into one of the largest family resorts in the state. The home of excellent Smallmouth Bass fishing with 10 small cabins, we're a home not only to fishermen but their families as well. Rebuilt in the early 2000's, all of our cabins have all the comforts of home. Sporting a huge beach with multiple water toys for those sunny summer days and a Lodge full of games for when you just can't swim anymore, there's always something for the family to do. A full marina offers watercraft rentals, boat launch, powered dock slips, canoes (free to use), & fish cleaning facility. Rent pontoons, 14' fishing boats, 16' fishing rigs or jet ski's for a fun day or week on the water.",
+      "Description": "Family oriented resort located in the heart of the northland. Operated since 1962 by the Smith family, we have grown into one of the largest family resorts in the state. The home of excellent Smallmouth Bass fishing with 10 small cabins, we're a home not only to fishermen but their families as well. Rebuilt in the early 2000's, all of our cabins have all the comforts of home. Sporting a huge beach with multiple water toys for those sunny summer days and a Lodge full of games for when you just can't swim anymore, there's always something for the family to do. A full marina offers watercraft rentals, boat launch, powered dock slips, canoes (free to use), & fish cleaning facility. Rent pontoons, 14' fishing boats, 16' fishing rigs or jet ski's for a fun day or week on the water. Pets are accepted in the lakeside cottages.",
       "Description_fr": "Resort familial situé au cœur de la Northland. Opéré depuis 1962 par la famille Smith, nous sommes devenus l'une des plus grandes stations familiales de l'État. La maison de la pêche à l'achigan à petite bouche excellente avec 10 petites cabanes, nous sommes une maison non seulement pour les pêcheurs, mais aussi leurs familles. Reconstruites au début des années 2000, toutes nos cabines ont été construites avec tout le confort de la maison. Arborant une immense plage avec des jouets d'eau multiples pour ces jours ensoleillés d'été et un Lodge plein de jeux pour quand vous ne pouvez pas nager plus, il ya toujours quelque chose pour la famille à faire. UNE marina complète offre la location de motomarines, le lancement de bateaux, des bordereaux d'amarrage, des canoës (libres d'utilisation), et des installations de nettoyage de poissons. Louez des pontons, 14 'bateaux de pêche, 16 'plates-formes de pêche ou jet ski pour une journée ou une semaine de plaisir sur l'eau.",
       "Category": "Resort and Spa",
       "Tags": [ "24-hour front desk service", "pool", "coffee in lobby" ],
@@ -7781,7 +7781,7 @@
     {
       "HotelId": "50",
       "HotelName": "Head Wind Resort",
-      "Description": "The best of old town hospitality, with views of the river and winds from the prairie. Our penthouse suites offer views for miles and the rooftop plaza is open to all guests from sunset to 10 p.m. Enjoy a complimentary continental breakfast in the lobby, and free Wi-Fi throughout the hotel.",
+      "Description": "The best of old town hospitality combined with views of the river and cool breezes off the prairie. Our penthouse suites offer views for miles and the rooftop plaza is open to all guests from sunset to 10 p.m. Enjoy a complimentary continental breakfast in the lobby, and free Wi-Fi throughout the hotel.",
       "Description_fr": "Le meilleur de l'hospitalité de la vieille ville, avec vue sur la rivière et les vents de la prairie. Nos suites de haut niveau offrent des vues à des milliers de personnes et la place sur le toit est ouverte à tous les clients du coucher du soleil à 22 heures. Profitez d'un petit-déjeuner continental gratuit dans le hall et d'une connexion Wi-Fi gratuite dans tout l'hôtel.",
       "Category": "Suite",
       "Tags": [ "coffee in lobby", "free wifi", "view" ],
@@ -8373,7 +8373,7 @@
     {
       "HotelId": "8",
       "HotelName": "Foot Happy Suites",
-      "Description": "Downtown in the heart of the business district. Close to everything. Leave your car behind and walk to the park, shopping, and restaurants.",
+      "Description": "Downtown in the heart of the business district. Close to everything. Leave your car behind and walk to the park, shopping, and restaurants. Or grab one of our bikes and take your explorations a little further.",
       "Description_fr": "Centre-ville au coeur du quartier des affaires. Proche de tout. Laissez votre voiture derrière vous et marchez vers le parc, les magasins et les restaurants.",
       "Category": "Suite",
       "Tags": [ "free wifi", "continental breakfast", "air conditioning" ],
