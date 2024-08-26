@@ -43,7 +43,7 @@ PDFs containing fictitious health plan data for Northwind and Contoso.
 
 ## Hotels data
 
-The Hotels folder contains fictitious demo data for quickstarts, tutorials, and code examples. This is the default data set for many Azure AI Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier.
+The Hotels folder contains fictitious demo data for quickstarts, tutorials, and code examples. We used Azure OpenAI GPT-35-turbo to generate a portion of the data. Any resemblence to actual hotels or related businesses is unintentional. This is the default data set for many Azure AI Search samples. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier. 
 
 Hotels demo data is provided in multiple formats to support different consumption models. The data is identical regardless of how you load it. Data files are in JSON, but there are several versions depending on whether you are uploading it Azure Cosmos DB or pushing it to an index in Azure AI Search. 
 

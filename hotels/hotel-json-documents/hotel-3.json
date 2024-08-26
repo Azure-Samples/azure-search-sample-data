@@ -1,10 +1,10 @@
 {
   "HotelId": "3",
-  "HotelName": "Triple Landscape Hotel",
+  "HotelName": "Gastronomic Landscape Hotel",
   "Description": "The Triple L Hotel stands out for its gastronomic excellence under the management of William Dough, who advises on and oversees all of the Hotel’s restaurant services.",
   "Description_fr": "L'hôtel Triple L se distingue par son excellence gastronomique sous la direction de William Dough, qui conseille et supervise tous les services de restauration de l'hôtel.",
   "Category": "Suite",
-  "Tags": [ "restuarant", "bar", "continental breakfast" ],
+  "Tags": [ "restaurant", "bar", "continental breakfast" ],
   "ParkingIncluded": true,
   "LastRenovationDate": "2015-09-20T00:00:00Z",
   "Rating": 4.80,
