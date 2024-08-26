@@ -1,12 +1,12 @@
 {
   "HotelId": "1",
-  "HotelName": "Secret Point Hotel",
-  "Description": "This classic hotel is ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Time's Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
-  "Description_fr": "Cet hôtel classique est idéalement situé sur la principale artère commerciale de la ville en plein cœur de New York. A quelques minutes se trouve la place du temps et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attractives et cosmopolites de l'Amérique.",
-  "Category": "Boutique",
+  "HotelName": "Stay-Kay City Hotel",
+  "Description": "This classic hotel is fully-refurbished and ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Times Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
+  "Description_fr": "Cet hôtel classique entièrement rénové est idéalement situé sur l'artère commerçante principale de la ville, au cœur de New York. À quelques minutes se trouvent Times Square et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attrayantes et cosmopolites d'Amérique.",
+   "Category": "Boutique",
   "Tags": [ "view", "air conditioning", "concierge" ],
   "ParkingIncluded": false,
-  "LastRenovationDate": "2017-01-18T00:00:00Z",
+  "LastRenovationDate": "2022-01-18T00:00:00Z",
   "Rating": 3.60,
   "Address": {
     "StreetAddress": "677 5th Ave",

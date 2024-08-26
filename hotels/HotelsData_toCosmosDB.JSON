@@ -1,13 +1,13 @@
 [
   {
     "HotelId": "1",
-    "HotelName": "Stay For Days Hotel",
-    "Description": "This classic hotel is ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Times Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
-    "Description_fr": "Cet hôtel classique est idéalement situé sur la principale artère commerciale de la ville, au cœur de New York. A quelques minutes se trouvent Times Square et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attractives et cosmopolites d'Amérique.",
+    "HotelName": "Stay-Kay City Hotel",
+    "Description": "This classic hotel is fully-refurbished and ideally located on the main commercial artery of the city in the heart of New York. A few minutes away is Times Square and the historic centre of the city, as well as other places of interest that make New York one of America's most attractive and cosmopolitan cities.",
+    "Description_fr": "Cet hôtel classique entièrement rénové est idéalement situé sur l'artère commerçante principale de la ville, au cœur de New York. À quelques minutes se trouvent Times Square et le centre historique de la ville, ainsi que d'autres lieux d'intérêt qui font de New York l'une des villes les plus attrayantes et cosmopolites d'Amérique.",
     "Category": "Boutique",
     "Tags": [ "view", "air conditioning", "concierge" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2017-01-18T00:00:00Z",
+    "LastRenovationDate": "2022-01-18T00:00:00Z",
     "Rating": 3.60,
     "Address": {
       "StreetAddress": "677 5th Ave",
@@ -161,7 +161,7 @@
     "Category": "Extended-Stay",
     "Tags": [ "24-hour front desk service", "laundry service", "free wifi" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2009-09-06T00:00:00Z",
+    "LastRenovationDate": "2019-09-06T00:00:00Z",
     "Rating": 2.70,
     "Address": {
       "StreetAddress": "6910 Fayetteville Rd",
@@ -305,7 +305,7 @@
     "Category": "Extended-Stay",
     "Tags": [ "free wifi", "free parking", "24-hour front desk service" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2020-11-26T00:00:00Z",
+    "LastRenovationDate": "2023-11-26T00:00:00Z",
     "Rating": 2.50,
     "Address": {
       "StreetAddress": "22422 29th Dr SE",
@@ -479,7 +479,7 @@
     "Category": "Resort and Spa",
     "Tags": [ "restaurant", "bar", "pool" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2008-09-16T00:00:00Z",
+    "LastRenovationDate": "2022-09-16T00:00:00Z",
     "Rating": 4.50,
     "Address": {
       "StreetAddress": "9025 SW Hillman Ct",
@@ -688,12 +688,12 @@
   {
     "HotelId": "13",
     "HotelName": "Luxury Lion Resort",
-    "Description": "Unmatched Luxury. Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort.",
-    "Description_fr": "Un luxe inégalé. Visitez notre hôtel du centre-ville pour vous adonner à des hébergements luxueux. Moments du stade, nous vous présentons le meilleur dans le confort",
+    "Description": "Unmatched Luxury. Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium and transportation hubs, we feature the best in convenience and comfort.",
+    "Description_fr": "Un luxe incomparable. Visitez notre hôtel du centre-ville pour profiter d'un hébergement de luxe. À quelques minutes du stade et des centres de transport, nous vous proposons le meilleur en matière de commodité et de confort.",
     "Category": "Luxury",
     "Tags": [ "bar", "concierge", "restaurant" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2016-03-18T00:00:00Z",
+    "LastRenovationDate": "2020-03-18T00:00:00Z",
     "Rating": 4.10,
     "Address": {
       "StreetAddress": "3 Cityplace Dr",
@@ -887,7 +887,7 @@
     "Category": "Luxury",
     "Tags": [ "bar", "restaurant", "concierge" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2020-11-14T00:00:00Z",
+    "LastRenovationDate": "2023-11-14T00:00:00Z",
     "Rating": 4.40,
     "Address": {
       "StreetAddress": "1950 N Stemmons Fw",
@@ -1085,13 +1085,13 @@
   },
   {
     "HotelId": "15",
-    "HotelName": "Near the Market Hotel",
-    "Description": "Book now and Save up to 30%. Central location. Steps from Empire State Building & Times Square, in Chelsea neighborhood. Brand new rooms. Impeccable service.",
+    "HotelName": "By the Market Hotel",
+    "Description": "Book now and Save up to 30%. Central location. Walking distance from the Empire State Building & Times Square, in the Chelsea neighborhood. Brand new rooms. Impeccable service.",
     "Description_fr": "Réservez dès maintenant et économisez jusqu'à 30%. Emplacement central. A quelques pas de l'Empire State Building & Times Square, dans le quartier de Chelsea. Chambres flambant neuves. Service impeccable.",
     "Category": "Budget",
     "Tags": [ "coffee in lobby", "free wifi", "24-hour front desk service" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2013-10-30T00:00:00Z",
+    "LastRenovationDate": "2023-10-30T00:00:00Z",
     "Rating": 3.30,
     "Address": {
       "StreetAddress": "11 Times Sq",
@@ -1280,8 +1280,8 @@
   {
     "HotelId": "16",
     "HotelName": "Double Sanctuary Resort",
-    "Description": "5* Luxury Hotel - Biggest Rooms in the city. #1 Hotel in the area listed by Traveler magazine. Free WiFi, Flexible check in\/out, Fitness Center & espresso in room.",
-    "Description_fr": "5 * hôtel de luxe-plus grandes chambres de la ville.  #1 hôtel dans les environs énumérés par Traveler magazine. WiFi gratuit, Check-in\/out flexible, centre de fitness et espresso dans la chambre.",
+    "Description": "5 star Luxury Hotel - Biggest Rooms in the city. #1 Hotel in the area listed by Traveler magazine. Free WiFi, Flexible check in\/out, Fitness Center & espresso in room.",
+    "Description_fr": "5 star hôtel de luxe-plus grandes chambres de la ville.  #1 hôtel dans les environs énumérés par Traveler magazine. WiFi gratuit, Check-in\/out flexible, centre de fitness et espresso dans la chambre.",
     "Category": "Resort and Spa",
     "Tags": [ "view", "pool", "restaurant", "bar", "continental breakfast" ],
     "ParkingIncluded": true,
@@ -1698,8 +1698,8 @@
   {
     "HotelId": "18",
     "HotelName": "Ocean Water Resort & Spa",
-    "Description": "New Luxury Hotel. Be the first to stay. Bay views from every room, location near the pier, rooftop pool, waterfront dining & more.",
-    "Description_fr": "Nouvel hôtel de luxe. Soyez le premier à rester. Vue sur la baie de chaque pièce, emplacement près de la jetée, piscine sur le toit, restaurant au bord de l'eau et plus.",
+    "Description": "New Luxury Hotel for the vacation of a lifetime. Bay views from every room, location near the pier, rooftop pool, waterfront dining & more.",
+    "Description_fr": "Nouvel hôtel de luxe pour des vacances inoubliables. Vue sur la baie depuis chaque chambre, emplacement près de la jetée, piscine sur le toit, restaurant au bord de l'eau et plus encore.",
     "Category": "Luxury",
     "Tags": [ "view", "pool", "restaurant" ],
     "ParkingIncluded": true,
@@ -2055,7 +2055,7 @@
   },
   {
     "HotelId": "2",
-    "HotelName": "Nineteenth Century Plaza Motel",
+    "HotelName": "Old Century Hotel",
     "Description": "The hotel is situated in a nineteenth century plaza, which has been expanded and renovated to the highest architectural standards to create a modern, functional and first-class hotel in which art and unique historical elements coexist with the most modern comforts. The hotel also regularly hosts events like wine tastings, beer dinners, and live music.",
     "Description_fr": "L'hôtel est situé sur une place du XIXe siècle, qui a été agrandie et rénovée selon les normes architecturales les plus élevées pour créer un hôtel moderne, fonctionnel et de première classe dans lequel l'art et des éléments historiques uniques coexistent avec le confort le plus moderne. L'hôtel accueille également régulièrement des événements tels que des dégustations de vins, des dîners de bière et de la musique live.",
     "Category": "Boutique",
@@ -2165,7 +2165,7 @@
     "Category": "Resort and Spa",
     "Tags": [ "continental breakfast", "bar", "pool" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2014-10-31T00:00:00Z",
+    "LastRenovationDate": "2021-10-31T00:00:00Z",
     "Rating": 4.20,
     "Address": {
       "StreetAddress": "3400 Menaul Blvd NE",
@@ -2369,7 +2369,7 @@
     "Category": "Suite",
     "Tags": [ "pool", "continental breakfast", "free parking" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2003-10-19T00:00:00Z",
+    "LastRenovationDate": "2021-10-19T00:00:00Z",
     "Rating": 3.60,
     "Address": {
       "StreetAddress": "4400 Ashford Dunwoody Rd NE",
@@ -3135,7 +3135,7 @@
     "Category": "Suite",
     "Tags": [ "24-hour front desk service", "continental breakfast", "free wifi" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2009-06-25T00:00:00Z",
+    "LastRenovationDate": "2019-06-25T00:00:00Z",
     "Rating": 3.80,
     "Address": {
       "StreetAddress": "3301 Veterans Memorial Blvd",
@@ -3349,7 +3349,7 @@
     "Category": "Extended-Stay",
     "Tags": [ "free parking", "free wifi", "laundry service" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2012-06-02T00:00:00Z",
+    "LastRenovationDate": "2022-06-02T00:00:00Z",
     "Rating": 3.20,
     "Address": {
       "StreetAddress": "9255 Towne Centre Dr",
@@ -3483,7 +3483,7 @@
     "Category": "Suite",
     "Tags": [ "pool", "coffee in lobby", "free wifi" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2007-04-23T00:00:00Z",
+    "LastRenovationDate": "2017-04-23T00:00:00Z",
     "Rating": 4.20,
     "Address": {
       "StreetAddress": "19575 Biscayne Blvd",
@@ -3766,7 +3766,7 @@
   {
     "HotelId": "29",
     "HotelName": "Treehouse Hotel",
-    "Description": "Stay in the heart of downtown near the business district. Experience the warmth of our hotel. Enjoy free WiFi, local transportation and Milk & Cookies.",
+    "Description": "Near the beating heart of our vibrant downtown and bustling business district. Experience the warmth of our hotel. Enjoy free WiFi, local transportation and Milk & Cookies.",
     "Description_fr": "Séjournez au cœur du centre-ville près du quartier des affaires. Vivez la chaleur de notre hôtel. Profitez du WiFi gratuit, du transport local et du lait et des biscuits.",
     "Category": "Budget",
     "Tags": [ "free wifi", "coffee in lobby", "free parking" ],
@@ -3873,7 +3873,7 @@
     "Description": "The Gastronomic Hotel stands out for its culinary excellence under the management of William Dough, who advises on and oversees all of the Hotel’s restaurant services.",
     "Description_fr": "L'hôtel Gastronomic  se distingue par son excellence gastronomique sous la direction de William Dough, qui conseille et supervise tous les services de restauration de l'hôtel.",
     "Category": "Suite",
-    "Tags": [ "restuarant", "bar", "continental breakfast" ],
+    "Tags": [ "restaurant", "bar", "continental breakfast" ],
     "ParkingIncluded": true,
     "LastRenovationDate": "2015-09-20T00:00:00Z",
     "Rating": 4.80,
@@ -4188,7 +4188,7 @@
   {
     "HotelId": "31",
     "HotelName": "Country Residence Hotel",
-    "Description": "All of the suites feature full-sized kitchens stocked with cookware, separate living and sleeping areas and sofa beds. Some of the larger rooms have fireplaces. Experience real country hospitality in the heart of bustling Nashville. The most vibrant music scene in the world is just outside your front door.",
+    "Description": "All of the suites feature full-sized kitchens stocked with cookware, separate living and sleeping areas and sofa beds. Some of the larger rooms have fireplaces and patios or balconies. Experience real country hospitality in the heart of bustling Nashville. The most vibrant music scene in the world is just outside your front door.",
     "Description_fr": "Toutes les suites disposent d'une cuisine pleine grandeur équipée d'ustensiles de cuisine, de coins salon et chambre séparés et de canapés-lits. Certaines des plus grandes chambres ont des cheminées. Découvrez la véritable hospitalité campagnarde au cœur de la ville animée de Nashville. La scène musicale la plus vibrante du monde est juste devant votre porte.",
     "Category": "Extended-Stay",
     "Tags": [ "laundry service", "restaurant", "free parking" ],
@@ -4407,7 +4407,7 @@
     "Category": "Suite",
     "Tags": [ "continental breakfast", "free parking", "pool" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2011-01-31T00:00:00Z",
+    "LastRenovationDate": "2021-01-31T00:00:00Z",
     "Rating": 2.80,
     "Address": {
       "StreetAddress": "1414 NW Northrup St",
@@ -4491,7 +4491,7 @@
     "Category": "Budget",
     "Tags": [ "coffee in lobby", "free parking", "free wifi" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2014-01-30T00:00:00Z",
+    "LastRenovationDate": "2018-01-30T00:00:00Z",
     "Rating": 4.40,
     "Address": {
       "StreetAddress": "1555 Broadway St",
@@ -4879,7 +4879,7 @@
     "Category": "Extended-Stay",
     "Tags": [ "laundry service", "view", "24-hour front desk service" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2018-01-19T00:00:00Z",
+    "LastRenovationDate": "2024-01-19T00:00:00Z",
     "Rating": 4,
     "Address": {
       "StreetAddress": "11025 NE 8th St",
@@ -5063,7 +5063,7 @@
     "Category": "Luxury",
     "Tags": [ "bar", "pool", "24-hour front desk service" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2015-10-31T00:00:00Z",
+    "LastRenovationDate": "2023-10-31T00:00:00Z",
     "Rating": 3.50,
     "Address": {
       "StreetAddress": "6465 N Quail Hollow Rd",
@@ -5202,12 +5202,12 @@
   {
     "HotelId": "37",
     "HotelName": "Campus Commander Hotel",
-    "Description": "Right in the heart of campus. From meetings in town or gameday, enjoy our prime location between the union and steps away from the stadium.",
-    "Description_fr": "En plein cœur du campus. Des réunions en ville ou Gameday, profitez de notre emplacement privilégié entre l'Union et à quelques pas du stade.",
+    "Description": "Easy access to campus and steps away from the best shopping corridor in the city. From meetings in town or gameday, enjoy our prime location between the union and proximity to the university stadium.",
+    "Description_fr": "Accès facile au campus et à quelques pas du meilleur couloir commercial de la ville. Que ce soit pour des réunions en ville ou un jour de match, profitez de notre emplacement privilégié entre le syndicat et la proximité du stade universitaire.",
     "Category": "Budget",
     "Tags": [ "free parking", "coffee in lobby", "24-hour front desk service" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "2014-02-24T00:00:00Z",
+    "LastRenovationDate": "2022-02-24T00:00:00Z",
     "Rating": 2.80,
     "Address": {
       "StreetAddress": "2045 Lafayette St",
@@ -5416,7 +5416,7 @@
   {
     "HotelId": "38",
     "HotelName": "Lakeside B & B",
-    "Description": "Nature is Home on the beach. Explore the shore by day, and then come home to our shared living space to relax around a stone fireplace, sip something warm, and explore the library by night. Save up to 30 percent. Valid Now through the end of the year. Restrictions and blackout may apply.",
+    "Description": "Nature is Home on the beach. Explore the shore by day, and then come home to our shared living space to relax around a stone fireplace, sip something warm, and explore the library by night. Save up to 30 percent. Valid Now through the end of the year. Restrictions and blackouts may apply.",
     "Description_fr": "La nature est à la maison sur la plage. Explorez le rivage le jour, puis rentrez chez vous dans notre espace de vie commun pour vous détendre autour d'une cheminée en pierre, siroter quelque chose de chaud et explorer la bibliothèque la nuit. Économisez jusqu'à 30%. Valide maintenant jusqu'à la fin de l'année. Des restrictions et une panne peuvent s'appliquer.",
     "Category": "Boutique",
     "Tags": [ "laundry service", "concierge", "free parking" ],
@@ -5570,12 +5570,12 @@
   {
     "HotelId": "39",
     "HotelName": "White Mountain Lodge & Suites",
-    "Description": "Located on in the heart of the forest. Enjoy Warm Weather, Beach Club Services, Natural Hot Springs, and our signature hot stone massage in the Cathedral of Firs. Relax in the meditation gardens, or join new friends around the communal firepit. Weekend evening entertainment on the patio features special guest musicians or poetry readings.",
-    "Description_fr": "Situé au coeur de la forêt. Profitez du temps chaud, des services du club de plage, des sources chaudes naturelles et de notre massage aux pierres chaudes dans la cathédrale des sapins. Détendez-vous dans les jardins de méditation ou rejoignez de nouveaux amis autour du foyer commun. Le week-end, les animations en soirée sur la terrasse comprennent des musiciens invités spéciaux ou des lectures de poésie.",
+    "Description": "Live amongst the trees in the heart of the forest. Hike along our extensive trail system. Visit the Natural Hot Springs, or enjoy our signature hot stone massage in the Cathedral of Firs. Relax in the meditation gardens, or join new friends around the communal firepit. Weekend evening entertainment on the patio features special guest musicians or poetry readings.",
+    "Description_fr": "Vivez parmi les arbres au cœur de la forêt. Parcourez notre vaste réseau de sentiers. Visitez les sources chaudes naturelles ou profitez de notre massage signature aux pierres chaudes dans la cathédrale des sapins. Détendez-vous dans les jardins de méditation ou rejoignez de nouveaux amis autour du foyer commun. Les divertissements du week-end en soirée sur la terrasse comprennent des musiciens invités spéciaux ou des lectures de poésie.",
     "Category": "Resort and Spa",
     "Tags": [ "continental breakfast", "pool", "restaurant" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2002-05-14T00:00:00Z",
+    "LastRenovationDate": "2022-05-14T00:00:00Z",
     "Rating": 2.40,
     "Address": {
       "StreetAddress": "3000 E 1st Ave,",
@@ -5768,7 +5768,7 @@
     "Description_fr": "Le sublime Cliff Hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Cliff fait partie d'un complexe du 19ème siècle restauré avec amour, mis à jour pour tout le confort moderne.",      "Category": "Boutique",
     "Tags": [ "concierge", "view", "air conditioning" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2016-02-06T00:00:00Z",
+    "LastRenovationDate": "2020-02-06T00:00:00Z",
     "Rating": 4.60,
     "Address": {
       "StreetAddress": "7400 San Pedro Ave",
@@ -6086,7 +6086,7 @@
     "Category": "Suite",
     "Tags": [ "pool", "air conditioning", "bar" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2015-05-10T00:00:00Z",
+    "LastRenovationDate": "2021-05-10T00:00:00Z",
     "Rating": 3.50,
     "Address": {
       "StreetAddress": "1450 Ala Moana Blvd 2238 Ala Moana Ctr",
@@ -6658,7 +6658,7 @@
     "Category": "Budget",
     "Tags": [ "24-hour front desk service", "continental breakfast", "free wifi" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2016-07-12T00:00:00Z",
+    "LastRenovationDate": "2019-07-12T00:00:00Z",
     "Rating": 2.70,
     "Address": {
       "StreetAddress": "3401 Nicholasville Rd",
@@ -6946,7 +6946,7 @@
     "Category": "Budget",
     "Tags": [ "continental breakfast", "free wifi", "24-hour front desk service" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2006-02-07T00:00:00Z",
+    "LastRenovationDate": "2019-02-07T00:00:00Z",
     "Rating": 3.60,
     "Address": {
       "StreetAddress": "1 Memorial Dr",
@@ -7294,7 +7294,7 @@
     "Category": "Boutique",
     "Tags": [ "continental breakfast", "air conditioning", "free parking" ],
     "ParkingIncluded": false,
-    "LastRenovationDate": "1998-02-19T00:00:00Z",
+    "LastRenovationDate": "2018-02-19T00:00:00Z",
     "Rating": 4.50,
     "Address": {
       "StreetAddress": "1401 I St NW",
@@ -7401,13 +7401,13 @@
   },
   {
     "HotelId": "49",
-    "HotelName": "Historic Cowboy Hotel",
+    "HotelName": "Swirling Currents Hotel",
     "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping, dining, entertainment and the city center. Each room comes equipped with a microwave, a coffee maker and a minifridge. In-room entertainment includes complimentary W-Fi and flat-screen TVs. ",
     "Description_fr": "Chambres spacieuses, suites et résidences glamour, piscine sur le toit, accès à pied aux commerces, restaurants, divertissements et centre-ville. Chaque chambre est équipée d'un four micro-ondes, d'une cafetière et d'un mini-réfrigérateur. Les divertissements en chambre comprennent une connexion Wi-Fi gratuite et une télévision à écran plat.",
     "Category": "Suite",
     "Tags": [ "air conditioning", "laundry service", "24-hour front desk service" ],
     "ParkingIncluded": true,
-    "LastRenovationDate": "2013-01-27T00:00:00Z",
+    "LastRenovationDate": "2018-01-27T00:00:00Z",
     "Rating": 2.70,
     "Address": {
       "StreetAddress": "1100 S Hayes St",
