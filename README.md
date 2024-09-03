@@ -1,5 +1,7 @@
 # Azure AI Search Sample Data
 
+สวัสดีครับ
+
 This repository contains data files used in Azure AI Search quickstarts, tutorials, and examples. Each folder represents a different sample data set. Most sample data is used for [indexer](https://docs.microsoft.com/azure/search/search-indexer-overview) and [AI enrichment](https://docs.microsoft.com/azure/search/cognitive-search-concept-intro) scenarios and is typically uploaded to Azure Storage so that it can be accessed by an indexer.
 
 + [ai-enrichment-mixed-media folder](#ai-enrichment-mixed-media)
