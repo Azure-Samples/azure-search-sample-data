@@ -256,7 +256,7 @@
 				"boost":5
 			 }
 		  ],
-		  "functionAggregation":0
+		  "functionAggregation":"sum"
 	   },
 	   {
 		  "name":"renovatedAndHighlyRated",
@@ -288,7 +288,7 @@
 				"boost":10
 			 }
 		  ],
-		  "functionAggregation":0
+		  "functionAggregation":"sum"
 	   }
 	],
 	"defaultScoringProfile":"boostByField",
@@ -311,7 +311,7 @@
 	   
 	],
 	"similarity":{
-	   "@odata.type":"#Microsoft.Azure.Search.ClassicSimilarity"
+	   "@odata.type":"#Microsoft.Azure.Search.BM25Similarity"
 	},
 	"encryptionKey":null,
 	"@odata.etag":"\"0x8D842F5970E055B\""
