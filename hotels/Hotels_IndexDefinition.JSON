@@ -67,6 +67,14 @@
 		  "retrievable":true
 	   },
 	   {
+		"name":"IsDeleted",
+		"type":"Edm.Boolean",
+		"facetable":false,
+		"filterable":true,
+		"sortable":true,
+		"retrievable":true
+	   },
+	   {
 		  "name":"LastRenovationDate",
 		  "type":"Edm.DateTimeOffset",
 		  "facetable":true,

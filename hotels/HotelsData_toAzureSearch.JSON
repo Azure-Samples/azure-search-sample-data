@@ -8,6 +8,7 @@
       "Category": "Boutique",
       "Tags": [ "view", "air conditioning", "concierge" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2022-01-18T00:00:00Z",
       "Rating": 3.60,
       "Address": {
@@ -162,6 +163,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "24-hour front desk service", "laundry service", "free wifi" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-09-06T00:00:00Z",
       "Rating": 2.70,
       "Address": {
@@ -306,6 +308,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "free wifi", "free parking", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2023-11-26T00:00:00Z",
       "Rating": 2.50,
       "Address": {
@@ -480,6 +483,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "restaurant", "bar", "pool" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2022-09-16T00:00:00Z",
       "Rating": 4.50,
       "Address": {
@@ -694,6 +698,7 @@
       "Category": "Luxury",
       "Tags": [ "bar", "concierge", "restaurant" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2020-03-18T00:00:00Z",
       "Rating": 4.10,
       "Address": {
@@ -888,6 +893,7 @@
       "Category": "Luxury",
       "Tags": [ "bar", "restaurant", "concierge" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2023-11-14T00:00:00Z",
       "Rating": 4.40,
       "Address": {
@@ -1092,6 +1098,7 @@
       "Category": "Budget",
       "Tags": [ "coffee in lobby", "free wifi", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2023-10-30T00:00:00Z",
       "Rating": 3.30,
       "Address": {
@@ -1286,6 +1293,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "view", "pool", "restaurant", "bar", "continental breakfast" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-08-05T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -1480,6 +1488,7 @@
       "Category": "Boutique",
       "Tags": [ "view", "concierge", "bar" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2015-10-10T00:00:00Z",
       "Rating": 4.50,
       "Address": {
@@ -1704,6 +1713,7 @@
       "Category": "Luxury",
       "Tags": [ "view", "pool", "restaurant" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2020-11-14T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -1868,6 +1878,7 @@
       "Category": "Budget",
       "Tags": [ "coffee in lobby", "free wifi", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-11-21T00:00:00Z",
       "Rating": 2.90,
       "Address": {
@@ -2062,6 +2073,7 @@
       "Category": "Boutique",
       "Tags": [ "pool", "free wifi", "concierge" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-02-18T00:00:00Z",
       "Rating": 3.60,
       "Address": {
@@ -2166,6 +2178,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "continental breakfast", "bar", "pool" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2021-10-31T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -2370,6 +2383,7 @@
       "Category": "Suite",
       "Tags": [ "pool", "continental breakfast", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2021-10-19T00:00:00Z",
       "Rating": 3.60,
       "Address": {
@@ -2584,6 +2598,7 @@
       "Category": "Budget",
       "Tags": [ "laundry service", "free wifi", "restaurant" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2020-09-18T00:00:00Z",
       "Rating": 3.90,
       "Address": {
@@ -2788,6 +2803,7 @@
       "Category": "Budget",
       "Tags": [ "air conditioning", "laundry service", "free wifi" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-09-16T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -3012,6 +3028,7 @@
       "Category": "Suite",
       "Tags": [ "view", "pool", "bar" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-08-25T00:00:00Z",
       "Rating": 3.50,
       "Address": {
@@ -3136,6 +3153,7 @@
       "Category": "Suite",
       "Tags": [ "24-hour front desk service", "continental breakfast", "free wifi" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-06-25T00:00:00Z",
       "Rating": 3.80,
       "Address": {
@@ -3350,6 +3368,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "free parking", "free wifi", "laundry service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2022-06-02T00:00:00Z",
       "Rating": 3.20,
       "Address": {
@@ -3484,6 +3503,7 @@
       "Category": "Suite",
       "Tags": [ "pool", "coffee in lobby", "free wifi" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-04-23T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -3578,6 +3598,7 @@
       "Category": "Luxury",
       "Tags": [ "restaurant", "view", "concierge" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-08-07T00:00:00Z",
       "Rating": 4.90,
       "Address": {
@@ -3772,6 +3793,7 @@
       "Category": "Budget",
       "Tags": [ "free wifi", "coffee in lobby", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-05-25T00:00:00Z",
       "Rating": 2.60,
       "Address": {
@@ -3876,6 +3898,7 @@
       "Category": "Suite",
       "Tags": [ "restaurant", "bar", "continental breakfast" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2015-09-20T00:00:00Z",
       "Rating": 4.80,
       "Address": {
@@ -4090,6 +4113,7 @@
       "Category": "Budget",
       "Tags": [ "restaurant", "coffee in lobby", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-08-29T00:00:00Z",
       "Rating": 4.20,
       "Address": {
@@ -4194,6 +4218,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "laundry service", "restaurant", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-10-05T00:00:00Z",
       "Rating": 2.70,
       "Address": {
@@ -4408,6 +4433,7 @@
       "Category": "Suite",
       "Tags": [ "continental breakfast", "free parking", "pool" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2021-01-31T00:00:00Z",
       "Rating": 2.80,
       "Address": {
@@ -4492,6 +4518,7 @@
       "Category": "Budget",
       "Tags": [ "coffee in lobby", "free parking", "free wifi" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-01-30T00:00:00Z",
       "Rating": 4.40,
       "Address": {
@@ -4696,6 +4723,7 @@
       "Category": "Budget",
       "Tags": [ "restaurant", "laundry service", "coffee in lobby" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-04-19T00:00:00Z",
       "Rating": 3.40,
       "Address": {
@@ -4880,6 +4908,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "laundry service", "view", "24-hour front desk service" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2024-01-19T00:00:00Z",
       "Rating": 4,
       "Address": {
@@ -5064,6 +5093,7 @@
       "Category": "Luxury",
       "Tags": [ "bar", "pool", "24-hour front desk service" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2023-10-31T00:00:00Z",
       "Rating": 3.50,
       "Address": {
@@ -5208,6 +5238,7 @@
       "Category": "Budget",
       "Tags": [ "free parking", "coffee in lobby", "24-hour front desk service" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2022-02-24T00:00:00Z",
       "Rating": 2.80,
       "Address": {
@@ -5422,6 +5453,7 @@
       "Category": "Boutique",
       "Tags": [ "laundry service", "concierge", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-06-02T00:00:00Z",
       "Rating": 4.70,
       "Address": {
@@ -5576,6 +5608,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "continental breakfast", "pool", "restaurant" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2022-05-14T00:00:00Z",
       "Rating": 2.40,
       "Address": {
@@ -5769,6 +5802,7 @@
       "Description_fr": "Le Sublime Balace hotel est situé au coeur du centre historique de sublime dans un quartier extrêmement animé et vivant, à courte distance de marche des sites et monuments de la ville et est entouré par l'extraordinaire beauté des églises, des bâtiments, des commerces et Monuments. Sublime Cliff fait partie d'un complexe du 19ème siècle restauré avec amour, mis à jour pour tout le confort moderne.",      "Category": "Boutique",
       "Tags": [ "concierge", "view", "air conditioning" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2020-02-06T00:00:00Z",
       "Rating": 4.60,
       "Address": {
@@ -5953,6 +5987,7 @@
       "Category": "Budget",
       "Tags": [ "bar", "free wifi", "restaurant" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2017-01-18T00:00:00Z",
       "Rating": 3.20,
       "Address": {
@@ -6087,6 +6122,7 @@
       "Category": "Suite",
       "Tags": [ "pool", "air conditioning", "bar" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2021-05-10T00:00:00Z",
       "Rating": 3.50,
       "Address": {
@@ -6281,6 +6317,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "view", "coffee in lobby", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-01-14T00:00:00Z",
       "Rating": 3.40,
       "Address": {
@@ -6445,6 +6482,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "24-hour front desk service", "pool", "coffee in lobby" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2002-02-21T00:00:00Z",
       "Rating": 4.80,
       "Address": {
@@ -6659,6 +6697,7 @@
       "Category": "Budget",
       "Tags": [ "24-hour front desk service", "continental breakfast", "free wifi" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-07-12T00:00:00Z",
       "Rating": 2.70,
       "Address": {
@@ -6823,6 +6862,7 @@
       "Category": "Resort and Spa",
       "Tags": [ "pool", "bar", "restaurant" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2015-05-08T00:00:00Z",
       "Rating": 3.50,
       "Address": {
@@ -6947,6 +6987,7 @@
       "Category": "Budget",
       "Tags": [ "continental breakfast", "free wifi", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2019-02-07T00:00:00Z",
       "Rating": 3.60,
       "Address": {
@@ -7161,6 +7202,7 @@
       "Category": "Extended-Stay",
       "Tags": [ "laundry service", "free wifi", "free parking", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-01-03T00:00:00Z",
       "Rating": 2.50,
       "Address": {
@@ -7295,6 +7337,7 @@
       "Category": "Boutique",
       "Tags": [ "continental breakfast", "air conditioning", "free parking" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-02-19T00:00:00Z",
       "Rating": 4.50,
       "Address": {
@@ -7408,6 +7451,7 @@
       "Category": "Suite",
       "Tags": [ "air conditioning", "laundry service", "24-hour front desk service" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-01-27T00:00:00Z",
       "Rating": 2.70,
       "Address": {
@@ -7632,6 +7676,7 @@
       "Category": "Boutique",
       "Tags": [ "24-hour front desk service", "bar", "free parking" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2011-12-07T00:00:00Z",
       "Rating": 4.10,
       "Address": {
@@ -7786,6 +7831,7 @@
       "Category": "Suite",
       "Tags": [ "coffee in lobby", "free wifi", "view" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2012-04-04T00:00:00Z",
       "Rating": 4.70,
       "Address": {
@@ -8000,6 +8046,7 @@
       "Category": "Suite",
       "Tags": [ "free wifi", "pool", "bar" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2015-03-20T00:00:00Z",
       "Rating": 3.50,
       "Address": {
@@ -8154,6 +8201,7 @@
       "Category": "Budget",
       "Tags": [ "free parking", "24-hour front desk service", "coffee in lobby" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2016-07-02T00:00:00Z",
       "Rating": 4.70,
       "Address": {
@@ -8378,6 +8426,7 @@
       "Category": "Suite",
       "Tags": [ "free wifi", "continental breakfast", "air conditioning" ],
       "ParkingIncluded": false,
+      "IsDeleted": false,
       "LastRenovationDate": "2003-07-23T00:00:00Z",
       "Rating": 4,
       "Address": {
@@ -8552,6 +8601,7 @@
       "Category": "Suite",
       "Tags": [ "view", "concierge", "bar" ],
       "ParkingIncluded": true,
+      "IsDeleted": false,
       "LastRenovationDate": "2018-07-12T00:00:00Z",
       "Rating": 4.20,
       "Address": {
