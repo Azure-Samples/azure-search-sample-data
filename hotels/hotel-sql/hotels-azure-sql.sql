@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS tbl_hotels;
 CREATE TABLE tbl_hotels
 (
     Id TINYINT PRIMARY KEY,
-    Modified DateTime NULL DEFAULT '0000-00-00 00:00:00',
+    Modified DateTime NULL DEFAULT CURRENT_TIMESTAMP,
     IsDeleted TINYINT,
     HotelName VARCHAR(40),
     Category VARCHAR(20),
