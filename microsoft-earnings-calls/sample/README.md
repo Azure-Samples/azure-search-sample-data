@@ -12,10 +12,9 @@ For Python, install [uv](https://docs.astral.sh/uv/) and Python 3.10 or later. F
 
 Both samples use `DefaultAzureCredential` from Azure Identity unless `--use-key` is specified. The search service must have [role-based access enabled](https://learn.microsoft.com/azure/search/search-security-enable-roles). The identity running the sample needs **Search Service Contributor** to create the index and **Search Index Data Contributor** to upload and query documents, assigned at the search-service scope. See [Azure AI Search roles](https://learn.microsoft.com/azure/search/search-security-rbac).
 
-For local development, sign in with a supported developer credential, such as Azure CLI. This PowerShell example uses a separate CLI configuration directory and signs in to your chosen tenant. Run it from this `sample` folder:
+For local development, sign in with Azure CLI and run either sample from this `sample` folder:
 
 ```powershell
-$env:AZURE_CONFIG_DIR = Join-Path $env:TEMP ("earnings-calls-" + [guid]::NewGuid().ToString("N"))
 az login --tenant "<tenant-id>"
 $env:AZURE_SEARCH_ENDPOINT = "https://<service-name>.search.windows.net"
 
