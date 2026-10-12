@@ -1,4 +1,1 @@
 corpus/*.txt text eol=lf
-corpus.jsonl text eol=lf
-originals/*.txt text eol=lf
-originals/*.md text eol=lf
