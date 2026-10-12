@@ -1,5 +1,5 @@
 #:package Azure.Search.Documents@11.7.0
-#:property RestoreSources=https://packagefeedproxy.microsoft.io/nuget/v3/index.json
+#:property RestoreSources=https://api.nuget.org/v3/index.json
 #:property PublishAot=false
 
 using System.Runtime.CompilerServices;

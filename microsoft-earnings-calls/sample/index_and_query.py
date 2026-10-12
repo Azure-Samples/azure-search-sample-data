@@ -3,7 +3,7 @@
 # dependencies = ["azure-search-documents==11.6.0"]
 #
 # [[tool.uv.index]]
-# url = "https://packagefeedproxy.microsoft.io/pypi/simple/"
+# url = "https://pypi.org/simple/"
 # default = true
 # ///
 

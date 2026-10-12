@@ -6,7 +6,7 @@ These two single-file samples load the adjacent `corpus/` folder into Azure AI S
 
 Use an existing Azure AI Search service with API-key authentication enabled, an admin key, and capacity for one additional index. The samples do not provision a service. A non-dry run creates a uniquely named `earnings-calls-*` index. If creation succeeds, that index remains in place, including if a later step fails. Existing indexes are not updated or deleted. Service charges may apply; delete the printed index in the Azure portal when finished.
 
-For Python, install [uv](https://docs.astral.sh/uv/) and Python 3.10 or later. For C#, install the [.NET 10 SDK or later](https://learn.microsoft.com/dotnet/core/sdk/file-based-apps). Dependencies are declared inside each file and restored from Microsoft's package-feed proxy; no project file or separate dependency manifest is needed.
+For Python, install [uv](https://docs.astral.sh/uv/) and Python 3.10 or later. For C#, install the [.NET 10 SDK or later](https://learn.microsoft.com/dotnet/core/sdk/file-based-apps). Dependencies are declared inside each file and restored from public PyPI (Python) or NuGet.org (C#); no project file or separate dependency manifest is needed.
 
 ## Run either sample
 
