@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["azure-search-documents==11.6.0"]
+# dependencies = ["azure-search-documents==11.6.0", "azure-identity==1.26.0"]
 #
 # [[tool.uv.index]]
 # url = "https://pypi.org/simple/"
@@ -14,6 +14,7 @@ import time
 import uuid
 
 from azure.core.credentials import AzureKeyCredential
+from azure.identity import DefaultAzureCredential
 from azure.search.documents import SearchClient
 from azure.search.documents.indexes import SearchIndexClient
 from azure.search.documents.indexes.models import (
@@ -27,6 +28,7 @@ from azure.search.documents.indexes.models import (
 def main():
     parser = argparse.ArgumentParser(description="Index and search earnings-call transcripts.")
     parser.add_argument("--dry-run", action="store_true", help="Read the corpus without contacting Azure.")
+    parser.add_argument("--use-key", action="store_true", help="Use AZURE_SEARCH_ADMIN_KEY instead of Microsoft Entra ID.")
     args = parser.parse_args()
 
     corpus = Path(__file__).resolve().parent.parent / "corpus"
@@ -41,12 +43,17 @@ def main():
         return
 
     endpoint = os.environ.get("AZURE_SEARCH_ENDPOINT", "").strip()
-    key = os.environ.get("AZURE_SEARCH_ADMIN_KEY", "").strip()
-    if not endpoint or not key:
-        parser.error("Set AZURE_SEARCH_ENDPOINT and AZURE_SEARCH_ADMIN_KEY, or use --dry-run.")
+    if not endpoint:
+        parser.error("Set AZURE_SEARCH_ENDPOINT, or use --dry-run.")
+    if args.use_key:
+        key = os.environ.get("AZURE_SEARCH_ADMIN_KEY", "").strip()
+        if not key:
+            parser.error("--use-key requires AZURE_SEARCH_ADMIN_KEY.")
+        credential = AzureKeyCredential(key)
+    else:
+        credential = DefaultAzureCredential()
 
     index_name = f"earnings-calls-{uuid.uuid4().hex[:8]}"
-    credential = AzureKeyCredential(key)
     print(f"Index: {index_name} (retained after this run)")
     with SearchIndexClient(endpoint, credential) as indexes:
         indexes.create_index(

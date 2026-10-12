@@ -1,16 +1,18 @@
 #:package Azure.Search.Documents@11.7.0
+#:package Azure.Identity@1.21.0
 #:property RestoreSources=https://api.nuget.org/v3/index.json
 #:property PublishAot=false
 
 using System.Runtime.CompilerServices;
 using Azure;
+using Azure.Identity;
 using Azure.Search.Documents;
 using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
 using Azure.Search.Documents.Models;
 
-if (args.Length > 1 || (args.Length == 1 && args[0] != "--dry-run"))
-    throw new ArgumentException("Usage: dotnet run index_and_query.cs -- [--dry-run]");
+if (args.Any(arg => arg != "--dry-run" && arg != "--use-key"))
+    throw new ArgumentException("Usage: dotnet run index_and_query.cs -- [--dry-run] [--use-key]");
 
 string corpus = Path.GetFullPath(Path.Combine(SourceDirectory(), "..", "corpus"));
 var documents = Directory.GetFiles(corpus, "*.txt")
@@ -25,15 +27,26 @@ var documents = Directory.GetFiles(corpus, "*.txt")
 if (documents.Count == 0 || documents.Any(document => string.IsNullOrWhiteSpace((string)document["content"])))
     throw new InvalidOperationException($"Expected nonempty transcripts in {corpus}");
 Console.WriteLine($"Loaded {documents.Count} transcripts.");
-if (args.Length == 1)
+if (args.Contains("--dry-run"))
     return;
 
 string endpoint = RequiredEnvironment("AZURE_SEARCH_ENDPOINT");
-string key = RequiredEnvironment("AZURE_SEARCH_ADMIN_KEY");
 string indexName = $"earnings-calls-{Guid.NewGuid().ToString("N")[..8]}";
-var credential = new AzureKeyCredential(key);
+SearchIndexClient indexes;
+SearchClient search;
+if (args.Contains("--use-key"))
+{
+    var credential = new AzureKeyCredential(RequiredEnvironment("AZURE_SEARCH_ADMIN_KEY"));
+    indexes = new SearchIndexClient(new Uri(endpoint), credential);
+    search = new SearchClient(new Uri(endpoint), indexName, credential);
+}
+else
+{
+    var credential = new DefaultAzureCredential();
+    indexes = new SearchIndexClient(new Uri(endpoint), credential);
+    search = new SearchClient(new Uri(endpoint), indexName, credential);
+}
 Console.WriteLine($"Index: {indexName} (retained after this run)");
-var indexes = new SearchIndexClient(new Uri(endpoint), credential);
 await indexes.CreateIndexAsync(new SearchIndex(indexName)
 {
     Fields =
@@ -44,7 +57,6 @@ await indexes.CreateIndexAsync(new SearchIndex(indexName)
     }
 });
 
-var search = new SearchClient(new Uri(endpoint), indexName, credential);
 foreach (var batch in documents.Chunk(10))
 {
     var response = await search.UploadDocumentsAsync(batch);
