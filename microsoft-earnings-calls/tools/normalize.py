@@ -44,24 +44,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Verify without writing.")
     args = parser.parse_args()
-    archive_quarters = ["FY14Q4"] + [
+    text_quarters = ["FY14Q4"] + [
         f"FY{year:02}Q{quarter}" for year in range(15, 25) for quarter in range(1, 5)
     ]
     docx_quarters = [f"FY{year:02}Q{quarter}" for year in range(25, 27) for quarter in range(1, 5)]
-    quarters = archive_quarters + docx_quarters
+    quarters = text_quarters + docx_quarters
     originals = ROOT / "originals"
-    archive_path = originals / "MSFT Input Text.zip"
     require({path.name for path in originals.iterdir() if path.is_file()}
-            == {"MSFT Input Text.zip"} | {f"Transcript{quarter}.docx" for quarter in docx_quarters},
+            == {f"Transcript{quarter}.txt" for quarter in text_quarters}
+            | {f"Transcript{quarter}.docx" for quarter in docx_quarters},
             "Unexpected or missing original files.")
-    with zipfile.ZipFile(archive_path) as archive:
-        require({name for name in archive.namelist() if name.endswith(".txt")}
-                == {f"txt/Transcript{quarter}.txt" for quarter in archive_quarters},
-                "Unexpected or missing archive transcripts.")
-        archive_text = {
-            quarter: archive.read(f"txt/Transcript{quarter}.txt").decode("utf-8-sig")
-            for quarter in archive_quarters
-        }
     corpus = ROOT / "corpus"
     expected_files = {f"{quarter}.txt" for quarter in quarters}
     existing_files = {path.name for path in corpus.glob("*.txt")}
@@ -70,7 +62,8 @@ def main():
         require(existing_files == expected_files, "Missing TXT files in corpus.")
     outputs = []
     for quarter in quarters:
-        raw = (archive_text[quarter] if quarter in archive_text
+        raw = ((originals / f"Transcript{quarter}.txt").read_bytes().decode("utf-8-sig")
+               if quarter in text_quarters
                else docx_text(originals / f"Transcript{quarter}.docx"))
         text = normalize(raw)
         require(re.sub(r"\s", "", raw) == re.sub(r"\s", "", text),

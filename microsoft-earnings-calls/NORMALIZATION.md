@@ -2,13 +2,13 @@
 
 All 49 transcripts use the same output contract: **one fiscal-quarter document per UTF-8 TXT file, without a BOM, using LF line endings and exactly one final newline**.
 
-Normalization is deterministic text extraction and whitespace cleanup. It uses Python's standard library, with no language model, OCR, summarization, translation, or spelling correction. All original downloads are retained unchanged.
+Normalization is deterministic text extraction and whitespace cleanup. It uses Python's standard library, with no language model, OCR, summarization, translation, or spelling correction. The eight DOCX downloads are retained unchanged; the 41 GraphRAG TXT members are retained byte-for-byte after extraction from their source ZIP.
 
 ## Source extraction
 
 | Source | Extraction |
 | --- | --- |
-| GraphRAG ZIP: 41 TXT files | Read each `txt/TranscriptFYxxQy.txt` archive member directly and decode it as UTF-8, accepting an optional initial UTF-8 BOM. Map the quarter in the original filename to `FYxxQy.txt`. No rescraping or re-extraction from another source. |
+| GraphRAG: 41 TXT files | Read each unmodified `originals/TranscriptFYxxQy.txt` extracted from the source ZIP and decode it as UTF-8, accepting an optional initial UTF-8 BOM. Map the quarter in the original filename to `FYxxQy.txt`. No rescraping or re-extraction from another source. |
 | Investor Relations: eight DOCX files | Open the DOCX as an OOXML ZIP and read `word/document.xml`. Walk body paragraphs, including table-cell paragraphs, in document order. Concatenate `w:t` text nodes, retain `w:tab` as a tab and `w:br`/`w:cr` as line breaks, and place a blank line between paragraphs. |
 
 Only the Word document body is extracted. Fonts, styles, layout, images, headers, footers, comments, and document metadata are not included in the text output. Table-cell text is retained, but table geometry is not. The supplied calls are text documents; no OCR is performed.
@@ -34,7 +34,7 @@ From the package folder, with Python 3 installed:
 python .\tools\normalize.py --check
 ```
 
-This checks that the retained originals contain exactly the expected 41 ZIP members and eight DOCX files, re-extracts and normalizes them in memory, compares their bytes with the 49 TXT files, and checks for missing or extra TXT files. It does not change files or independently authenticate the originals against their download sources.
+This checks that the retained originals contain exactly the expected 41 TXT files and eight DOCX files, re-extracts and normalizes them in memory, compares the normalized bytes with the 49 corpus TXT files, and checks for missing or extra files. It does not change files or independently authenticate the originals against their download sources.
 
 To intentionally rebuild the normalized outputs from the retained originals:
 

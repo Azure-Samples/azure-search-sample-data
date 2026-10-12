@@ -11,13 +11,13 @@ The corpus combines 41 transcripts from the [Microsoft GraphRAG benchmarking dat
 | Path | Contents |
 | --- | --- |
 | `corpus/` | 49 UTF-8 plain-text files, one per quarter, named `FY14Q4.txt` through `FY26Q4.txt`. |
-| `originals/MSFT Input Text.zip` | Unmodified GraphRAG archive containing 41 TXT transcripts, FY14 Q4 through FY24 Q4. |
+| `originals/TranscriptFY14Q4.txt` through `originals/TranscriptFY24Q4.txt` | 41 original GraphRAG TXT transcripts, extracted byte-for-byte from the source archive. |
 | `originals/TranscriptFY25Q1.docx` through `originals/TranscriptFY26Q4.docx` | Eight unmodified Investor Relations Word documents, FY25 Q1 through FY26 Q4. |
 | `LICENSE` | Community Data License Agreement - Permissive - Version 2.0 for this dataset. |
 | `NORMALIZATION.md` | Exact text-conversion and cleanup rules, preservation guarantees, and limitations. |
 | `tools/normalize.py` | Reproducible, Python-standard-library-only normalization and verification script; no downloads or model calls. |
 
-The GraphRAG archive comes from [`data/MSFT Input Text.zip`](https://github.com/microsoft/graphrag-benchmarking-datasets/blob/bc187ace7ccc2c942155f1160a892a3ccb257179/data/MSFT%20Input%20Text.zip) at repository commit `bc187ace7ccc2c942155f1160a892a3ccb257179`. The eight Investor Relations originals were downloaded on October 8, 2026; their source links may change, so the retained documents identify this package's version.
+The 41 GraphRAG originals come from [`data/MSFT Input Text.zip`](https://github.com/microsoft/graphrag-benchmarking-datasets/blob/bc187ace7ccc2c942155f1160a892a3ccb257179/data/MSFT%20Input%20Text.zip) at repository commit `bc187ace7ccc2c942155f1160a892a3ccb257179`. The eight Investor Relations originals were downloaded on October 8, 2026; their source links may change, so the retained documents identify this package's version.
 
 ## What the transcripts contain
 
@@ -33,4 +33,4 @@ The filename is the fiscal-quarter identifier. Chunking and speaker/entity extra
 
 ## License and attribution
 
-The complete dataset, including the GraphRAG and Investor Relations transcripts, is released under the [Community Data License Agreement - Permissive - Version 2.0](LICENSE). Include the license text when sharing the data, as required by its terms. The original downloads are retained in `originals/`, and their sources are linked above.
+The complete dataset, including the GraphRAG and Investor Relations transcripts, is released under the [Community Data License Agreement - Permissive - Version 2.0](LICENSE). Include the license text when sharing the data, as required by its terms. The original transcript files are retained in `originals/`, and their sources are linked above.
