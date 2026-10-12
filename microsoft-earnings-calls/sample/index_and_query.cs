@@ -11,8 +11,8 @@ using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
 using Azure.Search.Documents.Models;
 
-if (args.Any(arg => arg != "--dry-run" && arg != "--use-key"))
-    throw new ArgumentException("Usage: dotnet run index_and_query.cs -- [--dry-run] [--use-key]");
+if (args.Any(arg => arg != "--use-key"))
+    throw new ArgumentException("Usage: dotnet run index_and_query.cs -- [--use-key]");
 
 string corpus = Path.GetFullPath(Path.Combine(SourceDirectory(), "..", "corpus"));
 var documents = Directory.GetFiles(corpus, "*.txt")
@@ -27,8 +27,6 @@ var documents = Directory.GetFiles(corpus, "*.txt")
 if (documents.Count == 0 || documents.Any(document => string.IsNullOrWhiteSpace((string)document["content"])))
     throw new InvalidOperationException($"Expected nonempty transcripts in {corpus}");
 Console.WriteLine($"Loaded {documents.Count} transcripts.");
-if (args.Contains("--dry-run"))
-    return;
 
 string endpoint = RequiredEnvironment("AZURE_SEARCH_ENDPOINT");
 string indexName = $"earnings-calls-{Guid.NewGuid().ToString("N")[..8]}";
@@ -111,4 +109,4 @@ static string SourceDirectory([CallerFilePath] string path = "") => Path.GetDire
 static string RequiredEnvironment(string name) =>
     Environment.GetEnvironmentVariable(name)?.Trim() is { Length: > 0 } value
         ? value
-        : throw new InvalidOperationException($"Set {name}, or use --dry-run.");
+        : throw new InvalidOperationException($"Set {name}.");

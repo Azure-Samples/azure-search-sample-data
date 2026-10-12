@@ -27,7 +27,6 @@ from azure.search.documents.indexes.models import (
 
 def main():
     parser = argparse.ArgumentParser(description="Index and search earnings-call transcripts.")
-    parser.add_argument("--dry-run", action="store_true", help="Read the corpus without contacting Azure.")
     parser.add_argument("--use-key", action="store_true", help="Use AZURE_SEARCH_ADMIN_KEY instead of Microsoft Entra ID.")
     args = parser.parse_args()
 
@@ -39,12 +38,10 @@ def main():
     if not documents or any(not document["content"].strip() for document in documents):
         raise ValueError(f"Expected nonempty transcripts in {corpus}")
     print(f"Loaded {len(documents)} transcripts.")
-    if args.dry_run:
-        return
 
     endpoint = os.environ.get("AZURE_SEARCH_ENDPOINT", "").strip()
     if not endpoint:
-        parser.error("Set AZURE_SEARCH_ENDPOINT, or use --dry-run.")
+        parser.error("Set AZURE_SEARCH_ENDPOINT.")
     if args.use_key:
         key = os.environ.get("AZURE_SEARCH_ADMIN_KEY", "").strip()
         if not key:
