@@ -52,7 +52,7 @@ Hotels demo data is provided in multiple formats to support different consumptio
 
 ## microsoft-earnings-calls
 
-Contains [49 Microsoft earnings-call transcripts](microsoft-earnings-calls/README.md), one for each fiscal quarter from FY14 Q4 through FY26 Q4. The folder provides normalized UTF-8 text plus retained original documents. The dataset is licensed under [CDLA-Permissive-2.0](microsoft-earnings-calls/LICENSE).
+Contains [49 Microsoft earnings-call transcripts](microsoft-earnings-calls/README.md), one for each fiscal quarter from FY14 Q4 through FY26 Q4. The folder provides normalized UTF-8 text and links to the source documents. The dataset is licensed under [CDLA-Permissive-2.0](microsoft-earnings-calls/LICENSE).
 
 ## nasa-e-book
 

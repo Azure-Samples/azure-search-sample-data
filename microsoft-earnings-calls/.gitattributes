@@ -1,2 +1,1 @@
 corpus/*.txt text eol=lf
-originals/*.txt -text
