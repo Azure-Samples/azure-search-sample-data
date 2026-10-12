@@ -1,0 +1,581 @@
+Microsoft FY26 Fourth Quarter Earnings Conference Call
+
+Jonathan Neilson, Satya Nadella, Amy Hood
+
+Wednesday July 29, 2026
+
+JONATHAN NEILSON:
+
+Good afternoon and thank you for joining us today. On the call with me are Satya Nadella, chairman and chief executive officer, Amy Hood, chief financial officer, Alice Jolla, chief accounting officer, and Brian DeFoe, deputy general counsel and corporate secretary.
+
+On the Microsoft Investor Relations website, you can find our earnings press release and financial summary slide deck, which is intended to supplement our prepared remarks during today’s call and provides the reconciliation of differences between GAAP and non-GAAP financial measures. More detailed outlook slides will be available on the Microsoft Investor Relations website when we provide outlook commentary on today’s call.
+
+On this call we will discuss certain non-GAAP items. The non-GAAP financial measures provided should not be considered as a substitute for or superior to the measures of financial performance prepared in accordance with GAAP. They are included as additional clarifying items to aid investors in further understanding the company's fourth quarter performance in addition to the impact these items and events have on the financial results.
+
+All growth comparisons we make on the call today relate to the corresponding period of last year unless otherwise noted. We will also provide growth rates in constant currency, when available, as a framework for assessing how our underlying businesses performed, excluding the effect of foreign currency rate fluctuations. Where growth rates are the same in constant currency, we will refer to the growth rate only.
+
+We will post our prepared remarks to our website immediately following the call until the complete transcript is available. Today's call is being webcast live and recorded. If you ask a question, it will be included in our live transmission, in the transcript, and in any future use of the recording. You can replay the call and view the transcript on the Microsoft Investor Relations website.
+
+During this call, we will be making forward-looking statements which are predictions, projections, or other statements about future events. These statements are based on current expectations and assumptions that are subject to risks and uncertainties. Actual results could materially differ because of factors discussed in today's earnings press release, in the comments made during this conference call, and in the risk factor section of our Form 10-K, Forms 10-Q, and other reports and filings with the Securities and Exchange Commission. We do not undertake any duty to update any forward-looking statement.
+
+And with that, I’ll turn the call over to Satya.
+
+SATYA NADELLA:
+
+Thank you very much, Jonathan.
+
+It was a very strong close to what was a record fiscal year for us.
+
+All up, our annual revenue surpassed $331 billion, up 18%.
+
+Microsoft Cloud surpassed $214 billion, up 27%.
+
+And Azure surpassed $100 billion, up 41%.
+
+Going forward, we have two goals. First, ensuring AI empowers every person, amplifying their agency and ambition. And second, empowering every organization to build their own continuous learning loop and ensuring that they don’t outsource their core IP.
+
+Now, let’s talk about how we are delivering this across our stack, starting with our AI platform and infrastructure.
+
+We added 31 new datacenters across 5 continents this quarter, bringing the total to 88 this year, as we expand our footprint in response to accelerating demand.
+
+We are also bringing capacity online faster than ever. Over the last fiscal year, we have reduced dock-to-live times for new GPUs in our largest regions by nearly 50%.
+
+All up, we added another gigawatt of capacity this quarter and remain on track to roughly double our overall capacity in just two years.
+
+We are also getting more from the infrastructure we already have by optimizing across silicon, systems, and software.
+
+For example, we increased the throughput for Copilot workloads 4X since the start of the year.
+
+AI sovereignty is increasingly top of mind for our customers, and we are expanding our offerings to meet that need.
+
+Just last week, we announced a partnership with Mistral to bring its models to Microsoft Sovereign Cloud, enabling customers to run them across public, customer-controlled, and fully disconnected environments.
+
+We also continue to modernize our fleet with our own silicon innovation, alongside the latest from NVIDIA and AMD.
+
+Maia 200 continues to scale. It delivers 30% better performance per dollar than the latest-generation hardware in our fleet and is now supporting both OpenAI and MAI models.
+
+And we will be among the first cloud providers to deploy next-generation rack-scale AI infrastructure based on AMD Helios and NVIDIA Vera Rubin.
+
+When it comes to running agents, CPUs are just as important as GPUs.
+
+Our Cobalt VMs are powering both our own first-party workloads, as well as workloads for customers including Adobe, Arm, Elastic, OpenAI, Sprinklr, and Tom Tom.
+
+And by the end of this month, we expect to have our Cobalt 200 racks in over 25 datacenters around the world as we rapidly expand capacity.
+
+Now, let me turn to the end-to-end platform we are building on this infrastructure to run, govern, and distribute apps and agents.
+
+It starts with model choice.
+
+Every customer wants the right model for each task, based on quality, latency, cost, and compliance.
+
+We offer the broadest model catalog in the cloud, with over 11,000 models, including the latest from OpenAI, Anthropic, Mistral, xAI, as well as our own MAI family.
+
+Since the start of the year, we have seen a 5X increase in the number of customers building with models from multiple providers.
+
+Levi Strauss & Co. for example is using models from OpenAI and Anthropic on Foundry, as it brings more than 1,000 domain-specific agents into a unified enterprise AI platform.
+
+We are also accelerating our own model development.
+
+We announced more than a dozen new models across image, voice, transcription, coding, and security, including our first reasoning model MAI Thinking 1, all with cost efficient inference at their core for Enterprise use cases.
+
+We are co-designing these models with our silicon, and are seeing 40% better performance per watt when running MAI models on Maia 200.
+
+But more importantly, we are building a new model system, where the harness, context, memory, and action space are separate from any one model family, thereby moving the frontier on the cost-to-outcome curve.
+
+And it’s not just about cost. It also has the added benefit of business continuity and resilience because every model is substitutable.
+
+This is the system we are using in our products, with great results.
+
+For example, millions of developers have used MAI-Code-1-Flash on GitHub Copilot, achieving higher code acceptance rates and 10% lower median token usage, while still having access to frontier capabilities from OpenAI and Anthropic.
+
+In Excel, MAI-Code-1-Flash is delivering comparable quality to GPT-5.6 for the most common tasks, while operating at significantly lower cost.
+
+In security, MAI-Cyber-1-Flash achieves better performance than the much larger Mythos model but at half the cost, when combined with our multi-agent security harness.
+
+More broadly, across our model implementations we’re seeing significant efficiency gains, including 89% reduction of GPU costs in Dynamics 365 with MAI-Voice-2-Flash and up to 84% reduced GPU costs in PowerPoint with MAI-Image-2.5.
+
+And this system is available to any company as part of Foundry.
+
+The next layer is enterprise data and context.
+
+The data estate is evolving from primarily supporting apps used by people to supporting agents.
+
+Customers are rapidly adopting our AI-optimized databases like Cosmos DB and PostgreSQL, to give agents fast, secure access to real-time data and context they need for memory and retrieval.
+
+PostgreSQL revenue was up 55%, accelerating for the third consecutive quarter.
+
+Also, the number of PostgreSQL customers also using Foundry increased 80%, as customers increasingly choose it as their database for AI workloads.
+
+And we are going further with Horizon DB, our new fully managed PostgreSQL service on Azure, which delivers three times the throughput of self-managed deployments.
+
+When it comes to analytics, we now have over 40,000 paid Fabric customers, up more than 60% year-over-year.
+
+And over 17,000 customers now use Foundry and Fabric, up 60% year-over-year, as enterprises connect agents to real-time operational, analytical, and unstructured data in Fabric.
+
+This quarter, we also introduced Rayfin, the agent-first SDK that delivers a backend as a service for building apps on Fabric.
+
+More than 2,500 customers have already used Rayfin, and it is now powering the backend for apps created with Replit too.
+
+On top of this data estate, we are building an IQ layer that combines data with model capabilities to deliver the right context at the right time.
+
+Tens of thousands of customers – including nearly 90% of the Fortune 500 – are already grounding their agents in enterprise context with Foundry, Fabric, and Work IQ.
+
+And this quarter we introduced Web IQ, which gives agents access to real-world intelligence from across the web.
+
+It is already used by the most popular AI assistants, including ChatGPT.
+
+Beyond model choice, data, and context, we are building Foundry as the complete app and agent stack.
+
+It gives agents access to the IQ layer and tools they use, along with durable state and memory, secure sandboxes, rubrics and evals, and even their own self-improvement loops.
+
+We now have 100,000 Foundry customers, and revenue more than doubled year-over-year.
+
+Telefónica for example adopted Foundry as the foundation of its corporate agentic platform, with its first wave of agents tackling mission-critical network ops.
+
+All up, the number of Foundry customers at a one trillion token annualized run rate increased 4X year-over-year.
+
+And finally, with Agent 365 we offer a control plane that extends companies’ existing governance, identity, security, and management frameworks to agents they build.
+
+Just two months in, Agent 365 now has nearly 40 million agents registered across tens of thousands of companies.
+
+Now, let me turn to the apps and agents we are building on top of this platform for individuals and organizations.
+
+When it comes to knowledge work, we now have over 30 million paid Microsoft 365 Copilot seats, with net seat adds more than doubling quarter-over-quarter.
+
+Copilot is evolving rapidly, from chat to Cowork to Autopilots.
+
+Last month, we made Cowork generally available, helping customers complete multi-step tasks grounded in their work data while meeting enterprise security and compliance requirements.
+
+This quarter, we also introduced Autopilots, autonomous, long-running agents with full enterprise compliance, including an always-on personal agent powered by OpenClaw.
+
+And this quarter we will bring these Copilot experiences together, including Code, in one “super app” spanning both consumer and commercial experiences.
+
+This is a major step forward, and I look forward to sharing more soon.
+
+More broadly, we have steadily been improving the quality and performance of Copilot, and have been delighted by the recent customer feedback.
+
+Over the last three quarters, user satisfaction scores have doubled and are now at an all-time high. And this quarter alone, we cut latency by 25%.
+
+These quality improvements, together with continued product innovation, are driving record usage intensity.
+
+The number of conversations per user nearly doubled year-over-year. Average weekly engagement is on par with Outlook and Teams.
+
+And the time from deployment to what we think of as “high usage,” meaning monthly active usage above 80% across a customers’ user base, has fallen from months to just days over the past year.
+
+The number of customers with more than 50,000 seats increased over 7X year-over-year.
+
+And the number of enterprise customers deploying Copilot to the majority of their information workers grew nearly 75% quarter-over-quarter, a signal of how central Copilot has become to their operations.
+
+NHS England, for example, is rolling out Copilot to 505,000 clinicians and staff — the largest healthcare deployment of its kind — after a trial showed it saved employees an average of 43 minutes per day.
+
+KPMG is expanding its deployment across its global workforce of more than 276,000 professionals. And HSBC committed to 200,000 seats to accelerate its workforce transformation.
+
+AstraZeneca, Boeing, Infosys, Koch Inc., Procter & Gamble, Stellantis, Tata Consultancy Services, University of Pittsburgh Medical Center, Wells Fargo, and Wipro each purchased 60,000 or more.
+
+And we have been encouraged by the response to our new E7 suite, as customers increasingly go “all in” on an integrated AI offering that brings together Copilot, E5, Entra, and Agent 365.
+
+Just two months after launch, hundreds of enterprise customers have already purchased millions of seats. And this quarter, EY deployed E7 to 400,000 employees in our largest win to date.
+
+In addition to this, we are also evolving our business model beyond per-seat to per-seat-plus-consumption, further expanding our TAM and delivering more customer value.
+
+Earlier this month, we added usage-based billing to Cowork, with thousands of customers already paying for and actively using it.
+
+In biz apps, we have been reinventing Dynamics 365 for an agent-first world.
+
+We are exposing over 650,000 MCP actions across sales, finance, supply chain, HR, and customer service so that agents can now access business context and take action using the same data models, rules, permissions, security guardrails, and audit trails as any application user.
+
+And we are also moving from seats to a seats plus consumption model.
+
+Customer service is at the forefront of this transformation, with usage based credit consumption in the category up 4X quarter over quarter, with customers like Northern Trust using our tools to drive proactive intelligence.
+
+When it comes to developers, GitHub Copilot now has 50 million users.
+
+This quarter, we introduced usage-based billing, and have continued to see Business and Enterprise seat growth, and also significant consumption revenue after the new model went into effect.
+
+Copilot revenue accelerated over 60% quarter-over-quarter.
+
+All up, GitHub now has 225 million users, as organizations across every industry – including over 90% of the Fortune 500 – choose GitHub for their AI-powered development.
+
+The agentic era is being built on GitHub. Every major coding agent runs on the platform and one in three pull requests on GitHub now involves an agent.
+
+In security, we are helping customers both secure their AI deployments and use AI to strengthen their security posture.
+
+To date, Purview has audited over 50 billion Copilot interactions to meet compliance obligations, up nearly 360% year-over-year.
+
+And earlier this week we introduced Project Perception, a complete multi-model agentic security system that brings together teams of agents to simulate attacks, investigate threats, and drive remediation.
+
+As Perception moves beyond private preview, we expect to bring it to customers through a consumption-based offering.
+
+In healthcare, we are on pace to automate over 100 million patient encounters this calendar year, including 28 million this quarter, up 2X year-over-year.
+
+Mass General Brigham rolled out Dragon Copilot to over 4,000 providers after a study found ambient AI reduced burnout by 21%.
+
+And in science, Microsoft Discovery, now broadly available, provides a comprehensive platform for building and governing agentic workflows for science and engineering.
+
+Early customers include BHP, GSK, and Pacific Northwest National Lab.
+
+Across both our high value agentic experiences and the AI platform and infrastructure, we are focused on helping customers turn AI into measurable outcomes.
+
+The most comprehensive and valuable data in the world is inside each of the customer tenants.
+
+And therefore there is an enormous opportunity to turn customers' workflows, domain knowledge, and accumulated judgment into AI systems that learn and improve with every usage.
+
+To help customers capture that opportunity, this month we launched the Microsoft Frontier Co., the largest outcome-driven engineering organization in the industry.
+
+We will embed 6,000 industry and engineering experts with customers to co-design, co-innovate, and continuously improve AI systems at scale.
+
+We have been testing this model over the past year, completing over 330 projects across 164 customers, including many of the world’s leading companies across industries.
+
+For example, our FDE teams worked with Novo Nordisk to build an agent that helps analyze clinical data while meeting its strict compliance requirements.
+
+And we partnered with LSEG to embed AI into LSEG Workspace, helping finance professionals ask complex questions and quickly find answers across structured and unstructured financial content.
+
+Finally, let me talk about devices and consumer.
+
+When it comes to XBOX, we are making the necessary decisions required across our content portfolio, platform, and operations to reset the business for long-term growth.
+
+We have the best IP in the industry, and talented studios around the world, and believe we can bring these strengths together and expect to return the business to growth in fiscal 2027.
+
+In Windows, we are investing to ensure that it has the best quality and fundamentals, while also ensuring it is the best place to run secure edge AI.
+
+We see significant opportunity for Windows to become the offload for unmetered intelligence, combining powerful on device compute with enterprise-grade security.
+
+In search and advertising, Bing and Edge have both taken share for five straight years.
+
+And LinkedIn continues to see strong engagement across the platform, with double-digit member growth for the fifth consecutive year.
+
+Recruiters at over 20,000 companies are now using our AI-powered solutions to reduce time to hire and improve candidate matching. Seats increased 140% quarter-over-quarter.
+
+In closing, I am energized about the opportunities ahead.
+
+I have never been more confident in Microsoft’s opportunity to drive durable, long-term growth and ensure the benefits of AI flow broadly.
+
+With that, let me turn it over to Amy to walk through our financial results and outlook.
+
+AMY HOOD:
+
+Thank you, Satya, and good afternoon everyone. This fiscal year, we delivered over $331 billion in revenue, with growth accelerating to 18%, driven by strong demand across both the Azure platform and our first-party AI applications and services. Operating income growth outpaced revenue growth, increasing 21% to more than $155 billion as we invested in long-term growth while continuing to expand operating leverage.
+
+This quarter, revenue was $90 billion, up 18% and 17% in constant currency. Gross margin dollars increased 15% and operating income increased 18%. Earnings per share was $4.74, an increase of 23%, when adjusted for the impact from our investment in OpenAI. And FX was roughly in line with guidance.
+
+Several discrete items impacted our financial results in the quarter when compared to our forward-looking guidance provided on our April earnings call, resulting in a benefit of 27 cents on diluted earnings per share.
+
+These include a $3.2 billion gain from our investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program, which were partially offset by severance expense and impairment charges in XBOX.
+
+When adjusting for these items, we exceeded expectations across revenue, operating income and earnings per share due to strong demand and execution in the quarter.
+
+Company gross margin percentage was 67%, down year-over-year, driven by sales mix shift to Azure as well as continued investments in AI infrastructure and growing product usage, partially offset by ongoing efficiency gains, particularly in Azure and M365 Commercial cloud.
+
+Operating expenses increased 10% driven by continued investment in R&D compute capacity, talent, and data to support product development across the portfolio. G and A growth was impacted by a low prior-year comparable as well as some of the discrete items mentioned earlier. Operating margins increased slightly year-over-year to 45%.
+
+Total company headcount declined 2% year-over-year.
+
+When adjusted for the impact of our investments in OpenAI, other income and expense was $2.8 billion driven by the gain on investment in Anthropic noted earlier.
+
+Capital expenditures were $41 billion including the impact from higher component pricing as noted in our guide. Roughly two thirds of our capex was for short-lived assets, primarily CPUs and GPUs as customers increasingly build solutions that leverage both AI and non-AI infrastructure.
+
+The remaining spend was for long-lived assets. This quarter, total finance leases were $5.6 billion and were primarily for large datacenter sites. And cash paid for P, P, and E was $35.8 billion.
+
+Cash flow from operations was $55.4 billion, up 30% driven by strong cloud billings and collections, partially offset by an increase in operating lease payments. And free cash flow was $19.6 billion reflecting higher capital expenditures.
+
+And finally, we returned $10.2 billion to shareholders through dividends and share repurchases, bringing our total cash returned to shareholders to over $43 billion for the full fiscal year.
+
+Now, to our commercial results.
+
+Commercial bookings grew 18% when excluding the impact from OpenAI driven by strong execution in our core annuity sales motions and reflecting broad customer demand across geographies and customer segments. Bookings increased 10% and 11% in constant currency when including Azure commitments from OpenAI.
+
+Commercial remaining performance obligation grew 84% to $678 billion. All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies. And RPO increased 25% when excluding OpenAI.
+
+RPO, including OpenAI, has a weighted average duration of 2.3 years. And roughly 30% will be recognized in revenue in the next 12 months, up 37% year-over-year. The remaining portion recognized beyond the next 12 months increased 112%.
+
+Microsoft Cloud revenue was $59.3 billion and grew 27%, reflecting strong demand across Azure and our first-party AI applications and services. And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies.
+
+Microsoft Cloud gross margin percentage was better than expected at 65%, and down year-over-year driven by sales mix shift to Azure, as well as continued investments in AI infrastructure and increased product usage, partially offset by ongoing efficiency gains noted earlier.
+
+Now to our segment results.
+
+Revenue from Productivity and Business Processes was $37.8 billion and grew 14%.
+
+M365 Commercial cloud revenue increased 16% on an adjusted basis when normalized for the prior-year comparable that benefited from 2 points of in-period revenue recognition. And on a reported basis, revenue growth was 14%. Building on our Copilot momentum from Q3, net paid seat adds more than doubled sequentially, with paid seats now over 30 million. Premium offerings, including Copilot, E5, and early traction in E7, drove ARPU growth this quarter. And paid M365 Commercial seats grew 6% year-over-year with installed base expansion across all customer segments, though primarily in our small and medium business and frontline worker offerings.
+
+M365 Commercial products revenue increased 19%, ahead of expectations driven by large, long-duration M365 contracts that resulted in higher in-period revenue recognition from the Windows Commercial on-premises component.
+
+M365 consumer cloud revenue increased 24% and 22% in constant currency, again driven by ARPU growth. And M365 consumer subscriptions grew 7%.
+
+LinkedIn revenue increased 12% and 10% in constant currency primarily driven by Marketing Solutions.
+
+Dynamics 365 revenue increased 13% and 12% in constant currency against a strong prior-year comparable. Bookings growth in ERP remains healthy, while CRM continued to moderate with longer sales cycles.
+
+Segment gross margin dollars increased 14% and 13% in constant currency. And gross margin percentage decreased slightly with increased M365 Copilot usage as we continue to invest in product quality and drive further efficiency gains. Operating expenses increased 11% primarily driven by the shared R&D investments mentioned earlier. Operating income increased 15% and 14% in constant currency. And operating margins increased year-over-year to 58%.
+
+Next, the Intelligent Cloud segment. Revenue was $39.3 billion and grew 32% and 31% in constant currency.
+
+In Azure and other cloud services, revenue grew 43%, against a prior year that included accelerating growth. Customer demand continues to exceed available capacity. Revenue growth was ahead of expectations driven by efficiency gains across our CPU and GPU fleet as well as process improvements to enable earlier delivery of new capacity. That additional in-quarter capacity for Azure was quickly monetized. Results also benefited from stronger-than-expected GitHub Copilot consumption following the June business model change to align pricing with usage and value.
+
+In our on-premises server business, revenue was relatively unchanged year-over-year and was down 1% in constant currency. Results were ahead of expectations primarily driven by renewals with higher in-period revenue recognition from the mix of contracts.
+
+Segment gross margin dollars increased 24% and gross margin percentage decreased year-over-year primarily driven by sales mix shift to Azure, as well as the continued scaling of our AI infrastructure ahead of growing demand, partially offset by ongoing efficiency gains in Azure. Segment gross margins were also impacted by growing GitHub Copilot usage, though margins improved through the quarter with the June business model change to usage-based pricing. Operating expenses increased 10% driven by the shared R&D investments noted earlier. Operating income grew 31% and operating margins, with a strong focus on efficiencies and investment returns, were relatively unchanged year-over-year at 41%.
+
+Now to More Personal Computing. Revenue was $12.9 billion and declined 4% and 5% in constant currency.
+
+Windows OEM and Devices revenue decreased 7% and Windows OEM decreased 5% driven by lower PC market demand and a high prior-year comparable that benefited from Windows 10 end of support. Results were ahead of expectations as OEM and channel partners continued to build inventory given increasing component prices.
+
+Search advertising revenue ex-TAC increased 10% and 9% in constant currency with growth driven by higher revenue per search across Edge and Bing, as well as higher volume, though growth was impacted by third-party partnerships.
+
+And in XBOX, revenue decreased 10% and 11% in constant currency. XBOX content and services revenue decreased 10% against a prior-year comparable that benefited from strong first-party content performance.
+
+Segment gross margin dollars decreased 2% and gross margin percentage increased year-over-year driven by lower amortization from the Activision acquisition. Operating expenses increased 8% and 7% in constant currency driven by the continued investments in shared R&D noted earlier as well as impairment charges in XBOX. Operating income decreased 14% and 15% in constant currency and operating margins decreased year-over-year to 21%.
+
+Now, before I move to outlook, effective at the start of FY27, we are extending the estimated useful lives of our datacenters and office buildings, from 15 to 25 years, reflecting our operating history and expected use of these assets. The impact of this update is reflected in today's guidance.
+
+This change affects only the timing of future depreciation and is expected to have a minimal benefit to FY27 operating income. The greater impact is on capital expenditures as more of our future datacenter leases will shift from finance leases to operating leases as a result of this update. Finance leases are included in capital expenditures while operating leases are not. Outside of this useful life impact, our calendar year 2026 CapEx investment expectations remain unchanged. However, the shift from finance to operating leases adjusts our expectation to approximately $175 billion.
+
+Now, moving to our outlook.
+
+Let me start with some full year commentary for FY27.
+
+First some reminders. In both the M365 Commercial products and Server products KPIs, we are lapping higher transactional purchasing from the timing of product launches and expect revenue from both to decline in the mid-single digits for the full fiscal year.
+
+Growth in Windows OEM and Devices will be impacted by lower PC market demand as higher component costs increase device pricing, a prior-year comparable that benefited from Windows 10 end-of-support, and elevated inventory levels. As a result, we expect revenue to decline in the high-teens for the fiscal year.
+
+Moving to FX. Assuming current rates remain stable, we now expect FX to decrease full-year fiscal revenue growth by less than 1 point with no meaningful impact to COGS and operating expense growth.
+
+At the company level, with strong commercial momentum, we continue to expect another fiscal year of double-digit revenue and operating income growth. Operating expenses should grow in the mid to high-single digits, reflecting continued investment in R&D compute capacity, talent, and data. And we expect FY27 capital expenditures will grow year-over-year given demand signals across our portfolio.
+
+Even as we invest to meet growing demand, full fiscal year operating margins should be down less than a point. In addition, we expect to remain free cash flow positive in FY27.
+
+And finally, we expect our FY27 effective tax rate to be approximately 20%.
+
+Now, to the outlook for our first quarter, which unless specifically noted otherwise, is on a US dollar basis.
+
+Based on current rates, we expect FX to decrease total revenue growth by less than 1 point with no meaningful impact to COGS or operating expense growth. Within the segments, we expect FX to decrease revenue growth in Productivity and Business Processes by roughly 1 point and Intelligent Cloud by less than 1 point. There is no meaningful impact in More Personal Computing.
+
+Starting with our commercial business.
+
+In commercial bookings, when adjusted for the impact from OpenAI, we expect healthy growth on a growing expiry base driven by strong execution across our core annuity sales motions. As a reminder, the significant OpenAI contracts signed in the prior year will result in some quarterly volatility in both the bookings and RPO growth rates.
+
+Microsoft Cloud gross margin percentage should be relatively stable quarter-over-quarter.
+
+Now to segment guidance.
+
+In Productivity and Business Processes we expect revenue of $36.7 to $37 billion, or growth of 11% to 12%.
+
+In M365 Commercial cloud, we expect growth of approximately 16% in constant currency on an adjusted basis which normalizes for the prior-year comparable that benefited from 1 point of in-period revenue recognition, or 15% on a reported basis. Sequential growth from our momentum in Copilot, E5, and E7, is mitigated a bit by the lower ARPU new seat adds in frontline worker and small and medium business SKUs. With the premium SKU momentum and the increased monetization opportunity from adding usage-based billing products alongside per-seat licensing in July, we expect to see acceleration in M365 Commercial cloud revenue growth through this fiscal year.
+
+M365 Commercial products revenue should grow in the mid-single digits driven by the timing of long-duration M365 contracts, partially offset by the impact from the prior-year comparable noted earlier.
+
+M365 consumer cloud revenue should grow in the mid-teens, down sequentially as we lap the benefit from last year’s price increase. Growth will again be driven by ARPU and an increase in subscription volume.
+
+For LinkedIn, we expect revenue growth in the high-single digits.
+
+And in Dynamics 365, we expect revenue growth to be in the low-teens, relatively stable quarter-over-quarter driven by continued growth in ERP, although impacted by the bookings trends noted earlier.
+
+For Intelligent Cloud, we expect revenue of $40.95 to $41.25 billion, or growth of 33% to 34%.
+
+In Azure, we expect revenue growth of approximately 45% in constant currency and we remain focused on delivering efficiencies that help us bridge the gaps we see as customer demand continues to exceed supply. Even with the strong close to Q4, we continue to expect H1 growth to accelerate. And as a reminder, year-over-year Azure growth rates can vary quarter-to-quarter based on capacity timing and contract mix.
+
+In our on-premises server business, we expect revenue to decline in the low to mid-single digits, with ongoing customer shift to cloud offerings and the prior-year comparable noted earlier.
+
+In More Personal Computing, we expect revenue to be $12.2 to $12.7 billion as we continue to lap the strong prior-year comparables noted earlier and navigate complex PC market dynamics impacted by component prices and inventory levels.
+
+Windows OEM and Devices revenue should decline in the low twenties driven by the market dynamics noted earlier. As in prior quarters, the range of potential outcomes remains wider than normal.
+
+Search advertising revenue ex-TAC growth should be in the mid-single digits, down sequentially due to the impact of third-party partnerships. Growth will continue to be driven by consistent trends in revenue per search and volume.
+
+And in XBOX content and services, we expect revenue to decline in the mid-single digits. Hardware revenue should decline year-over-year.
+
+Therefore, at the total company level, revenue should be between $89.85 and $90.95 billion or growth of 16% to 17% with accelerating commercial growth partially offset by the impact from the PC market dynamics noted earlier.
+
+We expect COGS of $29.6 to $29.8 billion, or growth of 23% to 24%. And operating expense of $16.8 to $16.9 billion or growth of 7% to 8% driven by continued investment in R&D compute capacity and talent. Operating margins should be relatively flat year-over-year.
+
+Excluding any impact from our investments in OpenAI, other income and expense is expected to be roughly negative $100 million as interest income will be more than offset by interest expense, which includes the interest payments related to datacenter finance leases.
+
+And we expect our Q1 effective tax rate to be approximately 20%.
+
+Next, capital expenditures.
+
+We expect CapEx spend will be over $50 billion including the lease reclassification impact from the useful life update.
+
+In closing, in FY26 we delivered accelerating revenue and operating income growth while expanding operating margins. Our execution across sales and product engineering strengthened through the second half of the year. As we begin FY27, we remain focused on delivering products that create meaningful return on investment for our customers, which will result in durable long-term growth for Microsoft and our shareholders.
+
+With that, let’s go to Q&A, Jonathan.
+
+JONATHAN NEILSON: Thanks, Amy. We’ll now move over to Q&A. Out of respect for others on the call, we request the participants please only ask one question. Operator, can you please repeat your instructions?
+
+(Operator Direction.)
+
+OPERATOR: And our first question comes from the line of Karl Keirstead with UBS. Please proceed.
+
+KARL KEIRSTEAD, UBS: Okay, great. Thank you, Satya. Maybe I’ll start away from the numbers and ask if you could spend a minute and elaborate on your opening comments about model choice and the protection of corporate IP. Maybe I could ask this in two parts.
+
+First, how material do you think traction could be for open and custom models over the next year or two, knowing that many enterprises might be initially reticent to use open models?
+
+And secondly, how exactly does Microsoft benefit from this shift, knowing that you’ve also got fairly large frontier lab exposure? Thanks so much.
+
+SATYA NADELLA: Thank you, Karl. The way we are coming at this is at the end of the day, the goal is to have the firm be in control of their own destiny, in terms of what I describe as building their human capital and their token capital. At the end of the day, if a firm is a learning machine, they need their own learning machine, and that’s really the goal. And the models are an input, not some extraction of the knowledge of the enterprise.
+
+But in some sense you have to really – at the end of the day, every firm is going to evaluate who are the providers who are helping them with their outcomes and their knowledge creation. I think that that is now fairly clear, and it’s going to become clearer by the day. This is not going to be about, come in and take all my knowledge and benefit yourself, whereas I am not getting anything out of it.
+
+Given that direction of travel, we are very, very clear about the architectural design of the platform, which is you’ve got to keep your harness separate from the model, when the harness will ensure that your memory, your context all of that is external. That means any given model at any given time is swappable. You should and you can use frontier models. There’s no reason not to, but you also can use multiple of them.
+
+If you look at some of the stats I gave, it’s a great example of how to use the frontier models for what they deliver, how to use low-cost models for what they deliver, and in fact, train your own model when you don’t want to use any external model itself, because after all, you have all the outputs, you have all the traces, you have all the context.
+
+That’s really the enterprise design architecture that we are going to evangelize. We ourselves are using it. Copilot is built that way. GitHub Copilot is built that way. Our Security Copilot is built that way. And we want to democratize that design pattern so that every enterprise can use it. And within there, there will be a mix of open weights, closed weights.
+
+And by the way, one of the things that’s least talked about is remember, if you look even at the Hugging Face incident, the biggest thing that you should take away from that is you can’t depend on any one model. You will maybe need multiple models to even remediate some challenges that get caused by one model. That’s the way to think about it, which is you can’t be subject to the refusals of one model.
+
+There’s a lot more design space here. We talk about the frontier as if it’s one thing. The frontier is about every firm having a frontier, and the choice, the cost control and the capability that they need in order to be able to control their destiny.
+
+AMY HOOD: And I think maybe, Karl, just to add a little bit to the end of your question, which is that it’s why it’s important that the platform is built, and I think Satya mentioned this in his comments, to be able to deliver the right model for the right job on the architecture called Azure.
+
+And so, given that we continue to see growing demand no matter what model is chosen or what model family or whether it’s run a model of your own, the Azure platform is quite efficient at delivering that. Think about that infrastructure as being pretty fungible.
+
+KARL KEIRSTEAD: Very helpful, thanks.
+
+JONATHAN NEILSON: Thanks, Karl. Operator, next question, please.
+
+OPERATOR: The next question comes from the line of Brent Thill with Jefferies. Please proceed.
+
+BRENT THILL, Jefferies: Thanks. Amy, impressive acceleration in Azure up to 43 going to mid-40s. I guess the questions around the underlying drivers, what you and Satya are seeing in terms of just what’s driving this and many of the questions around capacity constraints, are we just still in the same environment or is this Microsoft just executing better, given the constraints we’re all seeing? Thanks.
+
+AMY HOOD: Thanks, Brent. First, there are still constraints in the system. I think we’ve continued to say, I think now, for a number of quarters, that demand continues to exceed available supply, and that certainly remains true. You can even see it, I think, in some of the pricing that’s occurring in the spot market for assets.
+
+When you think about being able to deliver better, the first thing we focus on, and I tried to talk a little bit about it in my prepared remarks, is efficiency, being able to get more out of everything that we’ve got in the fleet. That applies to efficiency gains in the CPU fleet. It’s going to be efficiency gains in the GPU fleet.
+
+We saw a good work this quarter, in particular, from our engineering teams to make as much of that available as we could. And because of the supply demand imbalance we’ve been talking about, when we can make efficiency gains, they are quickly monetized in quarter. And I think that dynamic certainly impacted the quarter positively.
+
+I would also say some of the process improvements we’ve made to make sure both CPUs and GPUs, just the lead time from how quickly we can get things to simplify it tremendously plugged in, was also improved over the past 90 days. And so, those improvements, again, are very quickly monetized when we’re able to do that.
+
+And at the scale that we’re operating in terms of across the entire hyperscale fleet, making efficiency improvements that can be quickly monetized does result in acceleration in the quarter. It’s part of also what we expect to see and talk about with Q1.
+
+JONATHAN NEILSON: Thanks, Brent. Operator, next question, please.
+
+OPERATOR: The next question comes from the line of Mark Moerdler with Bernstein Research. Please proceed.
+
+MARK MOERDLER, Bernstein: Thank you very much for taking my question, and congratulations on the solid – it’s a really great quarter.
+
+Satya, Amy, sentiment around AI remains incredibly volatile with concerns about oversupply coming, as well as concerns about component pricing increasing impacting margins.
+
+Amy, two related questions: How does Microsoft protect itself if there really is overcapacity and overbuilding of data centers or overbuilding of chips, etcetera? And on the flip side of that, how do you manage through the hardware price increases that we’re seeing, the component pricing, and that it doesn’t just drive you to either massively drive up the price of your offerings or negatively impact your margins? Thank you.
+
+AMY HOOD: Thanks, Mark. The questions are a little bit related, but I’ll start with maybe the first.
+
+Currently, the situation is obviously that demand exceeds available supply in a relatively extreme moment, but when you start to think about over the duration, I try to remind people, a lot of the expense, especially you see it in CapEx, you’ve seen our CapEx really pivot toward what I would call and do call short-lived assets, which really, that’s CPUs and GPUs that have relatively shorter lead times. And so, if the demand environment changes, you just slow down what is, in fact, the largest component and the driver of COGS.
+
+The investment into land and data center builds is actually quite flexible. It’s a smaller percentage of the overall cost structure, and timing can be changed on much of that, especially on the builds, or you can stagger the timing of the build out of, as I was saying, some of the GPUs and CPUs that you plan to put in.
+
+And so, when you think about being able to manage through that, hyperscalers have been doing that for quite a long time in terms of having the flexibility and the understanding of manage those changes in demand.
+
+And the other thing is that’s important, Mark, is you just have an incredibly diverse book of business by geo, by segment, by industry. And I feel like when you look even at our backlog or what we added in RPO this quarter, it is from the breadth of really, the Microsoft product portfolio as well as our customer portfolio.
+
+When you have the ability to late bind some of the more expensive components in short term, you have a big book of business that’s flexible. You have a big first-party app business that also uses the capacity that you’re building out in addition to your Azure platform. It does allow us to have a lot more flexibility to manage through those.
+
+When it comes to the pricing question, I think that’s really impacting everybody equivalently in so many ways. What we’ve been trying to do, of course, at this point is to just make sure that we’re doing the best efficiency work we can so we can continue to give customers great value. We’re reminding people that frankly, the cloud offers tremendous benefits versus having to make these purchases as servers on-prem yourself, or the price increases are even more hard for customers. The cloud still provides a great ROI in those types of situations.
+
+And we’re adding this capacity, to your point, but a lot of this obviously, is also being sold in newer contracts. And we’re able to have the pricing reflect it, but keep value where we – listen, for the long term, you want to have pricing work for customers and for you. And so, we’re trying to stay focused on that as well.
+
+SATYA NADELLA: And if I just add to Amy’s comments, I thought Amy captured it well. All of us are reading this 1873 as the book to be read. And so, in my mind, I think you’ve got to get the product shape right. That’s a lot of what we are focused on. You have to get the portfolio right. Amy talked about how what we’re doing, whether it’s in Copilot or the Super App, bringing all the form factors or all the way to Azure, and the agent-first primitives in Azure. You have to really get that portfolio to all come together.
+
+The mix of customers is super important. You have to recognize the breadth, the geo mix, the segment mix, the workload mix. And you’ve got to really think about all of those when you’re even building capacity. And then you’ve got to run an efficient railroad. At the end of the day, Amy talked a little bit about, even in the last quarter, how we’ve improved on the efficiency front. It’s not something that will just show up at the end. You have to monotonically work at it.
+
+And so, we are very focused on all those. And then we know that there will be ups and downs of what is the cycle here, but the secular shift is clear. And we’re very bullish about us coming up with the right mix of business and the right margin structure, and most importantly, with the right value for our customers.
+
+MARK MOERDLER: Excellent. Thank you so much.
+
+JONATHAN NEILSON: Thanks, Mark. Operator, next question, please.
+
+OPERATOR: Our next question comes from the line of Adam Wood with Morgan Stanley. Please proceed.
+
+ADAM WOOD, Morgan Stanley: Hi, good evening. Thanks for taking the question. And also, congrats on a very strong end of the year.
+
+I wanted to maybe just ask about M365 Copilot. Obviously, very strong quarter there with over 30 million paid seats and a strong acceleration. Could you just talk a little bit about how you’re seeing customers move from pilots to broader deployments here? Is this still a pilot-driven motion or are we seeing a lot more broader deployments?
+
+And then when we think about the monetization of the product in terms of additional seats, migration to higher value SKUs like E7, and then consumption, what do you see is the main monetization or the main driver of monetization from here, please? Thank you.
+
+SATYA NADELLA: No, thank you, Adam, for that question. Let me start and then Amy can add.
+
+I think, yeah, it starts with, again, that product shape. As you can see, even within the quarter, the product shape has changed pretty dramatically. We now have chat, Cowork, autopilot, code all coming to essentially, what is going to become this flagship Super App that various roles can use it.
+
+And if you think about even the usage side, that’s the place where, again, lots of interesting data there, which is time to usage has drastically come down. What used to be months is days from when a license is bought to usage. The usage intensity itself has gone up significantly. I mean, we’re talking about a usage intensity that’s at the same level of what is an everyday communication tool like Outlook or Teams.
+
+The second thing I’d say is the overall enterprise wiring of this, it’s not like a tool that’s isolated somewhere, but it’s wired in whether it is – you brought up E7. It’s wired into the governance pieces with Agent 365 so that you have your IT Ops, SecOps, FinOps all wired in, as well as it’s all the business processes.
+
+For example, your CRM system, your ERP system, all of them are just skills and plug-ins that go into core work. You’re able to take that enterprise-wide workflow and wire it into the Super App. That increases usage so it all compounds.
+
+And then the other one is the business model. We now have this perceived business model. And so, we also now have the usage business model. It’s seat plus usage. We’re already seeing the ARPU growth that comes from things like E7, but really as we deliver more value to customer and customer outcomes at the enterprise level.
+
+In fact, if I think about historically, Office compared to what Copilot is, is much more narrower. This is the first time where you really have an enterprise-wide tool, which has a both per-seat and usage-based pricing. The TAM is much more expansive. We’re going to be very, very focused on driving customer value and then expanding with it.
+
+AMY HOOD: Yeah, Adam, and I think I talked a little bit about it in my prepared remarks, but I do think what we’ve been seeing is over the course of this year, some of the growth in ARPU was from E5 plus the Copilot license that Satya is talking about.
+
+We’ll see a little bit more from E7 really has a lot of interesting value in the Agent 365 component, in particular, where Satya is talking about, I mean, having SecOps and FinOps, think about in general, everyone is going to need both observability of token spend and the manageability of token spend for all business processes. And that is what E7 brings.
+
+And so, I think it was only in market for a part of the quarter, and I think we were quite encouraged by the value customers saw in that SKU. I think we’ll continue to focus on that through the year.
+
+And then finally, what Satya is talking about is this building TAM that grows through the year. And as I think about that expansive, expanding TAM, that’s really where we’re talking about this usage and consumption growth. And so, as more of those experiences get wired in and as IT gets more involved in that process, it’ll be quite, I think, changing in terms of what people think of the M365 capabilities.
+
+SATYA NADELLA: It would be fun for you, Adam. I think one of your colleagues put out an ROIC document. I took that document to Copilot, which is a PDF, and I said, “Build me a new Power BI dashboard, essentially.” But here is the thing. It built a rich semantic model that went into my Fabric with OneLake that brought all the data in from the external sources. In fact, it was current with all the SEC filings of all the MAG7. And then on top of that, the repo itself is in GitHub, but the artifact is sitting in my Copilot as a site.
+
+That, to me, is a classic example of an enterprise-wide workflow. I, as a knowledge worker, could go create a dashboard. The data engineer can go to Fabric and find the artifact. The professional developer can go to the repo and find it in GitHub. And by the way, it’s all registered with Agent 365. That’s a little bit of what Amy is describing as the coming together of a new way to work, even while at the same time, bringing IT, security and manageability of it.
+
+ADAM WOOD: That’s very helpful. Thank you.
+
+JONATHAN NEILSON: Thanks, Adam. Operator, next question, please.
+
+OPERATOR: The next question comes from the line of Brad Zelnick with Deutsche Bank. Please proceed.
+
+BRAD ZELNICK, Deutsche Bank: Great. Thank you so much for taking my question.
+
+Satya, appreciating cybersecurity is so core to everything Microsoft does, the playing field shifted recently with the latest frontier model releases, and this week you introduced Project Perception. Can you expand on what this moment means for your cyber business explicitly, and also what it means for trust in Microsoft more broadly? Thanks.
+
+SATYA NADELLA: Yeah, thank you for that question. I think you’re right about saying that the entire, I would say, overall physics of how both what is needed in terms of the cyber product and even the cyber operations, because at the end of the day, you have to transform yourself on both the products, but also how you operate as a company to protect yourself, have changed pretty dramatically.
+
+What we are focused on is first, again, take the same approach we’ve taken for knowledge work or coding, which is you’ve got to start with an intelligence-first, model-forward approach. And so, what we launched with Perception is essentially saying, let’s really make sure that you have the Red Team agents that know how to find – constantly are red teaming and finding the vulnerabilities. Then you have the Blue Team agent that is constantly going and making sure that you’re triaging, and the Green Team that fixes.
+
+You create your own agentic system that’s continuously operating to create the cyber defense you need. It definitely feeds off of all the signals, whether it’s the defenders, the identity Entra signal, the Defender signal, the network signal, the app security signal, all that sort of helping really do the context so that you can then truly create the protection.
+
+The other thing we’ve also said is especially in cyber, it becomes critical to have that multi-model approach, to the first question that was asked, not just for cost. In fact, we proved with the MDASH data in CyberGym that essentially, you can have Mythos-level performance with 50% less cost because of this MAI-Cyber-1-Flash.
+
+And the reason is because 90% of the tasks are done by the Cyber-1-Flash model, and 10% of the tasks, you still go to the frontier. This is that mixing of the right model for the right task in what is essentially a pipeline job is a super important characteristic. And so, to us, I think this is an important piece.
+
+Oh, and the other thing I’d say is from a resilience perspective. For whatever reason, if a given model goes away, then you can’t be left high and dry. You need to be able to still continue your cyber operations. And that’s the other piece.
+
+It’s cost and resilience is both an important criteria. And that’s what we are trying to build in, whether it’s in code, whether it’s in cyber, whether it is in knowledge work. And we’re very excited about Perception and what it means, quite frankly, for our security business, going forward.
+
+BRAD ZELNICK: Super helpful. Thank you.
+
+JONATHAN NEILSON: Thanks, Brad. Operator, we have time for one last question.
+
+OPERATOR: And the last question will come from the line of Gabriela Borges with Goldman Sachs. Please proceed.
+
+GABRIELA BORGES, Goldman Sachs: Hey, good afternoon. Thank you.
+
+Amy, I wanted to ask you about ROI. You’ve given us color on the CapEx side of the equation. You’ve given us color on the monetization side of the equation. Maybe put those two pieces together for us.
+
+When you look at and track ROI on the CapEx decisions you’re making today, how does that compare to a year ago, and what are some of the levers that you can still pull, perhaps from the internal silicon side, for example, as a driver of incremental monetization going forward? Thank you.
+
+AMY HOOD: Thanks, Gabriela.
+
+I don’t know that, quite frankly, my math has changed in terms of how I do it over the past year. I would say the way to think about it for me is more the confidence in the TAM expansion, the margin levers that we have in terms of both product improvements than the infrastructure improvements.
+
+We talked about some already on the call today in terms of the levers we have to continue to get efficiencies across both the application part of the stack and then the infra part of the stack. But you’re right, we didn’t touch on all of the pieces. I think Satya actually commented on a number of them.
+
+We still have opportunities, obviously, as we continue to look for the best price performance on silicon, including our investments in first party. The work, frankly, on model diversification also is a margin improvement opportunity. Being able to serve the best possible outcome with a more efficient, or both efficient in terms of token usage and efficient in terms of cost structure are also margin levers. All of these things contribute, obviously, to your point of increased confidence in ROIC, frankly, of the dollars that we’re investing and continue to invest going forward.
+
+As we think about the mix of the portfolio being able to have a pretty broad pool across knowledge work, coding, security, then basically the agent layer, I’ll call that Agent 365 as kind of a cheat, but all of that also is an opportunity, and then of course what we talked about on the Azure side between model efficiency, silicon, and component efficiency, including our investments in 1P solutions there, and just the overall efficiency of running it at a hyperscale.
+
+So we have quite a few levers to continue to see improvement that we’re focused on, but as Satya mentioned, this is the grind work. This is like every day, you just get a little better, get a little better. We actually are quite good at that grind and making sure that we can deliver that for customers.
+
+GABRIELA BORGES: That all makes sense. Thank you.
+
+JONATHAN NEILSON: Thanks, Gabriela.
+
+That wraps up the Q&A portion of today’s earnings call. Thank you for joining us today, and we look forward to speaking with all of you soon.
+
+SATYA NADELLA: Thank you very much.
+
+AMY HOOD: Thank you.
+
+(Operator Direction.)
+
+END
