@@ -13,6 +13,7 @@ The corpus combines 41 transcripts from the [Microsoft GraphRAG benchmarking dat
 | `corpus/` | 49 UTF-8 plain-text files, one per quarter, named `FY14Q4.txt` through `FY26Q4.txt`. |
 | `LICENSE` | Community Data License Agreement - Permissive - Version 2.0 for this dataset. |
 | `NORMALIZATION.md` | Text extraction and cleanup procedure, output format, and limitations. |
+| `sample/` | Single-file Python and C# examples that index the transcripts in Azure AI Search and run keyword queries. See [run instructions](sample/README.md). |
 
 ## Sources
 
