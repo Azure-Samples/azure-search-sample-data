@@ -7,6 +7,7 @@ This repository contains data files used in Azure AI Search quickstarts, tutoria
 + [health-plan folder](#health-plan)
 + [hotelreviews folder](#hotelreviews)
 + [hotels folder](#hotels-data)
++ [microsoft-earnings-calls folder](#microsoft-earnings-calls)
 + [nasa-e-book folder](#nasa-e-books)
 + [ny-philharmonic folder](#ny-philharmonic)
 + [unsplash-images folder](#unsplash-images)
@@ -48,6 +49,10 @@ Contains two files from an open-source Kaggle dataset:
 Contains fictitious demo data for quickstarts, tutorials, and code examples. We used Azure OpenAI GPT-35-turbo to generate a portion of the data. Any resemblance to actual hotels or related businesses is unintentional. This is the default data set for many Azure AI Search examples and queries. It consists of 50 hotels across the United States and includes data to support all query types, including geospatial filters. It is structured and sized to run on the free tier. 
 
 Hotels demo data is provided in multiple formats to support different consumption models. Some data files contain a small number of hotels.
+
+## microsoft-earnings-calls
+
+Contains [49 Microsoft earnings-call transcripts](microsoft-earnings-calls/README.md), one for each fiscal quarter from FY14 Q4 through FY26 Q4. The folder provides normalized UTF-8 text and links to the source documents. The dataset is licensed under [CDLA-Permissive-2.0](microsoft-earnings-calls/LICENSE).
 
 ## nasa-e-book
 
